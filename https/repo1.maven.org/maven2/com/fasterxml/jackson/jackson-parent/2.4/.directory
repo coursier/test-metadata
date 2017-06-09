@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/fasterxml/jackson/jackson-parent/2.4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/fasterxml/jackson/jackson-parent/2.4</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jackson-parent-2.4.pom" title="jackson-parent-2.4.pom">jackson-parent-2.4.pom</a>                            2014-03-01 04:34      6355      
+<a href="jackson-parent-2.4.pom.asc" title="jackson-parent-2.4.pom.asc">jackson-parent-2.4.pom.asc</a>                        2014-03-01 04:34       833      
+<a href="jackson-parent-2.4.pom.asc.md5" title="jackson-parent-2.4.pom.asc.md5">jackson-parent-2.4.pom.asc.md5</a>                    2014-03-01 04:34        32      
+<a href="jackson-parent-2.4.pom.asc.sha1" title="jackson-parent-2.4.pom.asc.sha1">jackson-parent-2.4.pom.asc.sha1</a>                   2014-03-01 04:34        40      
+<a href="jackson-parent-2.4.pom.md5" title="jackson-parent-2.4.pom.md5">jackson-parent-2.4.pom.md5</a>                        2014-03-01 04:34        32      
+<a href="jackson-parent-2.4.pom.sha1" title="jackson-parent-2.4.pom.sha1">jackson-parent-2.4.pom.sha1</a>                       2014-03-01 04:34        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

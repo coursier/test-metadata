@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/httpcomponents/httpcore/4.1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/httpcomponents/httpcore/4.1</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="httpcore-4.1-sources.jar" title="httpcore-4.1-sources.jar">httpcore-4.1-sources.jar</a>                          2010-11-13 19:11    274396      
+<a href="httpcore-4.1-sources.jar.asc" title="httpcore-4.1-sources.jar.asc">httpcore-4.1-sources.jar.asc</a>                      2010-11-13 19:11       198      
+<a href="httpcore-4.1-sources.jar.asc.md5" title="httpcore-4.1-sources.jar.asc.md5">httpcore-4.1-sources.jar.asc.md5</a>                  2010-11-13 19:11        32      
+<a href="httpcore-4.1-sources.jar.asc.sha1" title="httpcore-4.1-sources.jar.asc.sha1">httpcore-4.1-sources.jar.asc.sha1</a>                 2010-11-13 19:11        40      
+<a href="httpcore-4.1-sources.jar.md5" title="httpcore-4.1-sources.jar.md5">httpcore-4.1-sources.jar.md5</a>                      2010-11-13 19:11        32      
+<a href="httpcore-4.1-sources.jar.sha1" title="httpcore-4.1-sources.jar.sha1">httpcore-4.1-sources.jar.sha1</a>                     2010-11-13 19:11        40      
+<a href="httpcore-4.1.jar" title="httpcore-4.1.jar">httpcore-4.1.jar</a>                                  2010-11-13 19:11    181041      
+<a href="httpcore-4.1.jar.asc" title="httpcore-4.1.jar.asc">httpcore-4.1.jar.asc</a>                              2010-11-13 19:11       198      
+<a href="httpcore-4.1.jar.asc.md5" title="httpcore-4.1.jar.asc.md5">httpcore-4.1.jar.asc.md5</a>                          2010-11-13 19:11        32      
+<a href="httpcore-4.1.jar.asc.sha1" title="httpcore-4.1.jar.asc.sha1">httpcore-4.1.jar.asc.sha1</a>                         2010-11-13 19:11        40      
+<a href="httpcore-4.1.jar.md5" title="httpcore-4.1.jar.md5">httpcore-4.1.jar.md5</a>                              2010-11-13 19:11        32      
+<a href="httpcore-4.1.jar.sha1" title="httpcore-4.1.jar.sha1">httpcore-4.1.jar.sha1</a>                             2010-11-13 19:11        40      
+<a href="httpcore-4.1.pom" title="httpcore-4.1.pom">httpcore-4.1.pom</a>                                  2010-11-13 19:11      8358      
+<a href="httpcore-4.1.pom.asc" title="httpcore-4.1.pom.asc">httpcore-4.1.pom.asc</a>                              2010-11-13 19:11       198      
+<a href="httpcore-4.1.pom.asc.md5" title="httpcore-4.1.pom.asc.md5">httpcore-4.1.pom.asc.md5</a>                          2010-11-13 19:11        32      
+<a href="httpcore-4.1.pom.asc.sha1" title="httpcore-4.1.pom.asc.sha1">httpcore-4.1.pom.asc.sha1</a>                         2010-11-13 19:11        40      
+<a href="httpcore-4.1.pom.md5" title="httpcore-4.1.pom.md5">httpcore-4.1.pom.md5</a>                              2010-11-13 19:11        32      
+<a href="httpcore-4.1.pom.sha1" title="httpcore-4.1.pom.sha1">httpcore-4.1.pom.sha1</a>                             2010-11-13 19:11        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

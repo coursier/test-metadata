@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/maven/wagon/wagon-http/2.10</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/maven/wagon/wagon-http/2.10</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="wagon-http-2.10-javadoc.jar" title="wagon-http-2.10-javadoc.jar">wagon-http-2.10-javadoc.jar</a>                       2015-09-09 08:39     78073      
+<a href="wagon-http-2.10-javadoc.jar.asc" title="wagon-http-2.10-javadoc.jar.asc">wagon-http-2.10-javadoc.jar.asc</a>                   2015-09-09 08:39       198      
+<a href="wagon-http-2.10-javadoc.jar.md5" title="wagon-http-2.10-javadoc.jar.md5">wagon-http-2.10-javadoc.jar.md5</a>                   2015-09-09 08:39        32      
+<a href="wagon-http-2.10-javadoc.jar.sha1" title="wagon-http-2.10-javadoc.jar.sha1">wagon-http-2.10-javadoc.jar.sha1</a>                  2015-09-09 08:39        40      
+<a href="wagon-http-2.10-shaded.jar" title="wagon-http-2.10-shaded.jar">wagon-http-2.10-shaded.jar</a>                        2015-09-09 08:39   2259008      
+<a href="wagon-http-2.10-shaded.jar.asc" title="wagon-http-2.10-shaded.jar.asc">wagon-http-2.10-shaded.jar.asc</a>                    2015-09-09 08:39       198      
+<a href="wagon-http-2.10-shaded.jar.md5" title="wagon-http-2.10-shaded.jar.md5">wagon-http-2.10-shaded.jar.md5</a>                    2015-09-09 08:39        32      
+<a href="wagon-http-2.10-shaded.jar.sha1" title="wagon-http-2.10-shaded.jar.sha1">wagon-http-2.10-shaded.jar.sha1</a>                   2015-09-09 08:39        40      
+<a href="wagon-http-2.10-sources.jar" title="wagon-http-2.10-sources.jar">wagon-http-2.10-sources.jar</a>                       2015-09-09 08:39     24542      
+<a href="wagon-http-2.10-sources.jar.asc" title="wagon-http-2.10-sources.jar.asc">wagon-http-2.10-sources.jar.asc</a>                   2015-09-09 08:39       198      
+<a href="wagon-http-2.10-sources.jar.md5" title="wagon-http-2.10-sources.jar.md5">wagon-http-2.10-sources.jar.md5</a>                   2015-09-09 08:39        32      
+<a href="wagon-http-2.10-sources.jar.sha1" title="wagon-http-2.10-sources.jar.sha1">wagon-http-2.10-sources.jar.sha1</a>                  2015-09-09 08:39        40      
+<a href="wagon-http-2.10.jar" title="wagon-http-2.10.jar">wagon-http-2.10.jar</a>                               2015-09-09 08:39     33814      
+<a href="wagon-http-2.10.jar.asc" title="wagon-http-2.10.jar.asc">wagon-http-2.10.jar.asc</a>                           2015-09-09 08:39       198      
+<a href="wagon-http-2.10.jar.md5" title="wagon-http-2.10.jar.md5">wagon-http-2.10.jar.md5</a>                           2015-09-09 08:39        32      
+<a href="wagon-http-2.10.jar.sha1" title="wagon-http-2.10.jar.sha1">wagon-http-2.10.jar.sha1</a>                          2015-09-09 08:39        40      
+<a href="wagon-http-2.10.pom" title="wagon-http-2.10.pom">wagon-http-2.10.pom</a>                               2015-09-09 08:39      5736      
+<a href="wagon-http-2.10.pom.asc" title="wagon-http-2.10.pom.asc">wagon-http-2.10.pom.asc</a>                           2015-09-09 08:39       198      
+<a href="wagon-http-2.10.pom.md5" title="wagon-http-2.10.pom.md5">wagon-http-2.10.pom.md5</a>                           2015-09-09 08:39        32      
+<a href="wagon-http-2.10.pom.sha1" title="wagon-http-2.10.pom.sha1">wagon-http-2.10.pom.sha1</a>                          2015-09-09 08:39        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

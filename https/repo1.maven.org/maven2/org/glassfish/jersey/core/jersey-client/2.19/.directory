@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/glassfish/jersey/core/jersey-client/2.19</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/glassfish/jersey/core/jersey-client/2.19</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jersey-client-2.19-javadoc.jar" title="jersey-client-2.19-javadoc.jar">jersey-client-2.19-javadoc.jar</a>                    2015-06-29 11:05    253285      
+<a href="jersey-client-2.19-javadoc.jar.asc" title="jersey-client-2.19-javadoc.jar.asc">jersey-client-2.19-javadoc.jar.asc</a>                2015-06-29 11:05       490      
+<a href="jersey-client-2.19-javadoc.jar.asc.md5" title="jersey-client-2.19-javadoc.jar.asc.md5">jersey-client-2.19-javadoc.jar.asc.md5</a>            2015-06-29 11:05        32      
+<a href="jersey-client-2.19-javadoc.jar.asc.sha1" title="jersey-client-2.19-javadoc.jar.asc.sha1">jersey-client-2.19-javadoc.jar.asc.sha1</a>           2015-06-29 11:05        40      
+<a href="jersey-client-2.19-javadoc.jar.md5" title="jersey-client-2.19-javadoc.jar.md5">jersey-client-2.19-javadoc.jar.md5</a>                2015-06-29 11:05        32      
+<a href="jersey-client-2.19-javadoc.jar.sha1" title="jersey-client-2.19-javadoc.jar.sha1">jersey-client-2.19-javadoc.jar.sha1</a>               2015-06-29 11:05        40      
+<a href="jersey-client-2.19-sources.jar" title="jersey-client-2.19-sources.jar">jersey-client-2.19-sources.jar</a>                    2015-06-29 11:05    120912      
+<a href="jersey-client-2.19-sources.jar.asc" title="jersey-client-2.19-sources.jar.asc">jersey-client-2.19-sources.jar.asc</a>                2015-06-29 11:05       490      
+<a href="jersey-client-2.19-sources.jar.asc.md5" title="jersey-client-2.19-sources.jar.asc.md5">jersey-client-2.19-sources.jar.asc.md5</a>            2015-06-29 11:05        32      
+<a href="jersey-client-2.19-sources.jar.asc.sha1" title="jersey-client-2.19-sources.jar.asc.sha1">jersey-client-2.19-sources.jar.asc.sha1</a>           2015-06-29 11:05        40      
+<a href="jersey-client-2.19-sources.jar.md5" title="jersey-client-2.19-sources.jar.md5">jersey-client-2.19-sources.jar.md5</a>                2015-06-29 11:05        32      
+<a href="jersey-client-2.19-sources.jar.sha1" title="jersey-client-2.19-sources.jar.sha1">jersey-client-2.19-sources.jar.sha1</a>               2015-06-29 11:05        40      
+<a href="jersey-client-2.19.jar" title="jersey-client-2.19.jar">jersey-client-2.19.jar</a>                            2015-06-29 11:05    158371      
+<a href="jersey-client-2.19.jar.asc" title="jersey-client-2.19.jar.asc">jersey-client-2.19.jar.asc</a>                        2015-06-29 11:05       490      
+<a href="jersey-client-2.19.jar.asc.md5" title="jersey-client-2.19.jar.asc.md5">jersey-client-2.19.jar.asc.md5</a>                    2015-06-29 11:05        32      
+<a href="jersey-client-2.19.jar.asc.sha1" title="jersey-client-2.19.jar.asc.sha1">jersey-client-2.19.jar.asc.sha1</a>                   2015-06-29 11:05        40      
+<a href="jersey-client-2.19.jar.md5" title="jersey-client-2.19.jar.md5">jersey-client-2.19.jar.md5</a>                        2015-06-29 11:05        32      
+<a href="jersey-client-2.19.jar.sha1" title="jersey-client-2.19.jar.sha1">jersey-client-2.19.jar.sha1</a>                       2015-06-29 11:05        40      
+<a href="jersey-client-2.19.pom" title="jersey-client-2.19.pom">jersey-client-2.19.pom</a>                            2015-06-29 11:05      6223      
+<a href="jersey-client-2.19.pom.asc" title="jersey-client-2.19.pom.asc">jersey-client-2.19.pom.asc</a>                        2015-06-29 11:05       490      
+<a href="jersey-client-2.19.pom.asc.md5" title="jersey-client-2.19.pom.asc.md5">jersey-client-2.19.pom.asc.md5</a>                    2015-06-29 11:05        32      
+<a href="jersey-client-2.19.pom.asc.sha1" title="jersey-client-2.19.pom.asc.sha1">jersey-client-2.19.pom.asc.sha1</a>                   2015-06-29 11:05        40      
+<a href="jersey-client-2.19.pom.md5" title="jersey-client-2.19.pom.md5">jersey-client-2.19.pom.md5</a>                        2015-06-29 11:05        32      
+<a href="jersey-client-2.19.pom.sha1" title="jersey-client-2.19.pom.sha1">jersey-client-2.19.pom.sha1</a>                       2015-06-29 11:05        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/json4s/json4s-jackson_2.11/3.2.10</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/json4s/json4s-jackson_2.11/3.2.10</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="json4s-jackson_2.11-3.2.10-javadoc.jar" title="json4s-jackson_2.11-3.2.10-javadoc.jar">json4s-jackson_2.11-3.2.10-javadoc.jar</a>            2014-05-13 17:26    386237      
+<a href="json4s-jackson_2.11-3.2.10-javadoc.jar.asc" title="json4s-jackson_2.11-3.2.10-javadoc.jar.asc">json4s-jackson_2.11-3.2.10-javadoc.jar.asc</a>        2014-05-13 17:26       475      
+<a href="json4s-jackson_2.11-3.2.10-javadoc.jar.asc.md5" title="json4s-jackson_2.11-3.2.10-javadoc.jar.asc.md5">json4s-jackson_2.11-3.2.10-javadoc.jar.asc.md...</a>  2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10-javadoc.jar.asc.sha1" title="json4s-jackson_2.11-3.2.10-javadoc.jar.asc.sha1">json4s-jackson_2.11-3.2.10-javadoc.jar.asc.sh...</a>  2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10-javadoc.jar.md5" title="json4s-jackson_2.11-3.2.10-javadoc.jar.md5">json4s-jackson_2.11-3.2.10-javadoc.jar.md5</a>        2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10-javadoc.jar.sha1" title="json4s-jackson_2.11-3.2.10-javadoc.jar.sha1">json4s-jackson_2.11-3.2.10-javadoc.jar.sha1</a>       2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10-sources.jar" title="json4s-jackson_2.11-3.2.10-sources.jar">json4s-jackson_2.11-3.2.10-sources.jar</a>            2014-05-13 17:26      6924      
+<a href="json4s-jackson_2.11-3.2.10-sources.jar.asc" title="json4s-jackson_2.11-3.2.10-sources.jar.asc">json4s-jackson_2.11-3.2.10-sources.jar.asc</a>        2014-05-13 17:26       475      
+<a href="json4s-jackson_2.11-3.2.10-sources.jar.asc.md5" title="json4s-jackson_2.11-3.2.10-sources.jar.asc.md5">json4s-jackson_2.11-3.2.10-sources.jar.asc.md...</a>  2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10-sources.jar.asc.sha1" title="json4s-jackson_2.11-3.2.10-sources.jar.asc.sha1">json4s-jackson_2.11-3.2.10-sources.jar.asc.sh...</a>  2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10-sources.jar.md5" title="json4s-jackson_2.11-3.2.10-sources.jar.md5">json4s-jackson_2.11-3.2.10-sources.jar.md5</a>        2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10-sources.jar.sha1" title="json4s-jackson_2.11-3.2.10-sources.jar.sha1">json4s-jackson_2.11-3.2.10-sources.jar.sha1</a>       2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10.jar" title="json4s-jackson_2.11-3.2.10.jar">json4s-jackson_2.11-3.2.10.jar</a>                    2014-05-13 17:26     41332      
+<a href="json4s-jackson_2.11-3.2.10.jar.asc" title="json4s-jackson_2.11-3.2.10.jar.asc">json4s-jackson_2.11-3.2.10.jar.asc</a>                2014-05-13 17:26       475      
+<a href="json4s-jackson_2.11-3.2.10.jar.asc.md5" title="json4s-jackson_2.11-3.2.10.jar.asc.md5">json4s-jackson_2.11-3.2.10.jar.asc.md5</a>            2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10.jar.asc.sha1" title="json4s-jackson_2.11-3.2.10.jar.asc.sha1">json4s-jackson_2.11-3.2.10.jar.asc.sha1</a>           2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10.jar.md5" title="json4s-jackson_2.11-3.2.10.jar.md5">json4s-jackson_2.11-3.2.10.jar.md5</a>                2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10.jar.sha1" title="json4s-jackson_2.11-3.2.10.jar.sha1">json4s-jackson_2.11-3.2.10.jar.sha1</a>               2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10.pom" title="json4s-jackson_2.11-3.2.10.pom">json4s-jackson_2.11-3.2.10.pom</a>                    2014-05-13 17:26      2394      
+<a href="json4s-jackson_2.11-3.2.10.pom.asc" title="json4s-jackson_2.11-3.2.10.pom.asc">json4s-jackson_2.11-3.2.10.pom.asc</a>                2014-05-13 17:26       475      
+<a href="json4s-jackson_2.11-3.2.10.pom.asc.md5" title="json4s-jackson_2.11-3.2.10.pom.asc.md5">json4s-jackson_2.11-3.2.10.pom.asc.md5</a>            2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10.pom.asc.sha1" title="json4s-jackson_2.11-3.2.10.pom.asc.sha1">json4s-jackson_2.11-3.2.10.pom.asc.sha1</a>           2014-05-13 17:26        40      
+<a href="json4s-jackson_2.11-3.2.10.pom.md5" title="json4s-jackson_2.11-3.2.10.pom.md5">json4s-jackson_2.11-3.2.10.pom.md5</a>                2014-05-13 17:26        32      
+<a href="json4s-jackson_2.11-3.2.10.pom.sha1" title="json4s-jackson_2.11-3.2.10.pom.sha1">json4s-jackson_2.11-3.2.10.pom.sha1</a>               2014-05-13 17:26        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

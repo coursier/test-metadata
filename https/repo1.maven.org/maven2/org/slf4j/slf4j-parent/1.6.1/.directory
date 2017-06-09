@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/slf4j/slf4j-parent/1.6.1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/slf4j/slf4j-parent/1.6.1</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="slf4j-parent-1.6.1.pom" title="slf4j-parent-1.6.1.pom">slf4j-parent-1.6.1.pom</a>                            2010-07-05 20:29      9323      
+<a href="slf4j-parent-1.6.1.pom.md5" title="slf4j-parent-1.6.1.pom.md5">slf4j-parent-1.6.1.pom.md5</a>                        2010-07-05 20:29        32      
+<a href="slf4j-parent-1.6.1.pom.sha1" title="slf4j-parent-1.6.1.pom.sha1">slf4j-parent-1.6.1.pom.sha1</a>                       2010-07-05 20:29        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

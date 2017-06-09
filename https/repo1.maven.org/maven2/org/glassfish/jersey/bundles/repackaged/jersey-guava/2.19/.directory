@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/glassfish/jersey/bundles/repackaged/jersey-guava/2.19</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/glassfish/jersey/bundles/repackaged/jersey-guava/2.19</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jersey-guava-2.19-sources.jar" title="jersey-guava-2.19-sources.jar">jersey-guava-2.19-sources.jar</a>                     2015-06-29 11:01   1308872      
+<a href="jersey-guava-2.19-sources.jar.asc" title="jersey-guava-2.19-sources.jar.asc">jersey-guava-2.19-sources.jar.asc</a>                 2015-06-29 11:01       490      
+<a href="jersey-guava-2.19-sources.jar.asc.md5" title="jersey-guava-2.19-sources.jar.asc.md5">jersey-guava-2.19-sources.jar.asc.md5</a>             2015-06-29 11:01        32      
+<a href="jersey-guava-2.19-sources.jar.asc.sha1" title="jersey-guava-2.19-sources.jar.asc.sha1">jersey-guava-2.19-sources.jar.asc.sha1</a>            2015-06-29 11:01        40      
+<a href="jersey-guava-2.19-sources.jar.md5" title="jersey-guava-2.19-sources.jar.md5">jersey-guava-2.19-sources.jar.md5</a>                 2015-06-29 11:01        32      
+<a href="jersey-guava-2.19-sources.jar.sha1" title="jersey-guava-2.19-sources.jar.sha1">jersey-guava-2.19-sources.jar.sha1</a>                2015-06-29 11:01        40      
+<a href="jersey-guava-2.19.jar" title="jersey-guava-2.19.jar">jersey-guava-2.19.jar</a>                             2015-06-29 11:01    951645      
+<a href="jersey-guava-2.19.jar.asc" title="jersey-guava-2.19.jar.asc">jersey-guava-2.19.jar.asc</a>                         2015-06-29 11:01       490      
+<a href="jersey-guava-2.19.jar.asc.md5" title="jersey-guava-2.19.jar.asc.md5">jersey-guava-2.19.jar.asc.md5</a>                     2015-06-29 11:01        32      
+<a href="jersey-guava-2.19.jar.asc.sha1" title="jersey-guava-2.19.jar.asc.sha1">jersey-guava-2.19.jar.asc.sha1</a>                    2015-06-29 11:01        40      
+<a href="jersey-guava-2.19.jar.md5" title="jersey-guava-2.19.jar.md5">jersey-guava-2.19.jar.md5</a>                         2015-06-29 11:01        32      
+<a href="jersey-guava-2.19.jar.sha1" title="jersey-guava-2.19.jar.sha1">jersey-guava-2.19.jar.sha1</a>                        2015-06-29 11:01        40      
+<a href="jersey-guava-2.19.pom" title="jersey-guava-2.19.pom">jersey-guava-2.19.pom</a>                             2015-06-29 11:01     12636      
+<a href="jersey-guava-2.19.pom.asc" title="jersey-guava-2.19.pom.asc">jersey-guava-2.19.pom.asc</a>                         2015-06-29 11:01       490      
+<a href="jersey-guava-2.19.pom.asc.md5" title="jersey-guava-2.19.pom.asc.md5">jersey-guava-2.19.pom.asc.md5</a>                     2015-06-29 11:01        32      
+<a href="jersey-guava-2.19.pom.asc.sha1" title="jersey-guava-2.19.pom.asc.sha1">jersey-guava-2.19.pom.asc.sha1</a>                    2015-06-29 11:01        40      
+<a href="jersey-guava-2.19.pom.md5" title="jersey-guava-2.19.pom.md5">jersey-guava-2.19.pom.md5</a>                         2015-06-29 11:01        32      
+<a href="jersey-guava-2.19.pom.sha1" title="jersey-guava-2.19.pom.sha1">jersey-guava-2.19.pom.sha1</a>                        2015-06-29 11:01        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

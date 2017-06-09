@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/bytedeco/javacpp-presets/opencv/3.1.0-1.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/bytedeco/javacpp-presets/opencv/3.1.0-1.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="opencv-3.1.0-1.3-android-arm.jar" title="opencv-3.1.0-1.3-android-arm.jar">opencv-3.1.0-1.3-android-arm.jar</a>                  2016-12-07 12:27   9391973      
+<a href="opencv-3.1.0-1.3-android-arm.jar.asc" title="opencv-3.1.0-1.3-android-arm.jar.asc">opencv-3.1.0-1.3-android-arm.jar.asc</a>              2016-12-07 12:27       455      
+<a href="opencv-3.1.0-1.3-android-arm.jar.md5" title="opencv-3.1.0-1.3-android-arm.jar.md5">opencv-3.1.0-1.3-android-arm.jar.md5</a>              2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-android-arm.jar.sha1" title="opencv-3.1.0-1.3-android-arm.jar.sha1">opencv-3.1.0-1.3-android-arm.jar.sha1</a>             2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-android-x86.jar" title="opencv-3.1.0-1.3-android-x86.jar">opencv-3.1.0-1.3-android-x86.jar</a>                  2016-12-07 12:27  12525282      
+<a href="opencv-3.1.0-1.3-android-x86.jar.asc" title="opencv-3.1.0-1.3-android-x86.jar.asc">opencv-3.1.0-1.3-android-x86.jar.asc</a>              2016-12-07 12:27       455      
+<a href="opencv-3.1.0-1.3-android-x86.jar.md5" title="opencv-3.1.0-1.3-android-x86.jar.md5">opencv-3.1.0-1.3-android-x86.jar.md5</a>              2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-android-x86.jar.sha1" title="opencv-3.1.0-1.3-android-x86.jar.sha1">opencv-3.1.0-1.3-android-x86.jar.sha1</a>             2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-javadoc.jar" title="opencv-3.1.0-1.3-javadoc.jar">opencv-3.1.0-1.3-javadoc.jar</a>                      2016-12-07 12:27   4742052      
+<a href="opencv-3.1.0-1.3-javadoc.jar.asc" title="opencv-3.1.0-1.3-javadoc.jar.asc">opencv-3.1.0-1.3-javadoc.jar.asc</a>                  2016-12-07 12:27       490      
+<a href="opencv-3.1.0-1.3-javadoc.jar.asc.md5" title="opencv-3.1.0-1.3-javadoc.jar.asc.md5">opencv-3.1.0-1.3-javadoc.jar.asc.md5</a>              2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-javadoc.jar.asc.sha1" title="opencv-3.1.0-1.3-javadoc.jar.asc.sha1">opencv-3.1.0-1.3-javadoc.jar.asc.sha1</a>             2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-javadoc.jar.md5" title="opencv-3.1.0-1.3-javadoc.jar.md5">opencv-3.1.0-1.3-javadoc.jar.md5</a>                  2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-javadoc.jar.sha1" title="opencv-3.1.0-1.3-javadoc.jar.sha1">opencv-3.1.0-1.3-javadoc.jar.sha1</a>                 2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-armhf.jar" title="opencv-3.1.0-1.3-linux-armhf.jar">opencv-3.1.0-1.3-linux-armhf.jar</a>                  2016-12-07 12:27   8018247      
+<a href="opencv-3.1.0-1.3-linux-armhf.jar.asc" title="opencv-3.1.0-1.3-linux-armhf.jar.asc">opencv-3.1.0-1.3-linux-armhf.jar.asc</a>              2016-12-07 12:27       455      
+<a href="opencv-3.1.0-1.3-linux-armhf.jar.md5" title="opencv-3.1.0-1.3-linux-armhf.jar.md5">opencv-3.1.0-1.3-linux-armhf.jar.md5</a>              2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-armhf.jar.sha1" title="opencv-3.1.0-1.3-linux-armhf.jar.sha1">opencv-3.1.0-1.3-linux-armhf.jar.sha1</a>             2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-ppc64le.jar" title="opencv-3.1.0-1.3-linux-ppc64le.jar">opencv-3.1.0-1.3-linux-ppc64le.jar</a>                2016-12-07 12:27  10001624      
+<a href="opencv-3.1.0-1.3-linux-ppc64le.jar.asc" title="opencv-3.1.0-1.3-linux-ppc64le.jar.asc">opencv-3.1.0-1.3-linux-ppc64le.jar.asc</a>            2016-12-07 12:27       473      
+<a href="opencv-3.1.0-1.3-linux-ppc64le.jar.asc.md5" title="opencv-3.1.0-1.3-linux-ppc64le.jar.asc.md5">opencv-3.1.0-1.3-linux-ppc64le.jar.asc.md5</a>        2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-ppc64le.jar.asc.sha1" title="opencv-3.1.0-1.3-linux-ppc64le.jar.asc.sha1">opencv-3.1.0-1.3-linux-ppc64le.jar.asc.sha1</a>       2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-ppc64le.jar.md5" title="opencv-3.1.0-1.3-linux-ppc64le.jar.md5">opencv-3.1.0-1.3-linux-ppc64le.jar.md5</a>            2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-ppc64le.jar.sha1" title="opencv-3.1.0-1.3-linux-ppc64le.jar.sha1">opencv-3.1.0-1.3-linux-ppc64le.jar.sha1</a>           2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-x86.jar" title="opencv-3.1.0-1.3-linux-x86.jar">opencv-3.1.0-1.3-linux-x86.jar</a>                    2016-12-07 12:27   7960176      
+<a href="opencv-3.1.0-1.3-linux-x86.jar.asc" title="opencv-3.1.0-1.3-linux-x86.jar.asc">opencv-3.1.0-1.3-linux-x86.jar.asc</a>                2016-12-07 12:27       490      
+<a href="opencv-3.1.0-1.3-linux-x86.jar.asc.md5" title="opencv-3.1.0-1.3-linux-x86.jar.asc.md5">opencv-3.1.0-1.3-linux-x86.jar.asc.md5</a>            2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-x86.jar.asc.sha1" title="opencv-3.1.0-1.3-linux-x86.jar.asc.sha1">opencv-3.1.0-1.3-linux-x86.jar.asc.sha1</a>           2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-x86.jar.md5" title="opencv-3.1.0-1.3-linux-x86.jar.md5">opencv-3.1.0-1.3-linux-x86.jar.md5</a>                2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-x86.jar.sha1" title="opencv-3.1.0-1.3-linux-x86.jar.sha1">opencv-3.1.0-1.3-linux-x86.jar.sha1</a>               2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-x86_64.jar" title="opencv-3.1.0-1.3-linux-x86_64.jar">opencv-3.1.0-1.3-linux-x86_64.jar</a>                 2016-12-07 12:27   8131196      
+<a href="opencv-3.1.0-1.3-linux-x86_64.jar.asc" title="opencv-3.1.0-1.3-linux-x86_64.jar.asc">opencv-3.1.0-1.3-linux-x86_64.jar.asc</a>             2016-12-07 12:27       490      
+<a href="opencv-3.1.0-1.3-linux-x86_64.jar.asc.md5" title="opencv-3.1.0-1.3-linux-x86_64.jar.asc.md5">opencv-3.1.0-1.3-linux-x86_64.jar.asc.md5</a>         2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-x86_64.jar.asc.sha1" title="opencv-3.1.0-1.3-linux-x86_64.jar.asc.sha1">opencv-3.1.0-1.3-linux-x86_64.jar.asc.sha1</a>        2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-linux-x86_64.jar.md5" title="opencv-3.1.0-1.3-linux-x86_64.jar.md5">opencv-3.1.0-1.3-linux-x86_64.jar.md5</a>             2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-linux-x86_64.jar.sha1" title="opencv-3.1.0-1.3-linux-x86_64.jar.sha1">opencv-3.1.0-1.3-linux-x86_64.jar.sha1</a>            2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-macosx-x86_64.jar" title="opencv-3.1.0-1.3-macosx-x86_64.jar">opencv-3.1.0-1.3-macosx-x86_64.jar</a>                2016-12-07 12:27   8530331      
+<a href="opencv-3.1.0-1.3-macosx-x86_64.jar.asc" title="opencv-3.1.0-1.3-macosx-x86_64.jar.asc">opencv-3.1.0-1.3-macosx-x86_64.jar.asc</a>            2016-12-07 12:27       473      
+<a href="opencv-3.1.0-1.3-macosx-x86_64.jar.md5" title="opencv-3.1.0-1.3-macosx-x86_64.jar.md5">opencv-3.1.0-1.3-macosx-x86_64.jar.md5</a>            2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-macosx-x86_64.jar.sha1" title="opencv-3.1.0-1.3-macosx-x86_64.jar.sha1">opencv-3.1.0-1.3-macosx-x86_64.jar.sha1</a>           2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-sources.jar" title="opencv-3.1.0-1.3-sources.jar">opencv-3.1.0-1.3-sources.jar</a>                      2016-12-07 12:27    559673      
+<a href="opencv-3.1.0-1.3-sources.jar.asc" title="opencv-3.1.0-1.3-sources.jar.asc">opencv-3.1.0-1.3-sources.jar.asc</a>                  2016-12-07 12:27       490      
+<a href="opencv-3.1.0-1.3-sources.jar.asc.md5" title="opencv-3.1.0-1.3-sources.jar.asc.md5">opencv-3.1.0-1.3-sources.jar.asc.md5</a>              2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-sources.jar.asc.sha1" title="opencv-3.1.0-1.3-sources.jar.asc.sha1">opencv-3.1.0-1.3-sources.jar.asc.sha1</a>             2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-sources.jar.md5" title="opencv-3.1.0-1.3-sources.jar.md5">opencv-3.1.0-1.3-sources.jar.md5</a>                  2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-sources.jar.sha1" title="opencv-3.1.0-1.3-sources.jar.sha1">opencv-3.1.0-1.3-sources.jar.sha1</a>                 2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-windows-x86.jar" title="opencv-3.1.0-1.3-windows-x86.jar">opencv-3.1.0-1.3-windows-x86.jar</a>                  2016-12-07 12:27   8472928      
+<a href="opencv-3.1.0-1.3-windows-x86.jar.asc" title="opencv-3.1.0-1.3-windows-x86.jar.asc">opencv-3.1.0-1.3-windows-x86.jar.asc</a>              2016-12-07 12:27       473      
+<a href="opencv-3.1.0-1.3-windows-x86.jar.asc.md5" title="opencv-3.1.0-1.3-windows-x86.jar.asc.md5">opencv-3.1.0-1.3-windows-x86.jar.asc.md5</a>          2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-windows-x86.jar.asc.sha1" title="opencv-3.1.0-1.3-windows-x86.jar.asc.sha1">opencv-3.1.0-1.3-windows-x86.jar.asc.sha1</a>         2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-windows-x86.jar.md5" title="opencv-3.1.0-1.3-windows-x86.jar.md5">opencv-3.1.0-1.3-windows-x86.jar.md5</a>              2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-windows-x86.jar.sha1" title="opencv-3.1.0-1.3-windows-x86.jar.sha1">opencv-3.1.0-1.3-windows-x86.jar.sha1</a>             2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-windows-x86_64.jar" title="opencv-3.1.0-1.3-windows-x86_64.jar">opencv-3.1.0-1.3-windows-x86_64.jar</a>               2016-12-07 12:27  10330607      
+<a href="opencv-3.1.0-1.3-windows-x86_64.jar.asc" title="opencv-3.1.0-1.3-windows-x86_64.jar.asc">opencv-3.1.0-1.3-windows-x86_64.jar.asc</a>           2016-12-07 12:27       473      
+<a href="opencv-3.1.0-1.3-windows-x86_64.jar.asc.md5" title="opencv-3.1.0-1.3-windows-x86_64.jar.asc.md5">opencv-3.1.0-1.3-windows-x86_64.jar.asc.md5</a>       2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-windows-x86_64.jar.asc.sha1" title="opencv-3.1.0-1.3-windows-x86_64.jar.asc.sha1">opencv-3.1.0-1.3-windows-x86_64.jar.asc.sha1</a>      2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3-windows-x86_64.jar.md5" title="opencv-3.1.0-1.3-windows-x86_64.jar.md5">opencv-3.1.0-1.3-windows-x86_64.jar.md5</a>           2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3-windows-x86_64.jar.sha1" title="opencv-3.1.0-1.3-windows-x86_64.jar.sha1">opencv-3.1.0-1.3-windows-x86_64.jar.sha1</a>          2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3.jar" title="opencv-3.1.0-1.3.jar">opencv-3.1.0-1.3.jar</a>                              2016-12-07 12:27    684821      
+<a href="opencv-3.1.0-1.3.jar.asc" title="opencv-3.1.0-1.3.jar.asc">opencv-3.1.0-1.3.jar.asc</a>                          2016-12-07 12:27       490      
+<a href="opencv-3.1.0-1.3.jar.asc.md5" title="opencv-3.1.0-1.3.jar.asc.md5">opencv-3.1.0-1.3.jar.asc.md5</a>                      2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3.jar.asc.sha1" title="opencv-3.1.0-1.3.jar.asc.sha1">opencv-3.1.0-1.3.jar.asc.sha1</a>                     2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3.jar.md5" title="opencv-3.1.0-1.3.jar.md5">opencv-3.1.0-1.3.jar.md5</a>                          2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3.jar.sha1" title="opencv-3.1.0-1.3.jar.sha1">opencv-3.1.0-1.3.jar.sha1</a>                         2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3.pom" title="opencv-3.1.0-1.3.pom">opencv-3.1.0-1.3.pom</a>                              2016-12-07 12:27      2276      
+<a href="opencv-3.1.0-1.3.pom.asc" title="opencv-3.1.0-1.3.pom.asc">opencv-3.1.0-1.3.pom.asc</a>                          2016-12-07 12:27       490      
+<a href="opencv-3.1.0-1.3.pom.asc.md5" title="opencv-3.1.0-1.3.pom.asc.md5">opencv-3.1.0-1.3.pom.asc.md5</a>                      2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3.pom.asc.sha1" title="opencv-3.1.0-1.3.pom.asc.sha1">opencv-3.1.0-1.3.pom.asc.sha1</a>                     2016-12-07 12:27        40      
+<a href="opencv-3.1.0-1.3.pom.md5" title="opencv-3.1.0-1.3.pom.md5">opencv-3.1.0-1.3.pom.md5</a>                          2016-12-07 12:27        32      
+<a href="opencv-3.1.0-1.3.pom.sha1" title="opencv-3.1.0-1.3.pom.sha1">opencv-3.1.0-1.3.pom.sha1</a>                         2016-12-07 12:27        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

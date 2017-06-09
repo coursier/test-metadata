@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/glassfish/jersey/bundles/repackaged/project/2.19</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/glassfish/jersey/bundles/repackaged/project/2.19</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="project-2.19.pom" title="project-2.19.pom">project-2.19.pom</a>                                  2015-06-29 11:01      2790      
+<a href="project-2.19.pom.asc" title="project-2.19.pom.asc">project-2.19.pom.asc</a>                              2015-06-29 11:01       490      
+<a href="project-2.19.pom.asc.md5" title="project-2.19.pom.asc.md5">project-2.19.pom.asc.md5</a>                          2015-06-29 11:01        32      
+<a href="project-2.19.pom.asc.sha1" title="project-2.19.pom.asc.sha1">project-2.19.pom.asc.sha1</a>                         2015-06-29 11:01        40      
+<a href="project-2.19.pom.md5" title="project-2.19.pom.md5">project-2.19.pom.md5</a>                              2015-06-29 11:01        32      
+<a href="project-2.19.pom.sha1" title="project-2.19.pom.sha1">project-2.19.pom.sha1</a>                             2015-06-29 11:01        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

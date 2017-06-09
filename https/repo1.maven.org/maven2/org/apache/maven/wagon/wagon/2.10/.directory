@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/maven/wagon/wagon/2.10</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/maven/wagon/wagon/2.10</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="wagon-2.10-site.xml" title="wagon-2.10-site.xml">wagon-2.10-site.xml</a>                               2015-09-09 08:31      2748      
+<a href="wagon-2.10-site.xml.asc" title="wagon-2.10-site.xml.asc">wagon-2.10-site.xml.asc</a>                           2015-09-09 08:31       198      
+<a href="wagon-2.10-site.xml.md5" title="wagon-2.10-site.xml.md5">wagon-2.10-site.xml.md5</a>                           2015-09-09 08:31        32      
+<a href="wagon-2.10-site.xml.sha1" title="wagon-2.10-site.xml.sha1">wagon-2.10-site.xml.sha1</a>                          2015-09-09 08:31        40      
+<a href="wagon-2.10-source-release.zip" title="wagon-2.10-source-release.zip">wagon-2.10-source-release.zip</a>                     2015-09-09 08:31    594016      
+<a href="wagon-2.10-source-release.zip.asc" title="wagon-2.10-source-release.zip.asc">wagon-2.10-source-release.zip.asc</a>                 2015-09-09 08:31       198      
+<a href="wagon-2.10-source-release.zip.md5" title="wagon-2.10-source-release.zip.md5">wagon-2.10-source-release.zip.md5</a>                 2015-09-09 08:31        32      
+<a href="wagon-2.10-source-release.zip.sha1" title="wagon-2.10-source-release.zip.sha1">wagon-2.10-source-release.zip.sha1</a>                2015-09-09 08:31        40      
+<a href="wagon-2.10.pom" title="wagon-2.10.pom">wagon-2.10.pom</a>                                    2015-09-09 08:31     20516      
+<a href="wagon-2.10.pom.asc" title="wagon-2.10.pom.asc">wagon-2.10.pom.asc</a>                                2015-09-09 08:31       198      
+<a href="wagon-2.10.pom.md5" title="wagon-2.10.pom.md5">wagon-2.10.pom.md5</a>                                2015-09-09 08:31        32      
+<a href="wagon-2.10.pom.sha1" title="wagon-2.10.pom.sha1">wagon-2.10.pom.sha1</a>                               2015-09-09 08:31        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

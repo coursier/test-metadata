@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/glassfish/hk2/external/javax.inject/2.4.0-b25</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/glassfish/hk2/external/javax.inject/2.4.0-b25</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="javax.inject-2.4.0-b25-javadoc.jar" title="javax.inject-2.4.0-b25-javadoc.jar">javax.inject-2.4.0-b25-javadoc.jar</a>                2015-06-05 13:52     59168      
+<a href="javax.inject-2.4.0-b25-javadoc.jar.asc" title="javax.inject-2.4.0-b25-javadoc.jar.asc">javax.inject-2.4.0-b25-javadoc.jar.asc</a>            2015-06-05 13:52       490      
+<a href="javax.inject-2.4.0-b25-javadoc.jar.asc.md5" title="javax.inject-2.4.0-b25-javadoc.jar.asc.md5">javax.inject-2.4.0-b25-javadoc.jar.asc.md5</a>        2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25-javadoc.jar.asc.sha1" title="javax.inject-2.4.0-b25-javadoc.jar.asc.sha1">javax.inject-2.4.0-b25-javadoc.jar.asc.sha1</a>       2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25-javadoc.jar.md5" title="javax.inject-2.4.0-b25-javadoc.jar.md5">javax.inject-2.4.0-b25-javadoc.jar.md5</a>            2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25-javadoc.jar.sha1" title="javax.inject-2.4.0-b25-javadoc.jar.sha1">javax.inject-2.4.0-b25-javadoc.jar.sha1</a>           2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25-sources.jar" title="javax.inject-2.4.0-b25-sources.jar">javax.inject-2.4.0-b25-sources.jar</a>                2015-06-05 13:52     13157      
+<a href="javax.inject-2.4.0-b25-sources.jar.asc" title="javax.inject-2.4.0-b25-sources.jar.asc">javax.inject-2.4.0-b25-sources.jar.asc</a>            2015-06-05 13:52       490      
+<a href="javax.inject-2.4.0-b25-sources.jar.asc.md5" title="javax.inject-2.4.0-b25-sources.jar.asc.md5">javax.inject-2.4.0-b25-sources.jar.asc.md5</a>        2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25-sources.jar.asc.sha1" title="javax.inject-2.4.0-b25-sources.jar.asc.sha1">javax.inject-2.4.0-b25-sources.jar.asc.sha1</a>       2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25-sources.jar.md5" title="javax.inject-2.4.0-b25-sources.jar.md5">javax.inject-2.4.0-b25-sources.jar.md5</a>            2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25-sources.jar.sha1" title="javax.inject-2.4.0-b25-sources.jar.sha1">javax.inject-2.4.0-b25-sources.jar.sha1</a>           2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25.jar" title="javax.inject-2.4.0-b25.jar">javax.inject-2.4.0-b25.jar</a>                        2015-06-05 13:52      5951      
+<a href="javax.inject-2.4.0-b25.jar.asc" title="javax.inject-2.4.0-b25.jar.asc">javax.inject-2.4.0-b25.jar.asc</a>                    2015-06-05 13:52       490      
+<a href="javax.inject-2.4.0-b25.jar.asc.md5" title="javax.inject-2.4.0-b25.jar.asc.md5">javax.inject-2.4.0-b25.jar.asc.md5</a>                2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25.jar.asc.sha1" title="javax.inject-2.4.0-b25.jar.asc.sha1">javax.inject-2.4.0-b25.jar.asc.sha1</a>               2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25.jar.md5" title="javax.inject-2.4.0-b25.jar.md5">javax.inject-2.4.0-b25.jar.md5</a>                    2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25.jar.sha1" title="javax.inject-2.4.0-b25.jar.sha1">javax.inject-2.4.0-b25.jar.sha1</a>                   2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25.pom" title="javax.inject-2.4.0-b25.pom">javax.inject-2.4.0-b25.pom</a>                        2015-06-05 13:52      6494      
+<a href="javax.inject-2.4.0-b25.pom.asc" title="javax.inject-2.4.0-b25.pom.asc">javax.inject-2.4.0-b25.pom.asc</a>                    2015-06-05 13:52       490      
+<a href="javax.inject-2.4.0-b25.pom.asc.md5" title="javax.inject-2.4.0-b25.pom.asc.md5">javax.inject-2.4.0-b25.pom.asc.md5</a>                2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25.pom.asc.sha1" title="javax.inject-2.4.0-b25.pom.asc.sha1">javax.inject-2.4.0-b25.pom.asc.sha1</a>               2015-06-05 13:52        40      
+<a href="javax.inject-2.4.0-b25.pom.md5" title="javax.inject-2.4.0-b25.pom.md5">javax.inject-2.4.0-b25.pom.md5</a>                    2015-06-05 13:52        32      
+<a href="javax.inject-2.4.0-b25.pom.sha1" title="javax.inject-2.4.0-b25.pom.sha1">javax.inject-2.4.0-b25.pom.sha1</a>                   2015-06-05 13:52        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

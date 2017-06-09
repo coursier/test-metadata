@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: ch/qos/logback/logback-core/1.1.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>ch/qos/logback/logback-core/1.1.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="logback-core-1.1.3-javadoc.jar" title="logback-core-1.1.3-javadoc.jar">logback-core-1.1.3-javadoc.jar</a>                    2015-03-24 11:00   1912023      
+<a href="logback-core-1.1.3-javadoc.jar.asc" title="logback-core-1.1.3-javadoc.jar.asc">logback-core-1.1.3-javadoc.jar.asc</a>                2015-03-24 11:00       473      
+<a href="logback-core-1.1.3-javadoc.jar.asc.md5" title="logback-core-1.1.3-javadoc.jar.asc.md5">logback-core-1.1.3-javadoc.jar.asc.md5</a>            2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-javadoc.jar.asc.sha1" title="logback-core-1.1.3-javadoc.jar.asc.sha1">logback-core-1.1.3-javadoc.jar.asc.sha1</a>           2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-javadoc.jar.md5" title="logback-core-1.1.3-javadoc.jar.md5">logback-core-1.1.3-javadoc.jar.md5</a>                2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-javadoc.jar.sha1" title="logback-core-1.1.3-javadoc.jar.sha1">logback-core-1.1.3-javadoc.jar.sha1</a>               2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-sources.jar" title="logback-core-1.1.3-sources.jar">logback-core-1.1.3-sources.jar</a>                    2015-03-24 11:00    385981      
+<a href="logback-core-1.1.3-sources.jar.asc" title="logback-core-1.1.3-sources.jar.asc">logback-core-1.1.3-sources.jar.asc</a>                2015-03-24 11:00       473      
+<a href="logback-core-1.1.3-sources.jar.asc.md5" title="logback-core-1.1.3-sources.jar.asc.md5">logback-core-1.1.3-sources.jar.asc.md5</a>            2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-sources.jar.asc.sha1" title="logback-core-1.1.3-sources.jar.asc.sha1">logback-core-1.1.3-sources.jar.asc.sha1</a>           2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-sources.jar.md5" title="logback-core-1.1.3-sources.jar.md5">logback-core-1.1.3-sources.jar.md5</a>                2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-sources.jar.sha1" title="logback-core-1.1.3-sources.jar.sha1">logback-core-1.1.3-sources.jar.sha1</a>               2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-test-javadoc.jar" title="logback-core-1.1.3-test-javadoc.jar">logback-core-1.1.3-test-javadoc.jar</a>               2015-03-24 11:00   1165314      
+<a href="logback-core-1.1.3-test-javadoc.jar.asc" title="logback-core-1.1.3-test-javadoc.jar.asc">logback-core-1.1.3-test-javadoc.jar.asc</a>           2015-03-24 11:00       473      
+<a href="logback-core-1.1.3-test-javadoc.jar.asc.md5" title="logback-core-1.1.3-test-javadoc.jar.asc.md5">logback-core-1.1.3-test-javadoc.jar.asc.md5</a>       2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-test-javadoc.jar.asc.sha1" title="logback-core-1.1.3-test-javadoc.jar.asc.sha1">logback-core-1.1.3-test-javadoc.jar.asc.sha1</a>      2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-test-javadoc.jar.md5" title="logback-core-1.1.3-test-javadoc.jar.md5">logback-core-1.1.3-test-javadoc.jar.md5</a>           2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-test-javadoc.jar.sha1" title="logback-core-1.1.3-test-javadoc.jar.sha1">logback-core-1.1.3-test-javadoc.jar.sha1</a>          2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-test-sources.jar" title="logback-core-1.1.3-test-sources.jar">logback-core-1.1.3-test-sources.jar</a>               2015-03-24 11:00    241583      
+<a href="logback-core-1.1.3-test-sources.jar.asc" title="logback-core-1.1.3-test-sources.jar.asc">logback-core-1.1.3-test-sources.jar.asc</a>           2015-03-24 11:00       473      
+<a href="logback-core-1.1.3-test-sources.jar.asc.md5" title="logback-core-1.1.3-test-sources.jar.asc.md5">logback-core-1.1.3-test-sources.jar.asc.md5</a>       2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-test-sources.jar.asc.sha1" title="logback-core-1.1.3-test-sources.jar.asc.sha1">logback-core-1.1.3-test-sources.jar.asc.sha1</a>      2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-test-sources.jar.md5" title="logback-core-1.1.3-test-sources.jar.md5">logback-core-1.1.3-test-sources.jar.md5</a>           2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-test-sources.jar.sha1" title="logback-core-1.1.3-test-sources.jar.sha1">logback-core-1.1.3-test-sources.jar.sha1</a>          2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-tests.jar" title="logback-core-1.1.3-tests.jar">logback-core-1.1.3-tests.jar</a>                      2015-03-24 11:00    364243      
+<a href="logback-core-1.1.3-tests.jar.asc" title="logback-core-1.1.3-tests.jar.asc">logback-core-1.1.3-tests.jar.asc</a>                  2015-03-24 11:00       473      
+<a href="logback-core-1.1.3-tests.jar.asc.md5" title="logback-core-1.1.3-tests.jar.asc.md5">logback-core-1.1.3-tests.jar.asc.md5</a>              2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-tests.jar.asc.sha1" title="logback-core-1.1.3-tests.jar.asc.sha1">logback-core-1.1.3-tests.jar.asc.sha1</a>             2015-03-24 11:00        40      
+<a href="logback-core-1.1.3-tests.jar.md5" title="logback-core-1.1.3-tests.jar.md5">logback-core-1.1.3-tests.jar.md5</a>                  2015-03-24 11:00        32      
+<a href="logback-core-1.1.3-tests.jar.sha1" title="logback-core-1.1.3-tests.jar.sha1">logback-core-1.1.3-tests.jar.sha1</a>                 2015-03-24 11:00        40      
+<a href="logback-core-1.1.3.jar" title="logback-core-1.1.3.jar">logback-core-1.1.3.jar</a>                            2015-03-24 11:00    455041      
+<a href="logback-core-1.1.3.jar.asc" title="logback-core-1.1.3.jar.asc">logback-core-1.1.3.jar.asc</a>                        2015-03-24 11:00       473      
+<a href="logback-core-1.1.3.jar.asc.md5" title="logback-core-1.1.3.jar.asc.md5">logback-core-1.1.3.jar.asc.md5</a>                    2015-03-24 11:00        32      
+<a href="logback-core-1.1.3.jar.asc.sha1" title="logback-core-1.1.3.jar.asc.sha1">logback-core-1.1.3.jar.asc.sha1</a>                   2015-03-24 11:00        40      
+<a href="logback-core-1.1.3.jar.md5" title="logback-core-1.1.3.jar.md5">logback-core-1.1.3.jar.md5</a>                        2015-03-24 11:00        32      
+<a href="logback-core-1.1.3.jar.sha1" title="logback-core-1.1.3.jar.sha1">logback-core-1.1.3.jar.sha1</a>                       2015-03-24 11:00        40      
+<a href="logback-core-1.1.3.pom" title="logback-core-1.1.3.pom">logback-core-1.1.3.pom</a>                            2015-03-24 11:00      4191      
+<a href="logback-core-1.1.3.pom.asc" title="logback-core-1.1.3.pom.asc">logback-core-1.1.3.pom.asc</a>                        2015-03-24 11:00       473      
+<a href="logback-core-1.1.3.pom.asc.md5" title="logback-core-1.1.3.pom.asc.md5">logback-core-1.1.3.pom.asc.md5</a>                    2015-03-24 11:00        32      
+<a href="logback-core-1.1.3.pom.asc.sha1" title="logback-core-1.1.3.pom.asc.sha1">logback-core-1.1.3.pom.asc.sha1</a>                   2015-03-24 11:00        40      
+<a href="logback-core-1.1.3.pom.md5" title="logback-core-1.1.3.pom.md5">logback-core-1.1.3.pom.md5</a>                        2015-03-24 11:00        32      
+<a href="logback-core-1.1.3.pom.sha1" title="logback-core-1.1.3.pom.sha1">logback-core-1.1.3.pom.sha1</a>                       2015-03-24 11:00        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

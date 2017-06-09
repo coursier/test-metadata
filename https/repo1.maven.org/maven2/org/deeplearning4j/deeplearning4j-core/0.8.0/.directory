@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/deeplearning4j/deeplearning4j-core/0.8.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/deeplearning4j/deeplearning4j-core/0.8.0</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="deeplearning4j-core-0.8.0-javadoc.jar" title="deeplearning4j-core-0.8.0-javadoc.jar">deeplearning4j-core-0.8.0-javadoc.jar</a>             2017-03-11 09:49    728360      
+<a href="deeplearning4j-core-0.8.0-javadoc.jar.asc" title="deeplearning4j-core-0.8.0-javadoc.jar.asc">deeplearning4j-core-0.8.0-javadoc.jar.asc</a>         2017-03-11 09:49       473      
+<a href="deeplearning4j-core-0.8.0-javadoc.jar.md5" title="deeplearning4j-core-0.8.0-javadoc.jar.md5">deeplearning4j-core-0.8.0-javadoc.jar.md5</a>         2017-03-11 09:49        32      
+<a href="deeplearning4j-core-0.8.0-javadoc.jar.sha1" title="deeplearning4j-core-0.8.0-javadoc.jar.sha1">deeplearning4j-core-0.8.0-javadoc.jar.sha1</a>        2017-03-11 09:49        40      
+<a href="deeplearning4j-core-0.8.0-sources.jar" title="deeplearning4j-core-0.8.0-sources.jar">deeplearning4j-core-0.8.0-sources.jar</a>             2017-03-11 09:49    127808      
+<a href="deeplearning4j-core-0.8.0-sources.jar.asc" title="deeplearning4j-core-0.8.0-sources.jar.asc">deeplearning4j-core-0.8.0-sources.jar.asc</a>         2017-03-11 09:49       473      
+<a href="deeplearning4j-core-0.8.0-sources.jar.md5" title="deeplearning4j-core-0.8.0-sources.jar.md5">deeplearning4j-core-0.8.0-sources.jar.md5</a>         2017-03-11 09:49        32      
+<a href="deeplearning4j-core-0.8.0-sources.jar.sha1" title="deeplearning4j-core-0.8.0-sources.jar.sha1">deeplearning4j-core-0.8.0-sources.jar.sha1</a>        2017-03-11 09:49        40      
+<a href="deeplearning4j-core-0.8.0.jar" title="deeplearning4j-core-0.8.0.jar">deeplearning4j-core-0.8.0.jar</a>                     2017-03-11 09:49    205454      
+<a href="deeplearning4j-core-0.8.0.jar.asc" title="deeplearning4j-core-0.8.0.jar.asc">deeplearning4j-core-0.8.0.jar.asc</a>                 2017-03-11 09:49       473      
+<a href="deeplearning4j-core-0.8.0.jar.md5" title="deeplearning4j-core-0.8.0.jar.md5">deeplearning4j-core-0.8.0.jar.md5</a>                 2017-03-11 09:49        32      
+<a href="deeplearning4j-core-0.8.0.jar.sha1" title="deeplearning4j-core-0.8.0.jar.sha1">deeplearning4j-core-0.8.0.jar.sha1</a>                2017-03-11 09:49        40      
+<a href="deeplearning4j-core-0.8.0.pom" title="deeplearning4j-core-0.8.0.pom">deeplearning4j-core-0.8.0.pom</a>                     2017-03-11 09:49      6258      
+<a href="deeplearning4j-core-0.8.0.pom.asc" title="deeplearning4j-core-0.8.0.pom.asc">deeplearning4j-core-0.8.0.pom.asc</a>                 2017-03-11 09:49       473      
+<a href="deeplearning4j-core-0.8.0.pom.md5" title="deeplearning4j-core-0.8.0.pom.md5">deeplearning4j-core-0.8.0.pom.md5</a>                 2017-03-11 09:49        32      
+<a href="deeplearning4j-core-0.8.0.pom.sha1" title="deeplearning4j-core-0.8.0.pom.sha1">deeplearning4j-core-0.8.0.pom.sha1</a>                2017-03-11 09:49        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

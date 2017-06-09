@@ -1,0 +1,65 @@
+<html>
+<head><title>Index of /maven2/com/google/inject/guice/4.0/</title></head>
+<body bgcolor=white>
+<h1>Index of /maven2/com/google/inject/guice/4.0/</h1>
+<hr>
+<pre>
+<a href=../>../</a>
+<a href="guice-4.0-classes.jar">guice-4.0-classes.jar</a>                              2015-04-28 15:33               452601
+<a href="guice-4.0-classes.jar.asc">guice-4.0-classes.jar.asc</a>                          2015-04-28 15:34                  514
+<a href="guice-4.0-classes.jar.asc.md5">guice-4.0-classes.jar.asc.md5</a>                      2015-04-28 15:34                   32
+<a href="guice-4.0-classes.jar.asc.sha1">guice-4.0-classes.jar.asc.sha1</a>                     2015-04-28 15:34                   40
+<a href="guice-4.0-classes.jar.md5">guice-4.0-classes.jar.md5</a>                          2015-04-28 15:33                   32
+<a href="guice-4.0-classes.jar.sha1">guice-4.0-classes.jar.sha1</a>                         2015-04-28 15:33                   40
+<a href="guice-4.0.jar">guice-4.0.jar</a>                                      2015-04-28 15:33               668235
+<a href="guice-4.0.jar.asc">guice-4.0.jar.asc</a>                                  2015-04-28 15:33                  514
+<a href="guice-4.0.jar.asc.md5">guice-4.0.jar.asc.md5</a>                              2015-04-28 15:33                   32
+<a href="guice-4.0.jar.asc.sha1">guice-4.0.jar.asc.sha1</a>                             2015-04-28 15:33                   40
+<a href="guice-4.0.jar.md5">guice-4.0.jar.md5</a>                                  2015-04-28 15:33                   32
+<a href="guice-4.0.jar.sha1">guice-4.0.jar.sha1</a>                                 2015-04-28 15:33                   40
+<a href="guice-4.0-javadoc.jar">guice-4.0-javadoc.jar</a>                              2015-04-28 15:33               787057
+<a href="guice-4.0-javadoc.jar.asc">guice-4.0-javadoc.jar.asc</a>                          2015-04-28 15:34                  514
+<a href="guice-4.0-javadoc.jar.asc.md5">guice-4.0-javadoc.jar.asc.md5</a>                      2015-04-28 15:34                   32
+<a href="guice-4.0-javadoc.jar.asc.sha1">guice-4.0-javadoc.jar.asc.sha1</a>                     2015-04-28 15:34                   40
+<a href="guice-4.0-javadoc.jar.md5">guice-4.0-javadoc.jar.md5</a>                          2015-04-28 15:33                   32
+<a href="guice-4.0-javadoc.jar.sha1">guice-4.0-javadoc.jar.sha1</a>                         2015-04-28 15:33                   40
+<a href="guice-4.0-no_aop.jar">guice-4.0-no_aop.jar</a>                               2015-04-28 15:33               423560
+<a href="guice-4.0-no_aop.jar.asc">guice-4.0-no_aop.jar.asc</a>                           2015-04-28 15:34                  514
+<a href="guice-4.0-no_aop.jar.asc.md5">guice-4.0-no_aop.jar.asc.md5</a>                       2015-04-28 15:34                   32
+<a href="guice-4.0-no_aop.jar.asc.sha1">guice-4.0-no_aop.jar.asc.sha1</a>                      2015-04-28 15:34                   40
+<a href="guice-4.0-no_aop.jar.md5">guice-4.0-no_aop.jar.md5</a>                           2015-04-28 15:33                   32
+<a href="guice-4.0-no_aop.jar.sha1">guice-4.0-no_aop.jar.sha1</a>                          2015-04-28 15:33                   40
+<a href="guice-4.0.pom">guice-4.0.pom</a>                                      2015-04-28 15:33                10633
+<a href="guice-4.0.pom.asc">guice-4.0.pom.asc</a>                                  2015-04-28 15:33                  514
+<a href="guice-4.0.pom.asc.md5">guice-4.0.pom.asc.md5</a>                              2015-04-28 15:33                   32
+<a href="guice-4.0.pom.asc.sha1">guice-4.0.pom.asc.sha1</a>                             2015-04-28 15:33                   40
+<a href="guice-4.0.pom.md5">guice-4.0.pom.md5</a>                                  2015-09-15 15:33                   32
+<a href="guice-4.0.pom.sha1">guice-4.0.pom.sha1</a>                                 2015-09-15 15:33                   40
+<a href="guice-4.0-site.jar">guice-4.0-site.jar</a>                                 2015-04-28 15:33                55259
+<a href="guice-4.0-site.jar.asc">guice-4.0-site.jar.asc</a>                             2015-04-28 15:33                  514
+<a href="guice-4.0-site.jar.asc.md5">guice-4.0-site.jar.asc.md5</a>                         2015-04-28 15:34                   32
+<a href="guice-4.0-site.jar.asc.sha1">guice-4.0-site.jar.asc.sha1</a>                        2015-04-28 15:33                   40
+<a href="guice-4.0-site.jar.md5">guice-4.0-site.jar.md5</a>                             2015-04-28 15:33                   32
+<a href="guice-4.0-site.jar.sha1">guice-4.0-site.jar.sha1</a>                            2015-04-28 15:33                   40
+<a href="guice-4.0-sources.jar">guice-4.0-sources.jar</a>                              2015-04-28 15:33               305803
+<a href="guice-4.0-sources.jar.asc">guice-4.0-sources.jar.asc</a>                          2015-04-28 15:34                  514
+<a href="guice-4.0-sources.jar.asc.md5">guice-4.0-sources.jar.asc.md5</a>                      2015-04-28 15:34                   32
+<a href="guice-4.0-sources.jar.asc.sha1">guice-4.0-sources.jar.asc.sha1</a>                     2015-04-28 15:34                   40
+<a href="guice-4.0-sources.jar.md5">guice-4.0-sources.jar.md5</a>                          2015-04-28 15:33                   32
+<a href="guice-4.0-sources.jar.sha1">guice-4.0-sources.jar.sha1</a>                         2015-04-28 15:33                   40
+<a href="guice-4.0-tests.jar">guice-4.0-tests.jar</a>                                2015-04-28 15:33              1304373
+<a href="guice-4.0-tests.jar.asc">guice-4.0-tests.jar.asc</a>                            2015-04-28 15:34                  514
+<a href="guice-4.0-tests.jar.asc.md5">guice-4.0-tests.jar.asc.md5</a>                        2015-04-28 15:34                   32
+<a href="guice-4.0-tests.jar.asc.sha1">guice-4.0-tests.jar.asc.sha1</a>                       2015-04-28 15:34                   40
+<a href="guice-4.0-tests.jar.md5">guice-4.0-tests.jar.md5</a>                            2015-04-28 15:33                   32
+<a href="guice-4.0-tests.jar.sha1">guice-4.0-tests.jar.sha1</a>                           2015-04-28 15:33                   40
+<a href="guice-4.0-test-sources.jar">guice-4.0-test-sources.jar</a>                         2015-04-28 15:33               187400
+<a href="guice-4.0-test-sources.jar.asc">guice-4.0-test-sources.jar.asc</a>                     2015-04-28 15:34                  514
+<a href="guice-4.0-test-sources.jar.asc.md5">guice-4.0-test-sources.jar.asc.md5</a>                 2015-04-28 15:34                   32
+<a href="guice-4.0-test-sources.jar.asc.sha1">guice-4.0-test-sources.jar.asc.sha1</a>                2015-04-28 15:34                   40
+<a href="guice-4.0-test-sources.jar.md5">guice-4.0-test-sources.jar.md5</a>                     2015-04-28 15:33                   32
+<a href="guice-4.0-test-sources.jar.sha1">guice-4.0-test-sources.jar.sha1</a>                    2015-04-28 15:33                   40
+</pre>
+<hr>
+</body>
+</html>

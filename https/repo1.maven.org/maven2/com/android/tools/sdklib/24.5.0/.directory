@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/android/tools/sdklib/24.5.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/android/tools/sdklib/24.5.0</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="sdklib-24.5.0-javadoc.jar" title="sdklib-24.5.0-javadoc.jar">sdklib-24.5.0-javadoc.jar</a>                         2015-11-12 05:40    463792      
+<a href="sdklib-24.5.0-javadoc.jar.asc" title="sdklib-24.5.0-javadoc.jar.asc">sdklib-24.5.0-javadoc.jar.asc</a>                     2015-11-12 05:40       821      
+<a href="sdklib-24.5.0-javadoc.jar.md5" title="sdklib-24.5.0-javadoc.jar.md5">sdklib-24.5.0-javadoc.jar.md5</a>                     2015-11-12 05:40        32      
+<a href="sdklib-24.5.0-javadoc.jar.sha1" title="sdklib-24.5.0-javadoc.jar.sha1">sdklib-24.5.0-javadoc.jar.sha1</a>                    2015-11-12 05:40        40      
+<a href="sdklib-24.5.0-sources.jar" title="sdklib-24.5.0-sources.jar">sdklib-24.5.0-sources.jar</a>                         2015-11-12 05:40    611592      
+<a href="sdklib-24.5.0-sources.jar.asc" title="sdklib-24.5.0-sources.jar.asc">sdklib-24.5.0-sources.jar.asc</a>                     2015-11-12 05:40       821      
+<a href="sdklib-24.5.0-sources.jar.md5" title="sdklib-24.5.0-sources.jar.md5">sdklib-24.5.0-sources.jar.md5</a>                     2015-11-12 05:40        32      
+<a href="sdklib-24.5.0-sources.jar.sha1" title="sdklib-24.5.0-sources.jar.sha1">sdklib-24.5.0-sources.jar.sha1</a>                    2015-11-12 05:40        40      
+<a href="sdklib-24.5.0.jar" title="sdklib-24.5.0.jar">sdklib-24.5.0.jar</a>                                 2015-11-12 05:40    738274      
+<a href="sdklib-24.5.0.jar.asc" title="sdklib-24.5.0.jar.asc">sdklib-24.5.0.jar.asc</a>                             2015-11-12 05:40       821      
+<a href="sdklib-24.5.0.jar.md5" title="sdklib-24.5.0.jar.md5">sdklib-24.5.0.jar.md5</a>                             2015-11-12 05:40        32      
+<a href="sdklib-24.5.0.jar.sha1" title="sdklib-24.5.0.jar.sha1">sdklib-24.5.0.jar.sha1</a>                            2015-11-12 05:40        40      
+<a href="sdklib-24.5.0.pom" title="sdklib-24.5.0.pom">sdklib-24.5.0.pom</a>                                 2015-11-12 05:40      2195      
+<a href="sdklib-24.5.0.pom.asc" title="sdklib-24.5.0.pom.asc">sdklib-24.5.0.pom.asc</a>                             2015-11-12 05:40       821      
+<a href="sdklib-24.5.0.pom.md5" title="sdklib-24.5.0.pom.md5">sdklib-24.5.0.pom.md5</a>                             2015-11-12 05:40        32      
+<a href="sdklib-24.5.0.pom.sha1" title="sdklib-24.5.0.pom.sha1">sdklib-24.5.0.pom.sha1</a>                            2015-11-12 05:40        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

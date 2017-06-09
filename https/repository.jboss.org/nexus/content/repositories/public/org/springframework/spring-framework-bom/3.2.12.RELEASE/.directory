@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Index of /repositories/public/org/springframework/spring-framework-bom/3.2.12.RELEASE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="icon" type="image/png" href="https://repository.jboss.org/nexus/favicon.png">
+    <!--[if IE]>
+    <link rel="SHORTCUT ICON" href="https://repository.jboss.org/nexus/favicon.ico"/>
+    <![endif]-->
+
+    <link rel="stylesheet" href="https://repository.jboss.org/nexus/static/css/Sonatype-content.css?2.13.0-01" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1>Index of /repositories/public/org/springframework/spring-framework-bom/3.2.12.RELEASE</h1>
+    <table cellspacing="10">
+      <tr>
+        <th align="left">Name</th>
+        <th>Last Modified</th>
+        <th>Size</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><a href="../">Parent Directory</a></td>
+      </tr>
+                  <tr>
+            <td><a href="https://repository.jboss.org/nexus/content/repositories/public/org/springframework/spring-framework-bom/3.2.12.RELEASE/spring-framework-bom-3.2.12.RELEASE.pom">spring-framework-bom-3.2.12.RELEASE.pom</a></td>
+            <td>Thu Apr 27 02:48:22 EDT 2017</td>
+            <td align="right">
+                              4828
+                          </td>
+            <td></td>
+          </tr>
+                  <tr>
+            <td><a href="https://repository.jboss.org/nexus/content/repositories/public/org/springframework/spring-framework-bom/3.2.12.RELEASE/spring-framework-bom-3.2.12.RELEASE.pom.md5">spring-framework-bom-3.2.12.RELEASE.pom.md5</a></td>
+            <td>Thu Apr 27 02:48:22 EDT 2017</td>
+            <td align="right">
+                              32
+                          </td>
+            <td></td>
+          </tr>
+                  <tr>
+            <td><a href="https://repository.jboss.org/nexus/content/repositories/public/org/springframework/spring-framework-bom/3.2.12.RELEASE/spring-framework-bom-3.2.12.RELEASE.pom.sha1">spring-framework-bom-3.2.12.RELEASE.pom.sha1</a></td>
+            <td>Thu Apr 27 02:48:22 EDT 2017</td>
+            <td align="right">
+                              40
+                          </td>
+            <td></td>
+          </tr>
+            </table>
+  </body>
+</html>
