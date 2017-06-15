@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/httpcomponents/httpcomponents-core/4.4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/httpcomponents/httpcomponents-core/4.4</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="httpcomponents-core-4.4.pom" title="httpcomponents-core-4.4.pom">httpcomponents-core-4.4.pom</a>                       2014-12-14 12:30     12859      
+<a href="httpcomponents-core-4.4.pom.asc" title="httpcomponents-core-4.4.pom.asc">httpcomponents-core-4.4.pom.asc</a>                   2014-12-14 12:30       181      
+<a href="httpcomponents-core-4.4.pom.asc.md5" title="httpcomponents-core-4.4.pom.asc.md5">httpcomponents-core-4.4.pom.asc.md5</a>               2014-12-14 12:30        32      
+<a href="httpcomponents-core-4.4.pom.asc.sha1" title="httpcomponents-core-4.4.pom.asc.sha1">httpcomponents-core-4.4.pom.asc.sha1</a>              2014-12-14 12:30        40      
+<a href="httpcomponents-core-4.4.pom.md5" title="httpcomponents-core-4.4.pom.md5">httpcomponents-core-4.4.pom.md5</a>                   2014-12-14 12:30        32      
+<a href="httpcomponents-core-4.4.pom.sha1" title="httpcomponents-core-4.4.pom.sha1">httpcomponents-core-4.4.pom.sha1</a>                  2014-12-14 12:30        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/logging/log4j/log4j-core/2.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/logging/log4j/log4j-core/2.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="log4j-core-2.3-javadoc.jar" title="log4j-core-2.3-javadoc.jar">log4j-core-2.3-javadoc.jar</a>                        2015-05-10 21:18   2805811      
+<a href="log4j-core-2.3-javadoc.jar.asc" title="log4j-core-2.3-javadoc.jar.asc">log4j-core-2.3-javadoc.jar.asc</a>                    2015-05-10 21:18       801      
+<a href="log4j-core-2.3-javadoc.jar.asc.md5" title="log4j-core-2.3-javadoc.jar.asc.md5">log4j-core-2.3-javadoc.jar.asc.md5</a>                2015-05-10 21:18        32      
+<a href="log4j-core-2.3-javadoc.jar.asc.sha1" title="log4j-core-2.3-javadoc.jar.asc.sha1">log4j-core-2.3-javadoc.jar.asc.sha1</a>               2015-05-10 21:18        40      
+<a href="log4j-core-2.3-javadoc.jar.md5" title="log4j-core-2.3-javadoc.jar.md5">log4j-core-2.3-javadoc.jar.md5</a>                    2015-05-10 21:18        32      
+<a href="log4j-core-2.3-javadoc.jar.sha1" title="log4j-core-2.3-javadoc.jar.sha1">log4j-core-2.3-javadoc.jar.sha1</a>                   2015-05-10 21:18        40      
+<a href="log4j-core-2.3-sources.jar" title="log4j-core-2.3-sources.jar">log4j-core-2.3-sources.jar</a>                        2015-05-10 21:18    701956      
+<a href="log4j-core-2.3-sources.jar.asc" title="log4j-core-2.3-sources.jar.asc">log4j-core-2.3-sources.jar.asc</a>                    2015-05-10 21:18       801      
+<a href="log4j-core-2.3-sources.jar.asc.md5" title="log4j-core-2.3-sources.jar.asc.md5">log4j-core-2.3-sources.jar.asc.md5</a>                2015-05-10 21:18        32      
+<a href="log4j-core-2.3-sources.jar.asc.sha1" title="log4j-core-2.3-sources.jar.asc.sha1">log4j-core-2.3-sources.jar.asc.sha1</a>               2015-05-10 21:18        40      
+<a href="log4j-core-2.3-sources.jar.md5" title="log4j-core-2.3-sources.jar.md5">log4j-core-2.3-sources.jar.md5</a>                    2015-05-10 21:18        32      
+<a href="log4j-core-2.3-sources.jar.sha1" title="log4j-core-2.3-sources.jar.sha1">log4j-core-2.3-sources.jar.sha1</a>                   2015-05-10 21:18        40      
+<a href="log4j-core-2.3-tests.jar" title="log4j-core-2.3-tests.jar">log4j-core-2.3-tests.jar</a>                          2015-05-10 21:18    745486      
+<a href="log4j-core-2.3-tests.jar.asc" title="log4j-core-2.3-tests.jar.asc">log4j-core-2.3-tests.jar.asc</a>                      2015-05-10 21:18       801      
+<a href="log4j-core-2.3-tests.jar.asc.md5" title="log4j-core-2.3-tests.jar.asc.md5">log4j-core-2.3-tests.jar.asc.md5</a>                  2015-05-10 21:18        32      
+<a href="log4j-core-2.3-tests.jar.asc.sha1" title="log4j-core-2.3-tests.jar.asc.sha1">log4j-core-2.3-tests.jar.asc.sha1</a>                 2015-05-10 21:18        40      
+<a href="log4j-core-2.3-tests.jar.md5" title="log4j-core-2.3-tests.jar.md5">log4j-core-2.3-tests.jar.md5</a>                      2015-05-10 21:18        32      
+<a href="log4j-core-2.3-tests.jar.sha1" title="log4j-core-2.3-tests.jar.sha1">log4j-core-2.3-tests.jar.sha1</a>                     2015-05-10 21:18        40      
+<a href="log4j-core-2.3.jar" title="log4j-core-2.3.jar">log4j-core-2.3.jar</a>                                2015-05-10 21:18    827024      
+<a href="log4j-core-2.3.jar.asc" title="log4j-core-2.3.jar.asc">log4j-core-2.3.jar.asc</a>                            2015-05-10 21:18       801      
+<a href="log4j-core-2.3.jar.asc.md5" title="log4j-core-2.3.jar.asc.md5">log4j-core-2.3.jar.asc.md5</a>                        2015-05-10 21:18        32      
+<a href="log4j-core-2.3.jar.asc.sha1" title="log4j-core-2.3.jar.asc.sha1">log4j-core-2.3.jar.asc.sha1</a>                       2015-05-10 21:18        40      
+<a href="log4j-core-2.3.jar.md5" title="log4j-core-2.3.jar.md5">log4j-core-2.3.jar.md5</a>                            2015-05-10 21:18        32      
+<a href="log4j-core-2.3.jar.sha1" title="log4j-core-2.3.jar.sha1">log4j-core-2.3.jar.sha1</a>                           2015-05-10 21:18        40      
+<a href="log4j-core-2.3.pom" title="log4j-core-2.3.pom">log4j-core-2.3.pom</a>                                2015-05-10 21:18     15743      
+<a href="log4j-core-2.3.pom.asc" title="log4j-core-2.3.pom.asc">log4j-core-2.3.pom.asc</a>                            2015-05-10 21:18       801      
+<a href="log4j-core-2.3.pom.asc.md5" title="log4j-core-2.3.pom.asc.md5">log4j-core-2.3.pom.asc.md5</a>                        2015-05-10 21:18        32      
+<a href="log4j-core-2.3.pom.asc.sha1" title="log4j-core-2.3.pom.asc.sha1">log4j-core-2.3.pom.asc.sha1</a>                       2015-05-10 21:18        40      
+<a href="log4j-core-2.3.pom.md5" title="log4j-core-2.3.pom.md5">log4j-core-2.3.pom.md5</a>                            2015-05-10 21:18        32      
+<a href="log4j-core-2.3.pom.sha1" title="log4j-core-2.3.pom.sha1">log4j-core-2.3.pom.sha1</a>                           2015-05-10 21:18        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
