@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/tika/tika-batch/1.13</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/tika/tika-batch/1.13</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="tika-batch-1.13-javadoc.jar" title="tika-batch-1.13-javadoc.jar">tika-batch-1.13-javadoc.jar</a>                       2016-05-09 17:28    334599      
+<a href="tika-batch-1.13-javadoc.jar.asc" title="tika-batch-1.13-javadoc.jar.asc">tika-batch-1.13-javadoc.jar.asc</a>                   2016-05-09 17:28       819      
+<a href="tika-batch-1.13-javadoc.jar.md5" title="tika-batch-1.13-javadoc.jar.md5">tika-batch-1.13-javadoc.jar.md5</a>                   2016-05-09 17:28        32      
+<a href="tika-batch-1.13-javadoc.jar.sha1" title="tika-batch-1.13-javadoc.jar.sha1">tika-batch-1.13-javadoc.jar.sha1</a>                  2016-05-09 17:28        40      
+<a href="tika-batch-1.13-sources.jar" title="tika-batch-1.13-sources.jar">tika-batch-1.13-sources.jar</a>                       2016-05-09 17:28     93116      
+<a href="tika-batch-1.13-sources.jar.asc" title="tika-batch-1.13-sources.jar.asc">tika-batch-1.13-sources.jar.asc</a>                   2016-05-09 17:28       819      
+<a href="tika-batch-1.13-sources.jar.md5" title="tika-batch-1.13-sources.jar.md5">tika-batch-1.13-sources.jar.md5</a>                   2016-05-09 17:28        32      
+<a href="tika-batch-1.13-sources.jar.sha1" title="tika-batch-1.13-sources.jar.sha1">tika-batch-1.13-sources.jar.sha1</a>                  2016-05-09 17:28        40      
+<a href="tika-batch-1.13-tests.jar" title="tika-batch-1.13-tests.jar">tika-batch-1.13-tests.jar</a>                         2016-05-09 17:28     82308      
+<a href="tika-batch-1.13-tests.jar.asc" title="tika-batch-1.13-tests.jar.asc">tika-batch-1.13-tests.jar.asc</a>                     2016-05-09 17:28       819      
+<a href="tika-batch-1.13-tests.jar.md5" title="tika-batch-1.13-tests.jar.md5">tika-batch-1.13-tests.jar.md5</a>                     2016-05-09 17:28        32      
+<a href="tika-batch-1.13-tests.jar.sha1" title="tika-batch-1.13-tests.jar.sha1">tika-batch-1.13-tests.jar.sha1</a>                    2016-05-09 17:28        40      
+<a href="tika-batch-1.13.jar" title="tika-batch-1.13.jar">tika-batch-1.13.jar</a>                               2016-05-09 17:28    123459      
+<a href="tika-batch-1.13.jar.asc" title="tika-batch-1.13.jar.asc">tika-batch-1.13.jar.asc</a>                           2016-05-09 17:28       819      
+<a href="tika-batch-1.13.jar.md5" title="tika-batch-1.13.jar.md5">tika-batch-1.13.jar.md5</a>                           2016-05-09 17:28        32      
+<a href="tika-batch-1.13.jar.sha1" title="tika-batch-1.13.jar.sha1">tika-batch-1.13.jar.sha1</a>                          2016-05-09 17:28        40      
+<a href="tika-batch-1.13.pom" title="tika-batch-1.13.pom">tika-batch-1.13.pom</a>                               2016-05-09 17:28      5623      
+<a href="tika-batch-1.13.pom.asc" title="tika-batch-1.13.pom.asc">tika-batch-1.13.pom.asc</a>                           2016-05-09 17:28       819      
+<a href="tika-batch-1.13.pom.md5" title="tika-batch-1.13.pom.md5">tika-batch-1.13.pom.md5</a>                           2016-05-09 17:28        32      
+<a href="tika-batch-1.13.pom.sha1" title="tika-batch-1.13.pom.sha1">tika-batch-1.13.pom.sha1</a>                          2016-05-09 17:28        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

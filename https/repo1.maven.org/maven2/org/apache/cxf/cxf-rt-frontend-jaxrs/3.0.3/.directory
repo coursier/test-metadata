@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/cxf/cxf-rt-frontend-jaxrs/3.0.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/cxf/cxf-rt-frontend-jaxrs/3.0.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar" title="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar">cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar</a>           2014-12-03 02:22   1095691      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc" title="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc">cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc</a>       2014-12-03 02:22       841      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc.md5" title="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc.md5">cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc.m...</a>  2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc.sha1" title="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc.sha1">cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.asc.s...</a>  2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.md5" title="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.md5">cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.md5</a>       2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.sha1" title="cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.sha1">cxf-rt-frontend-jaxrs-3.0.3-javadoc.jar.sha1</a>      2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-sources.jar" title="cxf-rt-frontend-jaxrs-3.0.3-sources.jar">cxf-rt-frontend-jaxrs-3.0.3-sources.jar</a>           2014-12-03 02:22    365616      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc" title="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc">cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc</a>       2014-12-03 02:22       841      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc.md5" title="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc.md5">cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc.m...</a>  2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc.sha1" title="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc.sha1">cxf-rt-frontend-jaxrs-3.0.3-sources.jar.asc.s...</a>  2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.md5" title="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.md5">cxf-rt-frontend-jaxrs-3.0.3-sources.jar.md5</a>       2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.sha1" title="cxf-rt-frontend-jaxrs-3.0.3-sources.jar.sha1">cxf-rt-frontend-jaxrs-3.0.3-sources.jar.sha1</a>      2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.jar" title="cxf-rt-frontend-jaxrs-3.0.3.jar">cxf-rt-frontend-jaxrs-3.0.3.jar</a>                   2014-12-03 02:22    583812      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.jar.asc" title="cxf-rt-frontend-jaxrs-3.0.3.jar.asc">cxf-rt-frontend-jaxrs-3.0.3.jar.asc</a>               2014-12-03 02:22       841      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.jar.asc.md5" title="cxf-rt-frontend-jaxrs-3.0.3.jar.asc.md5">cxf-rt-frontend-jaxrs-3.0.3.jar.asc.md5</a>           2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.jar.asc.sha1" title="cxf-rt-frontend-jaxrs-3.0.3.jar.asc.sha1">cxf-rt-frontend-jaxrs-3.0.3.jar.asc.sha1</a>          2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.jar.md5" title="cxf-rt-frontend-jaxrs-3.0.3.jar.md5">cxf-rt-frontend-jaxrs-3.0.3.jar.md5</a>               2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.jar.sha1" title="cxf-rt-frontend-jaxrs-3.0.3.jar.sha1">cxf-rt-frontend-jaxrs-3.0.3.jar.sha1</a>              2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.pom" title="cxf-rt-frontend-jaxrs-3.0.3.pom">cxf-rt-frontend-jaxrs-3.0.3.pom</a>                   2014-12-03 02:22      8653      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.pom.asc" title="cxf-rt-frontend-jaxrs-3.0.3.pom.asc">cxf-rt-frontend-jaxrs-3.0.3.pom.asc</a>               2014-12-03 02:22       841      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.pom.asc.md5" title="cxf-rt-frontend-jaxrs-3.0.3.pom.asc.md5">cxf-rt-frontend-jaxrs-3.0.3.pom.asc.md5</a>           2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.pom.asc.sha1" title="cxf-rt-frontend-jaxrs-3.0.3.pom.asc.sha1">cxf-rt-frontend-jaxrs-3.0.3.pom.asc.sha1</a>          2014-12-03 02:22        40      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.pom.md5" title="cxf-rt-frontend-jaxrs-3.0.3.pom.md5">cxf-rt-frontend-jaxrs-3.0.3.pom.md5</a>               2014-12-03 02:22        32      
+<a href="cxf-rt-frontend-jaxrs-3.0.3.pom.sha1" title="cxf-rt-frontend-jaxrs-3.0.3.pom.sha1">cxf-rt-frontend-jaxrs-3.0.3.pom.sha1</a>              2014-12-03 02:22        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

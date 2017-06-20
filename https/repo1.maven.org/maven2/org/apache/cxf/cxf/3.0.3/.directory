@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/cxf/cxf/3.0.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/cxf/cxf/3.0.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="cxf-3.0.3-site.xml" title="cxf-3.0.3-site.xml">cxf-3.0.3-site.xml</a>                                2014-12-03 02:17      1644      
+<a href="cxf-3.0.3-site.xml.asc" title="cxf-3.0.3-site.xml.asc">cxf-3.0.3-site.xml.asc</a>                            2014-12-03 02:17       841      
+<a href="cxf-3.0.3-site.xml.asc.md5" title="cxf-3.0.3-site.xml.asc.md5">cxf-3.0.3-site.xml.asc.md5</a>                        2014-12-03 02:17        32      
+<a href="cxf-3.0.3-site.xml.asc.sha1" title="cxf-3.0.3-site.xml.asc.sha1">cxf-3.0.3-site.xml.asc.sha1</a>                       2014-12-03 02:17        40      
+<a href="cxf-3.0.3-site.xml.md5" title="cxf-3.0.3-site.xml.md5">cxf-3.0.3-site.xml.md5</a>                            2014-12-03 02:17        32      
+<a href="cxf-3.0.3-site.xml.sha1" title="cxf-3.0.3-site.xml.sha1">cxf-3.0.3-site.xml.sha1</a>                           2014-12-03 02:17        40      
+<a href="cxf-3.0.3.pom" title="cxf-3.0.3.pom">cxf-3.0.3.pom</a>                                     2014-12-03 02:17     34475      
+<a href="cxf-3.0.3.pom.asc" title="cxf-3.0.3.pom.asc">cxf-3.0.3.pom.asc</a>                                 2014-12-03 02:17       841      
+<a href="cxf-3.0.3.pom.asc.md5" title="cxf-3.0.3.pom.asc.md5">cxf-3.0.3.pom.asc.md5</a>                             2014-12-03 02:17        32      
+<a href="cxf-3.0.3.pom.asc.sha1" title="cxf-3.0.3.pom.asc.sha1">cxf-3.0.3.pom.asc.sha1</a>                            2014-12-03 02:17        40      
+<a href="cxf-3.0.3.pom.md5" title="cxf-3.0.3.pom.md5">cxf-3.0.3.pom.md5</a>                                 2014-12-03 02:17        32      
+<a href="cxf-3.0.3.pom.sha1" title="cxf-3.0.3.pom.sha1">cxf-3.0.3.pom.sha1</a>                                2014-12-03 02:17        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
