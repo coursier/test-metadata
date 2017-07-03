@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/jboss/arquillian/arquillian-bom/1.1.10.Final</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/jboss/arquillian/arquillian-bom/1.1.10.Final</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="arquillian-bom-1.1.10.Final.pom" title="arquillian-bom-1.1.10.Final.pom">arquillian-bom-1.1.10.Final.pom</a>                   2015-10-19 12:58     10638      
+<a href="arquillian-bom-1.1.10.Final.pom.md5" title="arquillian-bom-1.1.10.Final.pom.md5">arquillian-bom-1.1.10.Final.pom.md5</a>               2015-10-19 12:58        32      
+<a href="arquillian-bom-1.1.10.Final.pom.sha1" title="arquillian-bom-1.1.10.Final.pom.sha1">arquillian-bom-1.1.10.Final.pom.sha1</a>              2015-10-19 12:58        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

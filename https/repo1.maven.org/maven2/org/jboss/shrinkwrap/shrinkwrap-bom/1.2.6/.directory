@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="shrinkwrap-bom-1.2.6.pom" title="shrinkwrap-bom-1.2.6.pom">shrinkwrap-bom-1.2.6.pom</a>                          2016-06-18 04:15      3985      
+<a href="shrinkwrap-bom-1.2.6.pom.md5" title="shrinkwrap-bom-1.2.6.pom.md5">shrinkwrap-bom-1.2.6.pom.md5</a>                      2016-06-18 04:15        32      
+<a href="shrinkwrap-bom-1.2.6.pom.sha1" title="shrinkwrap-bom-1.2.6.pom.sha1">shrinkwrap-bom-1.2.6.pom.sha1</a>                     2016-06-18 04:15        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

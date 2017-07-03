@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/drools/drools-bom/7.0.0.Final</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/drools/drools-bom/7.0.0.Final</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="drools-bom-7.0.0.Final.pom" title="drools-bom-7.0.0.Final.pom">drools-bom-7.0.0.Final.pom</a>                        2017-05-26 10:06     41496      
+<a href="drools-bom-7.0.0.Final.pom.md5" title="drools-bom-7.0.0.Final.pom.md5">drools-bom-7.0.0.Final.pom.md5</a>                    2017-05-26 10:06        32      
+<a href="drools-bom-7.0.0.Final.pom.sha1" title="drools-bom-7.0.0.Final.pom.sha1">drools-bom-7.0.0.Final.pom.sha1</a>                   2017-05-26 10:06        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

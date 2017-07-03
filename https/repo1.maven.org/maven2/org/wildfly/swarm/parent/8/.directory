@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/wildfly/swarm/parent/8</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/wildfly/swarm/parent/8</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="parent-8.pom" title="parent-8.pom">parent-8.pom</a>                                      2017-01-25 19:53      4632      
+<a href="parent-8.pom.asc" title="parent-8.pom.asc">parent-8.pom.asc</a>                                  2017-01-25 19:53       490      
+<a href="parent-8.pom.md5" title="parent-8.pom.md5">parent-8.pom.md5</a>                                  2017-01-25 19:53        32      
+<a href="parent-8.pom.sha1" title="parent-8.pom.sha1">parent-8.pom.sha1</a>                                 2017-01-25 19:53        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
