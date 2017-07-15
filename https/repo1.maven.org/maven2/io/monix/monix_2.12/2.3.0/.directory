@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: io/monix/monix_2.12/2.3.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>io/monix/monix_2.12/2.3.0</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="monix_2.12-2.3.0.pom" title="monix_2.12-2.3.0.pom">monix_2.12-2.3.0.pom</a>                              2017-05-03 12:04      1895      
+<a href="monix_2.12-2.3.0.pom.asc" title="monix_2.12-2.3.0.pom.asc">monix_2.12-2.3.0.pom.asc</a>                          2017-05-03 12:04       801      
+<a href="monix_2.12-2.3.0.pom.asc.md5" title="monix_2.12-2.3.0.pom.asc.md5">monix_2.12-2.3.0.pom.asc.md5</a>                      2017-05-03 12:04        32      
+<a href="monix_2.12-2.3.0.pom.asc.sha1" title="monix_2.12-2.3.0.pom.asc.sha1">monix_2.12-2.3.0.pom.asc.sha1</a>                     2017-05-03 12:04        40      
+<a href="monix_2.12-2.3.0.pom.md5" title="monix_2.12-2.3.0.pom.md5">monix_2.12-2.3.0.pom.md5</a>                          2017-05-03 12:04        32      
+<a href="monix_2.12-2.3.0.pom.sha1" title="monix_2.12-2.3.0.pom.sha1">monix_2.12-2.3.0.pom.sha1</a>                         2017-05-03 12:04        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
