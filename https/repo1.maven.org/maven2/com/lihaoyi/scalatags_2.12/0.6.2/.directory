@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/lihaoyi/scalatags_2.12/0.6.2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/lihaoyi/scalatags_2.12/0.6.2</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="scalatags_2.12-0.6.2-javadoc.jar" title="scalatags_2.12-0.6.2-javadoc.jar">scalatags_2.12-0.6.2-javadoc.jar</a>                  2016-10-31 18:50   1867698      
+<a href="scalatags_2.12-0.6.2-javadoc.jar.asc" title="scalatags_2.12-0.6.2-javadoc.jar.asc">scalatags_2.12-0.6.2-javadoc.jar.asc</a>              2016-10-31 18:50       215      
+<a href="scalatags_2.12-0.6.2-javadoc.jar.asc.md5" title="scalatags_2.12-0.6.2-javadoc.jar.asc.md5">scalatags_2.12-0.6.2-javadoc.jar.asc.md5</a>          2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2-javadoc.jar.asc.sha1" title="scalatags_2.12-0.6.2-javadoc.jar.asc.sha1">scalatags_2.12-0.6.2-javadoc.jar.asc.sha1</a>         2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2-javadoc.jar.md5" title="scalatags_2.12-0.6.2-javadoc.jar.md5">scalatags_2.12-0.6.2-javadoc.jar.md5</a>              2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2-javadoc.jar.sha1" title="scalatags_2.12-0.6.2-javadoc.jar.sha1">scalatags_2.12-0.6.2-javadoc.jar.sha1</a>             2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2-sources.jar" title="scalatags_2.12-0.6.2-sources.jar">scalatags_2.12-0.6.2-sources.jar</a>                  2016-10-31 18:50     71372      
+<a href="scalatags_2.12-0.6.2-sources.jar.asc" title="scalatags_2.12-0.6.2-sources.jar.asc">scalatags_2.12-0.6.2-sources.jar.asc</a>              2016-10-31 18:50       215      
+<a href="scalatags_2.12-0.6.2-sources.jar.asc.md5" title="scalatags_2.12-0.6.2-sources.jar.asc.md5">scalatags_2.12-0.6.2-sources.jar.asc.md5</a>          2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2-sources.jar.asc.sha1" title="scalatags_2.12-0.6.2-sources.jar.asc.sha1">scalatags_2.12-0.6.2-sources.jar.asc.sha1</a>         2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2-sources.jar.md5" title="scalatags_2.12-0.6.2-sources.jar.md5">scalatags_2.12-0.6.2-sources.jar.md5</a>              2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2-sources.jar.sha1" title="scalatags_2.12-0.6.2-sources.jar.sha1">scalatags_2.12-0.6.2-sources.jar.sha1</a>             2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2.jar" title="scalatags_2.12-0.6.2.jar">scalatags_2.12-0.6.2.jar</a>                          2016-10-31 18:50    482163      
+<a href="scalatags_2.12-0.6.2.jar.asc" title="scalatags_2.12-0.6.2.jar.asc">scalatags_2.12-0.6.2.jar.asc</a>                      2016-10-31 18:50       215      
+<a href="scalatags_2.12-0.6.2.jar.asc.md5" title="scalatags_2.12-0.6.2.jar.asc.md5">scalatags_2.12-0.6.2.jar.asc.md5</a>                  2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2.jar.asc.sha1" title="scalatags_2.12-0.6.2.jar.asc.sha1">scalatags_2.12-0.6.2.jar.asc.sha1</a>                 2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2.jar.md5" title="scalatags_2.12-0.6.2.jar.md5">scalatags_2.12-0.6.2.jar.md5</a>                      2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2.jar.sha1" title="scalatags_2.12-0.6.2.jar.sha1">scalatags_2.12-0.6.2.jar.sha1</a>                     2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2.pom" title="scalatags_2.12-0.6.2.pom">scalatags_2.12-0.6.2.pom</a>                          2016-10-31 18:50      2663      
+<a href="scalatags_2.12-0.6.2.pom.asc" title="scalatags_2.12-0.6.2.pom.asc">scalatags_2.12-0.6.2.pom.asc</a>                      2016-10-31 18:50       215      
+<a href="scalatags_2.12-0.6.2.pom.asc.md5" title="scalatags_2.12-0.6.2.pom.asc.md5">scalatags_2.12-0.6.2.pom.asc.md5</a>                  2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2.pom.asc.sha1" title="scalatags_2.12-0.6.2.pom.asc.sha1">scalatags_2.12-0.6.2.pom.asc.sha1</a>                 2016-10-31 18:50        40      
+<a href="scalatags_2.12-0.6.2.pom.md5" title="scalatags_2.12-0.6.2.pom.md5">scalatags_2.12-0.6.2.pom.md5</a>                      2016-10-31 18:50        32      
+<a href="scalatags_2.12-0.6.2.pom.sha1" title="scalatags_2.12-0.6.2.pom.sha1">scalatags_2.12-0.6.2.pom.sha1</a>                     2016-10-31 18:50        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
