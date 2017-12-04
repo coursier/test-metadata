@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/fasterxml/jackson/core/jackson-databind/2.5.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/fasterxml/jackson/core/jackson-databind/2.5.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jackson-databind-2.5.3-javadoc.jar" title="jackson-databind-2.5.3-javadoc.jar">jackson-databind-2.5.3-javadoc.jar</a>                2015-04-24 17:25   4298906      
+<a href="jackson-databind-2.5.3-javadoc.jar.asc" title="jackson-databind-2.5.3-javadoc.jar.asc">jackson-databind-2.5.3-javadoc.jar.asc</a>            2015-04-24 17:25       473      
+<a href="jackson-databind-2.5.3-javadoc.jar.asc.md5" title="jackson-databind-2.5.3-javadoc.jar.asc.md5">jackson-databind-2.5.3-javadoc.jar.asc.md5</a>        2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3-javadoc.jar.asc.sha1" title="jackson-databind-2.5.3-javadoc.jar.asc.sha1">jackson-databind-2.5.3-javadoc.jar.asc.sha1</a>       2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3-javadoc.jar.md5" title="jackson-databind-2.5.3-javadoc.jar.md5">jackson-databind-2.5.3-javadoc.jar.md5</a>            2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3-javadoc.jar.sha1" title="jackson-databind-2.5.3-javadoc.jar.sha1">jackson-databind-2.5.3-javadoc.jar.sha1</a>           2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3-sources.jar" title="jackson-databind-2.5.3-sources.jar">jackson-databind-2.5.3-sources.jar</a>                2015-04-24 17:25    824134      
+<a href="jackson-databind-2.5.3-sources.jar.asc" title="jackson-databind-2.5.3-sources.jar.asc">jackson-databind-2.5.3-sources.jar.asc</a>            2015-04-24 17:25       473      
+<a href="jackson-databind-2.5.3-sources.jar.asc.md5" title="jackson-databind-2.5.3-sources.jar.asc.md5">jackson-databind-2.5.3-sources.jar.asc.md5</a>        2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3-sources.jar.asc.sha1" title="jackson-databind-2.5.3-sources.jar.asc.sha1">jackson-databind-2.5.3-sources.jar.asc.sha1</a>       2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3-sources.jar.md5" title="jackson-databind-2.5.3-sources.jar.md5">jackson-databind-2.5.3-sources.jar.md5</a>            2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3-sources.jar.sha1" title="jackson-databind-2.5.3-sources.jar.sha1">jackson-databind-2.5.3-sources.jar.sha1</a>           2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3.jar" title="jackson-databind-2.5.3.jar">jackson-databind-2.5.3.jar</a>                        2015-04-24 17:25   1143162      
+<a href="jackson-databind-2.5.3.jar.asc" title="jackson-databind-2.5.3.jar.asc">jackson-databind-2.5.3.jar.asc</a>                    2015-04-24 17:25       473      
+<a href="jackson-databind-2.5.3.jar.asc.md5" title="jackson-databind-2.5.3.jar.asc.md5">jackson-databind-2.5.3.jar.asc.md5</a>                2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3.jar.asc.sha1" title="jackson-databind-2.5.3.jar.asc.sha1">jackson-databind-2.5.3.jar.asc.sha1</a>               2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3.jar.md5" title="jackson-databind-2.5.3.jar.md5">jackson-databind-2.5.3.jar.md5</a>                    2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3.jar.sha1" title="jackson-databind-2.5.3.jar.sha1">jackson-databind-2.5.3.jar.sha1</a>                   2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3.pom" title="jackson-databind-2.5.3.pom">jackson-databind-2.5.3.pom</a>                        2015-04-24 17:25      5859      
+<a href="jackson-databind-2.5.3.pom.asc" title="jackson-databind-2.5.3.pom.asc">jackson-databind-2.5.3.pom.asc</a>                    2015-04-24 17:25       473      
+<a href="jackson-databind-2.5.3.pom.asc.md5" title="jackson-databind-2.5.3.pom.asc.md5">jackson-databind-2.5.3.pom.asc.md5</a>                2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3.pom.asc.sha1" title="jackson-databind-2.5.3.pom.asc.sha1">jackson-databind-2.5.3.pom.asc.sha1</a>               2015-04-24 17:25        40      
+<a href="jackson-databind-2.5.3.pom.md5" title="jackson-databind-2.5.3.pom.md5">jackson-databind-2.5.3.pom.md5</a>                    2015-04-24 17:25        32      
+<a href="jackson-databind-2.5.3.pom.sha1" title="jackson-databind-2.5.3.pom.sha1">jackson-databind-2.5.3.pom.sha1</a>                   2015-04-24 17:25        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
