@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/glassfish/hk2/hk2-bom/2.4.0-b34</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/glassfish/hk2/hk2-bom/2.4.0-b34</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="hk2-bom-2.4.0-b34.pom" title="hk2-bom-2.4.0-b34.pom">hk2-bom-2.4.0-b34.pom</a>                             2015-11-19 11:42     20896      
+<a href="hk2-bom-2.4.0-b34.pom.asc" title="hk2-bom-2.4.0-b34.pom.asc">hk2-bom-2.4.0-b34.pom.asc</a>                         2015-11-19 11:42       490      
+<a href="hk2-bom-2.4.0-b34.pom.asc.md5" title="hk2-bom-2.4.0-b34.pom.asc.md5">hk2-bom-2.4.0-b34.pom.asc.md5</a>                     2015-11-19 11:42        32      
+<a href="hk2-bom-2.4.0-b34.pom.asc.sha1" title="hk2-bom-2.4.0-b34.pom.asc.sha1">hk2-bom-2.4.0-b34.pom.asc.sha1</a>                    2015-11-19 11:42        40      
+<a href="hk2-bom-2.4.0-b34.pom.md5" title="hk2-bom-2.4.0-b34.pom.md5">hk2-bom-2.4.0-b34.pom.md5</a>                         2015-11-19 11:42        32      
+<a href="hk2-bom-2.4.0-b34.pom.sha1" title="hk2-bom-2.4.0-b34.pom.sha1">hk2-bom-2.4.0-b34.pom.sha1</a>                        2015-11-19 11:42        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

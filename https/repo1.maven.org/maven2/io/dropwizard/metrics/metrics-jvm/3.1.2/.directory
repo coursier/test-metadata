@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: io/dropwizard/metrics/metrics-jvm/3.1.2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>io/dropwizard/metrics/metrics-jvm/3.1.2</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="metrics-jvm-3.1.2-javadoc.jar" title="metrics-jvm-3.1.2-javadoc.jar">metrics-jvm-3.1.2-javadoc.jar</a>                     2015-04-26 03:59     61206      
+<a href="metrics-jvm-3.1.2-javadoc.jar.asc" title="metrics-jvm-3.1.2-javadoc.jar.asc">metrics-jvm-3.1.2-javadoc.jar.asc</a>                 2015-04-26 03:59       473      
+<a href="metrics-jvm-3.1.2-javadoc.jar.asc.md5" title="metrics-jvm-3.1.2-javadoc.jar.asc.md5">metrics-jvm-3.1.2-javadoc.jar.asc.md5</a>             2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2-javadoc.jar.asc.sha1" title="metrics-jvm-3.1.2-javadoc.jar.asc.sha1">metrics-jvm-3.1.2-javadoc.jar.asc.sha1</a>            2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2-javadoc.jar.md5" title="metrics-jvm-3.1.2-javadoc.jar.md5">metrics-jvm-3.1.2-javadoc.jar.md5</a>                 2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2-javadoc.jar.sha1" title="metrics-jvm-3.1.2-javadoc.jar.sha1">metrics-jvm-3.1.2-javadoc.jar.sha1</a>                2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2-sources.jar" title="metrics-jvm-3.1.2-sources.jar">metrics-jvm-3.1.2-sources.jar</a>                     2015-04-26 03:59      8756      
+<a href="metrics-jvm-3.1.2-sources.jar.asc" title="metrics-jvm-3.1.2-sources.jar.asc">metrics-jvm-3.1.2-sources.jar.asc</a>                 2015-04-26 03:59       473      
+<a href="metrics-jvm-3.1.2-sources.jar.asc.md5" title="metrics-jvm-3.1.2-sources.jar.asc.md5">metrics-jvm-3.1.2-sources.jar.asc.md5</a>             2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2-sources.jar.asc.sha1" title="metrics-jvm-3.1.2-sources.jar.asc.sha1">metrics-jvm-3.1.2-sources.jar.asc.sha1</a>            2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2-sources.jar.md5" title="metrics-jvm-3.1.2-sources.jar.md5">metrics-jvm-3.1.2-sources.jar.md5</a>                 2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2-sources.jar.sha1" title="metrics-jvm-3.1.2-sources.jar.sha1">metrics-jvm-3.1.2-sources.jar.sha1</a>                2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2.jar" title="metrics-jvm-3.1.2.jar">metrics-jvm-3.1.2.jar</a>                             2015-04-26 03:59     39280      
+<a href="metrics-jvm-3.1.2.jar.asc" title="metrics-jvm-3.1.2.jar.asc">metrics-jvm-3.1.2.jar.asc</a>                         2015-04-26 03:59       473      
+<a href="metrics-jvm-3.1.2.jar.asc.md5" title="metrics-jvm-3.1.2.jar.asc.md5">metrics-jvm-3.1.2.jar.asc.md5</a>                     2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2.jar.asc.sha1" title="metrics-jvm-3.1.2.jar.asc.sha1">metrics-jvm-3.1.2.jar.asc.sha1</a>                    2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2.jar.md5" title="metrics-jvm-3.1.2.jar.md5">metrics-jvm-3.1.2.jar.md5</a>                         2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2.jar.sha1" title="metrics-jvm-3.1.2.jar.sha1">metrics-jvm-3.1.2.jar.sha1</a>                        2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2.pom" title="metrics-jvm-3.1.2.pom">metrics-jvm-3.1.2.pom</a>                             2015-04-26 03:59       967      
+<a href="metrics-jvm-3.1.2.pom.asc" title="metrics-jvm-3.1.2.pom.asc">metrics-jvm-3.1.2.pom.asc</a>                         2015-04-26 03:59       473      
+<a href="metrics-jvm-3.1.2.pom.asc.md5" title="metrics-jvm-3.1.2.pom.asc.md5">metrics-jvm-3.1.2.pom.asc.md5</a>                     2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2.pom.asc.sha1" title="metrics-jvm-3.1.2.pom.asc.sha1">metrics-jvm-3.1.2.pom.asc.sha1</a>                    2015-04-26 03:59        40      
+<a href="metrics-jvm-3.1.2.pom.md5" title="metrics-jvm-3.1.2.pom.md5">metrics-jvm-3.1.2.pom.md5</a>                         2015-04-26 03:59        32      
+<a href="metrics-jvm-3.1.2.pom.sha1" title="metrics-jvm-3.1.2.pom.sha1">metrics-jvm-3.1.2.pom.sha1</a>                        2015-04-26 03:59        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

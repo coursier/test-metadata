@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/apache/avro/avro-ipc/1.7.7</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/apache/avro/avro-ipc/1.7.7</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="avro-ipc-1.7.7-javadoc.jar" title="avro-ipc-1.7.7-javadoc.jar">avro-ipc-1.7.7-javadoc.jar</a>                        2014-07-18 20:09    455836      
+<a href="avro-ipc-1.7.7-javadoc.jar.asc" title="avro-ipc-1.7.7-javadoc.jar.asc">avro-ipc-1.7.7-javadoc.jar.asc</a>                    2014-07-18 20:09       198      
+<a href="avro-ipc-1.7.7-javadoc.jar.asc.md5" title="avro-ipc-1.7.7-javadoc.jar.asc.md5">avro-ipc-1.7.7-javadoc.jar.asc.md5</a>                2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7-javadoc.jar.asc.sha1" title="avro-ipc-1.7.7-javadoc.jar.asc.sha1">avro-ipc-1.7.7-javadoc.jar.asc.sha1</a>               2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7-javadoc.jar.md5" title="avro-ipc-1.7.7-javadoc.jar.md5">avro-ipc-1.7.7-javadoc.jar.md5</a>                    2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7-javadoc.jar.sha1" title="avro-ipc-1.7.7-javadoc.jar.sha1">avro-ipc-1.7.7-javadoc.jar.sha1</a>                   2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7-sources.jar" title="avro-ipc-1.7.7-sources.jar">avro-ipc-1.7.7-sources.jar</a>                        2014-07-18 20:09    229100      
+<a href="avro-ipc-1.7.7-sources.jar.asc" title="avro-ipc-1.7.7-sources.jar.asc">avro-ipc-1.7.7-sources.jar.asc</a>                    2014-07-18 20:09       198      
+<a href="avro-ipc-1.7.7-sources.jar.asc.md5" title="avro-ipc-1.7.7-sources.jar.asc.md5">avro-ipc-1.7.7-sources.jar.asc.md5</a>                2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7-sources.jar.asc.sha1" title="avro-ipc-1.7.7-sources.jar.asc.sha1">avro-ipc-1.7.7-sources.jar.asc.sha1</a>               2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7-sources.jar.md5" title="avro-ipc-1.7.7-sources.jar.md5">avro-ipc-1.7.7-sources.jar.md5</a>                    2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7-sources.jar.sha1" title="avro-ipc-1.7.7-sources.jar.sha1">avro-ipc-1.7.7-sources.jar.sha1</a>                   2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7-tests.jar" title="avro-ipc-1.7.7-tests.jar">avro-ipc-1.7.7-tests.jar</a>                          2014-07-18 20:09    346580      
+<a href="avro-ipc-1.7.7-tests.jar.asc" title="avro-ipc-1.7.7-tests.jar.asc">avro-ipc-1.7.7-tests.jar.asc</a>                      2014-07-18 20:09       198      
+<a href="avro-ipc-1.7.7-tests.jar.asc.md5" title="avro-ipc-1.7.7-tests.jar.asc.md5">avro-ipc-1.7.7-tests.jar.asc.md5</a>                  2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7-tests.jar.asc.sha1" title="avro-ipc-1.7.7-tests.jar.asc.sha1">avro-ipc-1.7.7-tests.jar.asc.sha1</a>                 2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7-tests.jar.md5" title="avro-ipc-1.7.7-tests.jar.md5">avro-ipc-1.7.7-tests.jar.md5</a>                      2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7-tests.jar.sha1" title="avro-ipc-1.7.7-tests.jar.sha1">avro-ipc-1.7.7-tests.jar.sha1</a>                     2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7.jar" title="avro-ipc-1.7.7.jar">avro-ipc-1.7.7.jar</a>                                2014-07-18 20:09    192993      
+<a href="avro-ipc-1.7.7.jar.asc" title="avro-ipc-1.7.7.jar.asc">avro-ipc-1.7.7.jar.asc</a>                            2014-07-18 20:09       198      
+<a href="avro-ipc-1.7.7.jar.asc.md5" title="avro-ipc-1.7.7.jar.asc.md5">avro-ipc-1.7.7.jar.asc.md5</a>                        2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7.jar.asc.sha1" title="avro-ipc-1.7.7.jar.asc.sha1">avro-ipc-1.7.7.jar.asc.sha1</a>                       2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7.jar.md5" title="avro-ipc-1.7.7.jar.md5">avro-ipc-1.7.7.jar.md5</a>                            2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7.jar.sha1" title="avro-ipc-1.7.7.jar.sha1">avro-ipc-1.7.7.jar.sha1</a>                           2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7.pom" title="avro-ipc-1.7.7.pom">avro-ipc-1.7.7.pom</a>                                2014-07-18 20:09      5159      
+<a href="avro-ipc-1.7.7.pom.asc" title="avro-ipc-1.7.7.pom.asc">avro-ipc-1.7.7.pom.asc</a>                            2014-07-18 20:09       198      
+<a href="avro-ipc-1.7.7.pom.asc.md5" title="avro-ipc-1.7.7.pom.asc.md5">avro-ipc-1.7.7.pom.asc.md5</a>                        2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7.pom.asc.sha1" title="avro-ipc-1.7.7.pom.asc.sha1">avro-ipc-1.7.7.pom.asc.sha1</a>                       2014-07-18 20:09        40      
+<a href="avro-ipc-1.7.7.pom.md5" title="avro-ipc-1.7.7.pom.md5">avro-ipc-1.7.7.pom.md5</a>                            2014-07-18 20:09        32      
+<a href="avro-ipc-1.7.7.pom.sha1" title="avro-ipc-1.7.7.pom.sha1">avro-ipc-1.7.7.pom.sha1</a>                           2014-07-18 20:09        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

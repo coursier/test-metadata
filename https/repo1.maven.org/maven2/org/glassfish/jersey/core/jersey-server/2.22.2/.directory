@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/glassfish/jersey/core/jersey-server/2.22.2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/glassfish/jersey/core/jersey-server/2.22.2</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jersey-server-2.22.2-javadoc.jar" title="jersey-server-2.22.2-javadoc.jar">jersey-server-2.22.2-javadoc.jar</a>                  2016-02-16 12:29    946152      
+<a href="jersey-server-2.22.2-javadoc.jar.asc" title="jersey-server-2.22.2-javadoc.jar.asc">jersey-server-2.22.2-javadoc.jar.asc</a>              2016-02-16 12:29       496      
+<a href="jersey-server-2.22.2-javadoc.jar.md5" title="jersey-server-2.22.2-javadoc.jar.md5">jersey-server-2.22.2-javadoc.jar.md5</a>              2016-02-16 12:29        32      
+<a href="jersey-server-2.22.2-javadoc.jar.sha1" title="jersey-server-2.22.2-javadoc.jar.sha1">jersey-server-2.22.2-javadoc.jar.sha1</a>             2016-02-16 12:29        40      
+<a href="jersey-server-2.22.2-sources.jar" title="jersey-server-2.22.2-sources.jar">jersey-server-2.22.2-sources.jar</a>                  2016-02-16 12:29    757324      
+<a href="jersey-server-2.22.2-sources.jar.asc" title="jersey-server-2.22.2-sources.jar.asc">jersey-server-2.22.2-sources.jar.asc</a>              2016-02-16 12:29       496      
+<a href="jersey-server-2.22.2-sources.jar.md5" title="jersey-server-2.22.2-sources.jar.md5">jersey-server-2.22.2-sources.jar.md5</a>              2016-02-16 12:29        32      
+<a href="jersey-server-2.22.2-sources.jar.sha1" title="jersey-server-2.22.2-sources.jar.sha1">jersey-server-2.22.2-sources.jar.sha1</a>             2016-02-16 12:29        40      
+<a href="jersey-server-2.22.2.jar" title="jersey-server-2.22.2.jar">jersey-server-2.22.2.jar</a>                          2016-02-16 12:29    951701      
+<a href="jersey-server-2.22.2.jar.asc" title="jersey-server-2.22.2.jar.asc">jersey-server-2.22.2.jar.asc</a>                      2016-02-16 12:29       496      
+<a href="jersey-server-2.22.2.jar.md5" title="jersey-server-2.22.2.jar.md5">jersey-server-2.22.2.jar.md5</a>                      2016-02-16 12:29        32      
+<a href="jersey-server-2.22.2.jar.sha1" title="jersey-server-2.22.2.jar.sha1">jersey-server-2.22.2.jar.sha1</a>                     2016-02-16 12:29        40      
+<a href="jersey-server-2.22.2.pom" title="jersey-server-2.22.2.pom">jersey-server-2.22.2.pom</a>                          2016-02-16 12:29     12333      
+<a href="jersey-server-2.22.2.pom.asc" title="jersey-server-2.22.2.pom.asc">jersey-server-2.22.2.pom.asc</a>                      2016-02-16 12:29       496      
+<a href="jersey-server-2.22.2.pom.md5" title="jersey-server-2.22.2.pom.md5">jersey-server-2.22.2.pom.md5</a>                      2016-02-16 12:29        32      
+<a href="jersey-server-2.22.2.pom.sha1" title="jersey-server-2.22.2.pom.sha1">jersey-server-2.22.2.pom.sha1</a>                     2016-02-16 12:29        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

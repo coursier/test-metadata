@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/fasterxml/oss-parent/23</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/fasterxml/oss-parent/23</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="oss-parent-23-site.xml" title="oss-parent-23-site.xml">oss-parent-23-site.xml</a>                            2015-07-11 21:09      1069      
+<a href="oss-parent-23-site.xml.asc" title="oss-parent-23-site.xml.asc">oss-parent-23-site.xml.asc</a>                        2015-07-11 21:09       819      
+<a href="oss-parent-23-site.xml.asc.md5" title="oss-parent-23-site.xml.asc.md5">oss-parent-23-site.xml.asc.md5</a>                    2015-07-11 21:09        32      
+<a href="oss-parent-23-site.xml.asc.sha1" title="oss-parent-23-site.xml.asc.sha1">oss-parent-23-site.xml.asc.sha1</a>                   2015-07-11 21:09        40      
+<a href="oss-parent-23-site.xml.md5" title="oss-parent-23-site.xml.md5">oss-parent-23-site.xml.md5</a>                        2015-07-11 21:09        32      
+<a href="oss-parent-23-site.xml.sha1" title="oss-parent-23-site.xml.sha1">oss-parent-23-site.xml.sha1</a>                       2015-07-11 21:09        40      
+<a href="oss-parent-23.pom" title="oss-parent-23.pom">oss-parent-23.pom</a>                                 2015-07-11 21:09     19293      
+<a href="oss-parent-23.pom.asc" title="oss-parent-23.pom.asc">oss-parent-23.pom.asc</a>                             2015-07-11 21:09       819      
+<a href="oss-parent-23.pom.asc.md5" title="oss-parent-23.pom.asc.md5">oss-parent-23.pom.asc.md5</a>                         2015-07-11 21:09        32      
+<a href="oss-parent-23.pom.asc.sha1" title="oss-parent-23.pom.asc.sha1">oss-parent-23.pom.asc.sha1</a>                        2015-07-11 21:09        40      
+<a href="oss-parent-23.pom.md5" title="oss-parent-23.pom.md5">oss-parent-23.pom.md5</a>                             2015-07-11 21:09        32      
+<a href="oss-parent-23.pom.sha1" title="oss-parent-23.pom.sha1">oss-parent-23.pom.sha1</a>                            2015-07-11 21:09        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

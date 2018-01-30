@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/esotericsoftware/kryo-shaded/3.0.3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/esotericsoftware/kryo-shaded/3.0.3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="kryo-shaded-3.0.3-javadoc.jar" title="kryo-shaded-3.0.3-javadoc.jar">kryo-shaded-3.0.3-javadoc.jar</a>                     2015-07-26 21:47    814842      
+<a href="kryo-shaded-3.0.3-javadoc.jar.asc" title="kryo-shaded-3.0.3-javadoc.jar.asc">kryo-shaded-3.0.3-javadoc.jar.asc</a>                 2015-07-26 21:47       181      
+<a href="kryo-shaded-3.0.3-javadoc.jar.md5" title="kryo-shaded-3.0.3-javadoc.jar.md5">kryo-shaded-3.0.3-javadoc.jar.md5</a>                 2015-07-26 21:47        32      
+<a href="kryo-shaded-3.0.3-javadoc.jar.sha1" title="kryo-shaded-3.0.3-javadoc.jar.sha1">kryo-shaded-3.0.3-javadoc.jar.sha1</a>                2015-07-26 21:47        40      
+<a href="kryo-shaded-3.0.3-sources.jar" title="kryo-shaded-3.0.3-sources.jar">kryo-shaded-3.0.3-sources.jar</a>                     2015-07-26 21:47    191107      
+<a href="kryo-shaded-3.0.3-sources.jar.asc" title="kryo-shaded-3.0.3-sources.jar.asc">kryo-shaded-3.0.3-sources.jar.asc</a>                 2015-07-26 21:47       181      
+<a href="kryo-shaded-3.0.3-sources.jar.md5" title="kryo-shaded-3.0.3-sources.jar.md5">kryo-shaded-3.0.3-sources.jar.md5</a>                 2015-07-26 21:47        32      
+<a href="kryo-shaded-3.0.3-sources.jar.sha1" title="kryo-shaded-3.0.3-sources.jar.sha1">kryo-shaded-3.0.3-sources.jar.sha1</a>                2015-07-26 21:47        40      
+<a href="kryo-shaded-3.0.3.jar" title="kryo-shaded-3.0.3.jar">kryo-shaded-3.0.3.jar</a>                             2015-07-26 21:47    358390      
+<a href="kryo-shaded-3.0.3.jar.asc" title="kryo-shaded-3.0.3.jar.asc">kryo-shaded-3.0.3.jar.asc</a>                         2015-07-26 21:47       181      
+<a href="kryo-shaded-3.0.3.jar.md5" title="kryo-shaded-3.0.3.jar.md5">kryo-shaded-3.0.3.jar.md5</a>                         2015-07-26 21:47        32      
+<a href="kryo-shaded-3.0.3.jar.sha1" title="kryo-shaded-3.0.3.jar.sha1">kryo-shaded-3.0.3.jar.sha1</a>                        2015-07-26 21:47        40      
+<a href="kryo-shaded-3.0.3.pom" title="kryo-shaded-3.0.3.pom">kryo-shaded-3.0.3.pom</a>                             2015-07-26 21:47      3128      
+<a href="kryo-shaded-3.0.3.pom.asc" title="kryo-shaded-3.0.3.pom.asc">kryo-shaded-3.0.3.pom.asc</a>                         2015-07-26 21:47       181      
+<a href="kryo-shaded-3.0.3.pom.md5" title="kryo-shaded-3.0.3.pom.md5">kryo-shaded-3.0.3.pom.md5</a>                         2015-07-26 21:47        32      
+<a href="kryo-shaded-3.0.3.pom.sha1" title="kryo-shaded-3.0.3.pom.sha1">kryo-shaded-3.0.3.pom.sha1</a>                        2015-07-26 21:47        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
