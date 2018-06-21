@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/fasterxml/jackson/core/jackson-core/2.9.5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/fasterxml/jackson/core/jackson-core/2.9.5</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jackson-core-2.9.5-javadoc.jar" title="jackson-core-2.9.5-javadoc.jar">jackson-core-2.9.5-javadoc.jar</a>                    2018-03-26 15:05   1112223      
+<a href="jackson-core-2.9.5-javadoc.jar.asc" title="jackson-core-2.9.5-javadoc.jar.asc">jackson-core-2.9.5-javadoc.jar.asc</a>                2018-03-26 15:05       473      
+<a href="jackson-core-2.9.5-javadoc.jar.md5" title="jackson-core-2.9.5-javadoc.jar.md5">jackson-core-2.9.5-javadoc.jar.md5</a>                2018-03-26 15:05        32      
+<a href="jackson-core-2.9.5-javadoc.jar.sha1" title="jackson-core-2.9.5-javadoc.jar.sha1">jackson-core-2.9.5-javadoc.jar.sha1</a>               2018-03-26 15:05        40      
+<a href="jackson-core-2.9.5-sources.jar" title="jackson-core-2.9.5-sources.jar">jackson-core-2.9.5-sources.jar</a>                    2018-03-26 15:05    332698      
+<a href="jackson-core-2.9.5-sources.jar.asc" title="jackson-core-2.9.5-sources.jar.asc">jackson-core-2.9.5-sources.jar.asc</a>                2018-03-26 15:05       473      
+<a href="jackson-core-2.9.5-sources.jar.md5" title="jackson-core-2.9.5-sources.jar.md5">jackson-core-2.9.5-sources.jar.md5</a>                2018-03-26 15:05        32      
+<a href="jackson-core-2.9.5-sources.jar.sha1" title="jackson-core-2.9.5-sources.jar.sha1">jackson-core-2.9.5-sources.jar.sha1</a>               2018-03-26 15:05        40      
+<a href="jackson-core-2.9.5.jar" title="jackson-core-2.9.5.jar">jackson-core-2.9.5.jar</a>                            2018-03-26 15:05    321590      
+<a href="jackson-core-2.9.5.jar.asc" title="jackson-core-2.9.5.jar.asc">jackson-core-2.9.5.jar.asc</a>                        2018-03-26 15:05       473      
+<a href="jackson-core-2.9.5.jar.md5" title="jackson-core-2.9.5.jar.md5">jackson-core-2.9.5.jar.md5</a>                        2018-03-26 15:05        32      
+<a href="jackson-core-2.9.5.jar.sha1" title="jackson-core-2.9.5.jar.sha1">jackson-core-2.9.5.jar.sha1</a>                       2018-03-26 15:05        40      
+<a href="jackson-core-2.9.5.pom" title="jackson-core-2.9.5.pom">jackson-core-2.9.5.pom</a>                            2018-03-26 15:05      3402      
+<a href="jackson-core-2.9.5.pom.asc" title="jackson-core-2.9.5.pom.asc">jackson-core-2.9.5.pom.asc</a>                        2018-03-26 15:05       473      
+<a href="jackson-core-2.9.5.pom.md5" title="jackson-core-2.9.5.pom.md5">jackson-core-2.9.5.pom.md5</a>                        2018-03-26 15:05        32      
+<a href="jackson-core-2.9.5.pom.sha1" title="jackson-core-2.9.5.pom.sha1">jackson-core-2.9.5.pom.sha1</a>                       2018-03-26 15:05        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

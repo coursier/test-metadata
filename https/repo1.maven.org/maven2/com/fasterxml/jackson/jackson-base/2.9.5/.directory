@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: com/fasterxml/jackson/jackson-base/2.9.5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>com/fasterxml/jackson/jackson-base/2.9.5</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="jackson-base-2.9.5.pom" title="jackson-base-2.9.5.pom">jackson-base-2.9.5.pom</a>                            2018-03-26 14:41      5596      
+<a href="jackson-base-2.9.5.pom.asc" title="jackson-base-2.9.5.pom.asc">jackson-base-2.9.5.pom.asc</a>                        2018-03-26 14:41       473      
+<a href="jackson-base-2.9.5.pom.md5" title="jackson-base-2.9.5.pom.md5">jackson-base-2.9.5.pom.md5</a>                        2018-03-26 14:41        32      
+<a href="jackson-base-2.9.5.pom.sha1" title="jackson-base-2.9.5.pom.sha1">jackson-base-2.9.5.pom.sha1</a>                       2018-03-26 14:41        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
