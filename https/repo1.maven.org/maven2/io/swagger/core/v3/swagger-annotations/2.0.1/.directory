@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: io/swagger/core/v3/swagger-annotations/2.0.1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>io/swagger/core/v3/swagger-annotations/2.0.1</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="swagger-annotations-2.0.1-javadoc.jar" title="swagger-annotations-2.0.1-javadoc.jar">swagger-annotations-2.0.1-javadoc.jar</a>             2018-04-16 13:19    294222      
+<a href="swagger-annotations-2.0.1-javadoc.jar.asc" title="swagger-annotations-2.0.1-javadoc.jar.asc">swagger-annotations-2.0.1-javadoc.jar.asc</a>         2018-04-16 13:19       488      
+<a href="swagger-annotations-2.0.1-javadoc.jar.md5" title="swagger-annotations-2.0.1-javadoc.jar.md5">swagger-annotations-2.0.1-javadoc.jar.md5</a>         2018-04-16 13:19        32      
+<a href="swagger-annotations-2.0.1-javadoc.jar.sha1" title="swagger-annotations-2.0.1-javadoc.jar.sha1">swagger-annotations-2.0.1-javadoc.jar.sha1</a>        2018-04-16 13:19        40      
+<a href="swagger-annotations-2.0.1-sources.jar" title="swagger-annotations-2.0.1-sources.jar">swagger-annotations-2.0.1-sources.jar</a>             2018-04-16 13:19     51883      
+<a href="swagger-annotations-2.0.1-sources.jar.asc" title="swagger-annotations-2.0.1-sources.jar.asc">swagger-annotations-2.0.1-sources.jar.asc</a>         2018-04-16 13:19       488      
+<a href="swagger-annotations-2.0.1-sources.jar.md5" title="swagger-annotations-2.0.1-sources.jar.md5">swagger-annotations-2.0.1-sources.jar.md5</a>         2018-04-16 13:19        32      
+<a href="swagger-annotations-2.0.1-sources.jar.sha1" title="swagger-annotations-2.0.1-sources.jar.sha1">swagger-annotations-2.0.1-sources.jar.sha1</a>        2018-04-16 13:19        40      
+<a href="swagger-annotations-2.0.1.jar" title="swagger-annotations-2.0.1.jar">swagger-annotations-2.0.1.jar</a>                     2018-04-16 13:19     34597      
+<a href="swagger-annotations-2.0.1.jar.asc" title="swagger-annotations-2.0.1.jar.asc">swagger-annotations-2.0.1.jar.asc</a>                 2018-04-16 13:19       488      
+<a href="swagger-annotations-2.0.1.jar.md5" title="swagger-annotations-2.0.1.jar.md5">swagger-annotations-2.0.1.jar.md5</a>                 2018-04-16 13:19        32      
+<a href="swagger-annotations-2.0.1.jar.sha1" title="swagger-annotations-2.0.1.jar.sha1">swagger-annotations-2.0.1.jar.sha1</a>                2018-04-16 13:19        40      
+<a href="swagger-annotations-2.0.1.pom" title="swagger-annotations-2.0.1.pom">swagger-annotations-2.0.1.pom</a>                     2018-04-16 13:19      6421      
+<a href="swagger-annotations-2.0.1.pom.asc" title="swagger-annotations-2.0.1.pom.asc">swagger-annotations-2.0.1.pom.asc</a>                 2018-04-16 13:19       488      
+<a href="swagger-annotations-2.0.1.pom.md5" title="swagger-annotations-2.0.1.pom.md5">swagger-annotations-2.0.1.pom.md5</a>                 2018-04-16 13:19        32      
+<a href="swagger-annotations-2.0.1.pom.sha1" title="swagger-annotations-2.0.1.pom.sha1">swagger-annotations-2.0.1.pom.sha1</a>                2018-04-16 13:19        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
