@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: io/get-coursier</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>io/get-coursier</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="coursier-bootstrap_2.11/" title="coursier-bootstrap_2.11/">coursier-bootstrap_2.11/</a>                                         -         -      
+<a href="coursier-bootstrap_2.12/" title="coursier-bootstrap_2.12/">coursier-bootstrap_2.12/</a>                                         -         -      
+<a href="coursier-bootstrap_2.13.0-M5/" title="coursier-bootstrap_2.13.0-M5/">coursier-bootstrap_2.13.0-M5/</a>                                    -         -      
+<a href="coursier-cache-java-6_2.10/" title="coursier-cache-java-6_2.10/">coursier-cache-java-6_2.10/</a>                                      -         -      
+<a href="coursier-cache-java-6_2.11/" title="coursier-cache-java-6_2.11/">coursier-cache-java-6_2.11/</a>                                      -         -      
+<a href="coursier-cache_2.10/" title="coursier-cache_2.10/">coursier-cache_2.10/</a>                                             -         -      
+<a href="coursier-cache_2.11/" title="coursier-cache_2.11/">coursier-cache_2.11/</a>                                             -         -      
+<a href="coursier-cache_2.12/" title="coursier-cache_2.12/">coursier-cache_2.12/</a>                                             -         -      
+<a href="coursier-cache_2.12.0-RC2/" title="coursier-cache_2.12.0-RC2/">coursier-cache_2.12.0-RC2/</a>                                       -         -      
+<a href="coursier-cache_2.13.0-M5/" title="coursier-cache_2.13.0-M5/">coursier-cache_2.13.0-M5/</a>                                        -         -      
+<a href="coursier-cats-interop_2.11/" title="coursier-cats-interop_2.11/">coursier-cats-interop_2.11/</a>                                      -         -      
+<a href="coursier-cats-interop_2.12/" title="coursier-cats-interop_2.12/">coursier-cats-interop_2.12/</a>                                      -         -      
+<a href="coursier-cats-interop_2.13.0-M5/" title="coursier-cats-interop_2.13.0-M5/">coursier-cats-interop_2.13.0-M5/</a>                                 -         -      
+<a href="coursier-cats-interop_sjs0.6_2.11/" title="coursier-cats-interop_sjs0.6_2.11/">coursier-cats-interop_sjs0.6_2.11/</a>                               -         -      
+<a href="coursier-cats-interop_sjs0.6_2.12/" title="coursier-cats-interop_sjs0.6_2.12/">coursier-cats-interop_sjs0.6_2.12/</a>                               -         -      
+<a href="coursier-cats-interop_sjs0.6_2.13.0-M5/" title="coursier-cats-interop_sjs0.6_2.13.0-M5/">coursier-cats-interop_sjs0.6_2.13.0-M5/</a>                          -         -      
+<a href="coursier-cli-java-6_2.11/" title="coursier-cli-java-6_2.11/">coursier-cli-java-6_2.11/</a>                                        -         -      
+<a href="coursier-cli_2.11/" title="coursier-cli_2.11/">coursier-cli_2.11/</a>                                               -         -      
+<a href="coursier-cli_2.12/" title="coursier-cli_2.12/">coursier-cli_2.12/</a>                                               -         -      
+<a href="coursier-core_2.11/" title="coursier-core_2.11/">coursier-core_2.11/</a>                                              -         -      
+<a href="coursier-core_2.12/" title="coursier-core_2.12/">coursier-core_2.12/</a>                                              -         -      
+<a href="coursier-core_2.13.0-M5/" title="coursier-core_2.13.0-M5/">coursier-core_2.13.0-M5/</a>                                         -         -      
+<a href="coursier-core_sjs0.6_2.11/" title="coursier-core_sjs0.6_2.11/">coursier-core_sjs0.6_2.11/</a>                                       -         -      
+<a href="coursier-core_sjs0.6_2.12/" title="coursier-core_sjs0.6_2.12/">coursier-core_sjs0.6_2.12/</a>                                       -         -      
+<a href="coursier-core_sjs0.6_2.13.0-M5/" title="coursier-core_sjs0.6_2.13.0-M5/">coursier-core_sjs0.6_2.13.0-M5/</a>                                  -         -      
+<a href="coursier-extra_2.10/" title="coursier-extra_2.10/">coursier-extra_2.10/</a>                                             -         -      
+<a href="coursier-extra_2.11/" title="coursier-extra_2.11/">coursier-extra_2.11/</a>                                             -         -      
+<a href="coursier-extra_2.12/" title="coursier-extra_2.12/">coursier-extra_2.12/</a>                                             -         -      
+<a href="coursier-extra_2.13.0-M5/" title="coursier-extra_2.13.0-M5/">coursier-extra_2.13.0-M5/</a>                                        -         -      
+<a href="coursier-fetch-js_sjs0.6_2.10/" title="coursier-fetch-js_sjs0.6_2.10/">coursier-fetch-js_sjs0.6_2.10/</a>                                   -         -      
+<a href="coursier-fetch-js_sjs0.6_2.11/" title="coursier-fetch-js_sjs0.6_2.11/">coursier-fetch-js_sjs0.6_2.11/</a>                                   -         -      
+<a href="coursier-fetch-js_sjs0.6_2.12/" title="coursier-fetch-js_sjs0.6_2.12/">coursier-fetch-js_sjs0.6_2.12/</a>                                   -         -      
+<a href="coursier-fetch-js_sjs0.6_2.13.0-M5/" title="coursier-fetch-js_sjs0.6_2.13.0-M5/">coursier-fetch-js_sjs0.6_2.13.0-M5/</a>                              -         -      
+<a href="coursier-java-6_2.10/" title="coursier-java-6_2.10/">coursier-java-6_2.10/</a>                                            -         -      
+<a href="coursier-java-6_2.11/" title="coursier-java-6_2.11/">coursier-java-6_2.11/</a>                                            -         -      
+<a href="coursier-java-6_sjs0.6_2.10/" title="coursier-java-6_sjs0.6_2.10/">coursier-java-6_sjs0.6_2.10/</a>                                     -         -      
+<a href="coursier-java-6_sjs0.6_2.11/" title="coursier-java-6_sjs0.6_2.11/">coursier-java-6_sjs0.6_2.11/</a>                                     -         -      
+<a href="coursier-okhttp_2.10/" title="coursier-okhttp_2.10/">coursier-okhttp_2.10/</a>                                            -         -      
+<a href="coursier-okhttp_2.11/" title="coursier-okhttp_2.11/">coursier-okhttp_2.11/</a>                                            -         -      
+<a href="coursier-okhttp_2.12/" title="coursier-okhttp_2.12/">coursier-okhttp_2.12/</a>                                            -         -      
+<a href="coursier-okhttp_2.12.0-RC2/" title="coursier-okhttp_2.12.0-RC2/">coursier-okhttp_2.12.0-RC2/</a>                                      -         -      
+<a href="coursier-okhttp_2.13.0-M5/" title="coursier-okhttp_2.13.0-M5/">coursier-okhttp_2.13.0-M5/</a>                                       -         -      
+<a href="coursier-sbt-launcher_2.12/" title="coursier-sbt-launcher_2.12/">coursier-sbt-launcher_2.12/</a>                                      -         -      
+<a href="coursier-scalaz-interop_2.10/" title="coursier-scalaz-interop_2.10/">coursier-scalaz-interop_2.10/</a>                                    -         -      
+<a href="coursier-scalaz-interop_2.11/" title="coursier-scalaz-interop_2.11/">coursier-scalaz-interop_2.11/</a>                                    -         -      
+<a href="coursier-scalaz-interop_2.12/" title="coursier-scalaz-interop_2.12/">coursier-scalaz-interop_2.12/</a>                                    -         -      
+<a href="coursier-scalaz-interop_2.13.0-M5/" title="coursier-scalaz-interop_2.13.0-M5/">coursier-scalaz-interop_2.13.0-M5/</a>                               -         -      
+<a href="coursier-scalaz-interop_sjs0.6_2.10/" title="coursier-scalaz-interop_sjs0.6_2.10/">coursier-scalaz-interop_sjs0.6_2.10/</a>                             -         -      
+<a href="coursier-scalaz-interop_sjs0.6_2.11/" title="coursier-scalaz-interop_sjs0.6_2.11/">coursier-scalaz-interop_sjs0.6_2.11/</a>                             -         -      
+<a href="coursier-scalaz-interop_sjs0.6_2.12/" title="coursier-scalaz-interop_sjs0.6_2.12/">coursier-scalaz-interop_sjs0.6_2.12/</a>                             -         -      
+<a href="coursier-scalaz-interop_sjs0.6_2.13.0-M5/" title="coursier-scalaz-interop_sjs0.6_2.13.0-M5/">coursier-scalaz-interop_sjs0.6_2.13.0-M5/</a>                        -         -      
+<a href="coursier_2.10/" title="coursier_2.10/">coursier_2.10/</a>                                                   -         -      
+<a href="coursier_2.11/" title="coursier_2.11/">coursier_2.11/</a>                                                   -         -      
+<a href="coursier_2.12/" title="coursier_2.12/">coursier_2.12/</a>                                                   -         -      
+<a href="coursier_2.12.0-RC2/" title="coursier_2.12.0-RC2/">coursier_2.12.0-RC2/</a>                                             -         -      
+<a href="coursier_2.13.0-M5/" title="coursier_2.13.0-M5/">coursier_2.13.0-M5/</a>                                              -         -      
+<a href="coursier_sjs0.6_2.10/" title="coursier_sjs0.6_2.10/">coursier_sjs0.6_2.10/</a>                                            -         -      
+<a href="coursier_sjs0.6_2.11/" title="coursier_sjs0.6_2.11/">coursier_sjs0.6_2.11/</a>                                            -         -      
+<a href="coursier_sjs0.6_2.12/" title="coursier_sjs0.6_2.12/">coursier_sjs0.6_2.12/</a>                                            -         -      
+<a href="coursier_sjs0.6_2.12.0-RC2/" title="coursier_sjs0.6_2.12.0-RC2/">coursier_sjs0.6_2.12.0-RC2/</a>                                      -         -      
+<a href="coursier_sjs0.6_2.13.0-M5/" title="coursier_sjs0.6_2.13.0-M5/">coursier_sjs0.6_2.13.0-M5/</a>                                       -         -      
+<a href="echo/" title="echo/">echo/</a>                                                            -         -      
+<a href="echo_2.10/" title="echo_2.10/">echo_2.10/</a>                                                       -         -      
+<a href="echo_2.11/" title="echo_2.11/">echo_2.11/</a>                                                       -         -      
+<a href="echo_2.12/" title="echo_2.12/">echo_2.12/</a>                                                       -         -      
+<a href="echo_native0.3_2.11/" title="echo_native0.3_2.11/">echo_native0.3_2.11/</a>                                             -         -      
+<a href="http-server-java7_2.10/" title="http-server-java7_2.10/">http-server-java7_2.10/</a>                                          -         -      
+<a href="http-server-java7_2.11/" title="http-server-java7_2.11/">http-server-java7_2.11/</a>                                          -         -      
+<a href="http-server_2.10/" title="http-server_2.10/">http-server_2.10/</a>                                                -         -      
+<a href="http-server_2.11/" title="http-server_2.11/">http-server_2.11/</a>                                                -         -      
+<a href="http-server_2.12/" title="http-server_2.12/">http-server_2.12/</a>                                                -         -      
+<a href="interface/" title="interface/">interface/</a>                                                       -         -      
+<a href="interface_2.11/" title="interface_2.11/">interface_2.11/</a>                                                  -         -      
+<a href="interface_2.12/" title="interface_2.12/">interface_2.12/</a>                                                  -         -      
+<a href="interpolators_2.11/" title="interpolators_2.11/">interpolators_2.11/</a>                                              -         -      
+<a href="interpolators_2.12/" title="interpolators_2.12/">interpolators_2.12/</a>                                              -         -      
+<a href="jarjar/" title="jarjar/">jarjar/</a>                                                          -         -      
+<a href="lm-coursier-shaded_2.12/" title="lm-coursier-shaded_2.12/">lm-coursier-shaded_2.12/</a>                                         -         -      
+<a href="lm-coursier_2.12/" title="lm-coursier_2.12/">lm-coursier_2.12/</a>                                                -         -      
+<a href="props/" title="props/">props/</a>                                                           -         -      
+<a href="rules-parser_2.11/" title="rules-parser_2.11/">rules-parser_2.11/</a>                                               -         -      
+<a href="rules-parser_2.12/" title="rules-parser_2.12/">rules-parser_2.12/</a>                                               -         -      
+<a href="rules-parser_2.13.0-M5/" title="rules-parser_2.13.0-M5/">rules-parser_2.13.0-M5/</a>                                          -         -      
+<a href="rules-parser_sjs0.6_2.11/" title="rules-parser_sjs0.6_2.11/">rules-parser_sjs0.6_2.11/</a>                                        -         -      
+<a href="rules-parser_sjs0.6_2.12/" title="rules-parser_sjs0.6_2.12/">rules-parser_sjs0.6_2.12/</a>                                        -         -      
+<a href="rules-parser_sjs0.6_2.13.0-M5/" title="rules-parser_sjs0.6_2.13.0-M5/">rules-parser_sjs0.6_2.13.0-M5/</a>                                   -         -      
+<a href="sbt-coursier-java-6_2.10_0.13/" title="sbt-coursier-java-6_2.10_0.13/">sbt-coursier-java-6_2.10_0.13/</a>                                   -         -      
+<a href="sbt-coursier-shared-shaded_2.12_1.0/" title="sbt-coursier-shared-shaded_2.12_1.0/">sbt-coursier-shared-shaded_2.12_1.0/</a>                             -         -      
+<a href="sbt-coursier-shared_2.12_1.0/" title="sbt-coursier-shared_2.12_1.0/">sbt-coursier-shared_2.12_1.0/</a>                                    -         -      
+<a href="sbt-coursier_2.10_0.13/" title="sbt-coursier_2.10_0.13/">sbt-coursier_2.10_0.13/</a>                                          -         -      
+<a href="sbt-coursier_2.12_1.0/" title="sbt-coursier_2.12_1.0/">sbt-coursier_2.12_1.0/</a>                                           -         -      
+<a href="sbt-coursier_2.12_1.0.0-M5/" title="sbt-coursier_2.12_1.0.0-M5/">sbt-coursier_2.12_1.0.0-M5/</a>                                      -         -      
+<a href="sbt-coursier_2.12_1.0.0-M6/" title="sbt-coursier_2.12_1.0.0-M6/">sbt-coursier_2.12_1.0.0-M6/</a>                                      -         -      
+<a href="sbt-launcher-plugin_2.10_0.13/" title="sbt-launcher-plugin_2.10_0.13/">sbt-launcher-plugin_2.10_0.13/</a>                                   -         -      
+<a href="sbt-launcher-plugin_2.12_1.0/" title="sbt-launcher-plugin_2.12_1.0/">sbt-launcher-plugin_2.12_1.0/</a>                                    -         -      
+<a href="sbt-launcher-scripted-plugin_2.12_1.0/" title="sbt-launcher-scripted-plugin_2.12_1.0/">sbt-launcher-scripted-plugin_2.12_1.0/</a>                           -         -      
+<a href="sbt-launcher_2.10/" title="sbt-launcher_2.10/">sbt-launcher_2.10/</a>                                               -         -      
+<a href="sbt-launcher_2.11/" title="sbt-launcher_2.11/">sbt-launcher_2.11/</a>                                               -         -      
+<a href="sbt-launcher_2.12/" title="sbt-launcher_2.12/">sbt-launcher_2.12/</a>                                               -         -      
+<a href="sbt-lm-coursier_2.12_1.0/" title="sbt-lm-coursier_2.12_1.0/">sbt-lm-coursier_2.12_1.0/</a>                                        -         -      
+<a href="sbt-pgp-coursier_2.10_0.13/" title="sbt-pgp-coursier_2.10_0.13/">sbt-pgp-coursier_2.10_0.13/</a>                                      -         -      
+<a href="sbt-pgp-coursier_2.12_1.0/" title="sbt-pgp-coursier_2.12_1.0/">sbt-pgp-coursier_2.12_1.0/</a>                                       -         -      
+<a href="sbt-pgp-coursier_2.12_1.0.0-M6/" title="sbt-pgp-coursier_2.12_1.0.0-M6/">sbt-pgp-coursier_2.12_1.0.0-M6/</a>                                  -         -      
+<a href="sbt-shading_2.10_0.13/" title="sbt-shading_2.10_0.13/">sbt-shading_2.10_0.13/</a>                                           -         -      
+<a href="sbt-shading_2.12_1.0/" title="sbt-shading_2.12_1.0/">sbt-shading_2.12_1.0/</a>                                            -         -      
+<a href="sbt-shading_2.12_1.0.0-M5/" title="sbt-shading_2.12_1.0.0-M5/">sbt-shading_2.12_1.0.0-M5/</a>                                       -         -      
+<a href="sbt-shading_2.12_1.0.0-M6/" title="sbt-shading_2.12_1.0.0-M6/">sbt-shading_2.12_1.0.0-M6/</a>                                       -         -      
+<a href="sbt-shared_2.10_0.13/" title="sbt-shared_2.10_0.13/">sbt-shared_2.10_0.13/</a>                                            -         -      
+<a href="sbt-shared_2.12_1.0/" title="sbt-shared_2.12_1.0/">sbt-shared_2.12_1.0/</a>                                             -         -      
+<a href="scala-native/" title="scala-native/">scala-native/</a>                                                    -         -      
+<a href="simple-web-server_2.10/" title="simple-web-server_2.10/">simple-web-server_2.10/</a>                                          -         -      
+<a href="simple-web-server_2.11/" title="simple-web-server_2.11/">simple-web-server_2.11/</a>                                          -         -      
+<a href="web_sjs0.6_2.12/" title="web_sjs0.6_2.12/">web_sjs0.6_2.12/</a>                                                 -         -      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
