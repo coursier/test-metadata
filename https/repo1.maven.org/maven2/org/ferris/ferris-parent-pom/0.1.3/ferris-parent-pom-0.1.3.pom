@@ -1,0 +1,292 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ferris</groupId>
+    <artifactId>ferris-parent-pom</artifactId>
+    <packaging>pom</packaging>
+    <name>Ferris Parent POM</name>
+    <version>0.1.3</version>
+    <description>This project defines a parent pom for all of Ferris application development.</description>
+    <inceptionYear>Apr 03 2009</inceptionYear>
+    <scm>
+        <connection>scm:cvs:pserver:anonymous@ferris.cvs.sourceforge.net:/cvsroot/ferris:ferris-parent-pom</connection> 
+        <tag>ferris-parent-pom-0_1_3</tag>
+        <developerConnection>scm:cvs:ext:mjremijan@ferris.cvs.sourceforge.net:/cvsroot/ferris:ferris-parent-pom</developerConnection>
+        <url>http://ferris.cvs.sourceforge.net/viewvc/ferris/ferris-parent-pom</url>
+    </scm>  
+    <developers>
+        <developer>
+            <name>Michael Remijan</name>
+            <email>mjremijan@yahoo.com</email>
+            <timezone>-6</timezone>
+            <roles>
+                <role>Owner</role>
+            </roles>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>               
+        </license>
+    </licenses> 
+    <organization>
+        <name>The Ferris Foundation</name>
+        <url>http://ferris.sourceforge.net/</url>
+    </organization>
+    <distributionManagement>
+        <repository>
+            <id>ferris-staging</id>
+            <name>ferris-staging</name>
+            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+        <snapshotRepository>
+            <id>ferris-snapshots</id>
+            <name>ferris-snapshots</name>
+            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <build>
+        <!--
+         | Plugins which are configured in plugin management are not necessarily
+         | included in the lifecycle of the build when Maven runs. Therefore,
+         | plugin management is used to configure a plugin with the intention
+         | the plugin will be used by child projects.  The child projects may
+         | include the plugin in their list of plugins without having to 
+         | specify a plugin version, configuration, execution, goals, or
+         | anything else.  Of course a child project is able to overide the config
+         | from the parent pom's plugin management.  If the plugin is part of
+         | the dafault life cycle, plugin management will configure it.  If
+         | a child project does not what the parent pom configures, the child
+         | project needs to override.
+         -->
+        <pluginManagement>
+            <plugins>
+                <!--
+                 | Site Plugin
+                 | 
+                 | The Site Plugin is used to generate a site for the project. 
+                 | The generated site also includes the project's reports that 
+                 | were configured in the <reporting> section of the POM.
+                -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.0-beta-3</version>
+                    <!-- executions>
+                        <execution>
+                            <goals>
+                                <goal>site</goal>
+                            </goals>
+                            <phase>prepare-package</phase>
+                        </execution>
+                    </executions --> 
+                </plugin> 
+                
+                
+                
+                <!--
+                 | Resources Plugin
+                 | 
+                 | The Resources Plugin handles the copying of project resources
+                 | to the output directory. Starting with version 2.3 this plugin 
+                 | uses the Maven Filtering shared component for filtering resource
+                 |
+                 | Binds by default to the lifecycle phase: process-resources 
+                -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>2.5</version>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin> 
+                
+                
+                
+                <!--
+                 | Compiler Plugin
+                 | 
+                 | The Compiler Plugin is used to compile the sources of your project.
+                 |
+                 | Binds by default to the lifecycle phase: compile 
+                -->
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.3.2</version>
+                    <configuration>
+                        <source>1.6</source>
+                        <target>1.6</target>
+                        <encoding>UTF-8</encoding>
+                        <debug>true</debug>
+                        <optimize>true</optimize>
+                        <showDeprecation>true</showDeprecation>
+                        <showWarnings>true</showWarnings>
+                        <!-- verbose>true</verbose-->
+                    </configuration>
+                </plugin>
+                
+                
+                
+                <!--
+                 | Buildnumber Plugin
+                 | 
+                 | This mojo is designed to get a unique build number for 
+                 | each time you build your project.  The property ${buildNumber}
+                 | is set when this plugin is executed and is available to
+                 | other plugins or configurations.
+                -->
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>buildnumber-maven-plugin</artifactId>
+                    <version>1.0-beta-2</version>
+                    <configuration>
+                        <format>{0,date,full} {0,time,full}</format>
+                        <items>
+                            <item>timestamp</item>
+                        </items>
+                    </configuration>                    
+                </plugin>
+                
+                
+                
+                <!--
+                 | Jar Plugin
+                 | 
+                 | This plugin provides the capability to build and sign jars.
+                 |
+                 | Binds by default to the lifecycle phase: package 
+                -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <archive>
+                            <manifestEntries>
+                                <Built-On>${buildNumber}</Built-On>
+                                <Implementation-Vendor>${project.organization.name}</Implementation-Vendor>
+                                <Implementation-URL>${project.organization.url}</Implementation-URL>                        
+                                <Implementation-Title>${project.name}</Implementation-Title>
+                                <Implementation-Version>${project.version}</Implementation-Version>
+                            </manifestEntries>
+                        </archive>
+                    </configuration>  			
+                </plugin>                
+                
+                
+                
+                <!--
+                 | Release Plugin
+                 | 
+                 | This plugin is used to release a project with Maven, saving 
+                 | a lot of repetitive, manual work. Releasing a project is made 
+                 | in two steps: prepare and perform.
+                 |
+                 | To use the release plugin, make sure:
+                 |  o The verion ends in SNAPSHOT
+                 |  o Everything committed to CVS
+                 |  o mvn -Dmaven.scm.provider.cvs.implementation=cvs_native release:prepare
+                 |  o mvn -Dmaven.scm.provider.cvs.implementation=cvs_native release:perform
+                 | If there are problems:
+                 |  o mvn -Dmaven.scm.provider.cvs.implementation=cvs_native release:rollback
+                 |  o mvn -Dmaven.scm.provider.cvs.implementation=cvs_native release:clean
+                -->
+                <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-release-plugin</artifactId>
+  		<version>2.1</version>
+            </plugin>
+            
+            </plugins>          
+        </pluginManagement>
+        
+        
+        <!--
+         | Plugins
+         |
+         | The difference between this and pluginManagement is that these plugins
+         | will be executed during the build lifecycle if the plugin is not
+         | already configured by default to execute during one of the standard
+         | lifecycle phases.         
+        -->
+        <plugins>
+            <!--
+             | Buildnumber Plugin
+             |
+             | See ferris-parent-pom<pluginManagement> for more details.
+            -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>buildnumber-maven-plugin</artifactId>
+                <executions>
+                    <!--
+                     | Binds to the lifecycle phase: validate
+                     | Execute goal: create
+                    -->                        
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>create</goal>
+                        </goals>
+                    </execution>
+                </executions>                
+            </plugin>           
+        </plugins>
+    </build>
+        
+    <reporting>
+        <plugins>
+            <!--
+             | Javadoc Plugin
+             |
+             | The Javadoc Plugin uses the Javadoc tool to generate javadocs 
+             | for the specified project.  
+             |
+             | This plugin is used in conjunction with the Site Plugin.
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.7</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <links>
+                        <link>http://download.oracle.com/javase/6/docs/api/</link>
+                        <link>http://flickrj.sourceforge.net/api/</link>
+                        <link>http://commons.apache.org/chain/apidocs/</link>
+                        <link>http://commons.apache.org/lang/api-release/index.html</link>                        
+                    </links>
+                </configuration>
+            </plugin> 
+            
+            
+            <!--
+             | Project Info Reports Plugin
+             |
+             | The Maven Project Info Reports plugin is used to generate 
+             | reports information about the project.
+             | 
+             | This plugin is used in conjunction with the Site Plugin. 
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>2.3.1</version>                       			
+                <reportSets>
+                    <reportSet>
+                        <id>Report Set 1</id>
+                        <reports>
+                            <report>project-team</report>
+                            <report>summary</report>
+                            <report>license</report>
+                            <report>dependencies</report>
+                            <report>scm</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>                
+            </plugin>
+        </plugins>
+    </reporting>  
+</project>
