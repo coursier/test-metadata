@@ -1,0 +1,204 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.ferris</groupId>
+    <artifactId>ferris-journal-ejb</artifactId>
+    <packaging>ejb</packaging>
+    <name>Ferris Journal: EJB</name>
+    <version>0.0.2</version>
+    <description>
+  Ferris Journal EJB contains the data access objects and business objects 
+  for the journal project.
+  0.0.1 
+    - Convert from Oak to Ferris
+  0.0.2
+    - Convert from JBoss to GlassFish 3.1.1.
+    </description>
+    <scm>
+        <connection>scm:cvs:pserver:anonymous@ferris.cvs.sourceforge.net:/cvsroot/ferris:ferris-journal-ejb</connection> 
+        <tag>ferris-journal-ejb-0_0_2</tag>
+        <developerConnection>scm:cvs:ext:mjremijan@ferris.cvs.sourceforge.net:/cvsroot/ferris:ferris-journal-ejb</developerConnection>
+        <url>http://ferris.cvs.sourceforge.net/viewvc/ferris/ferris-journal-ejb</url>
+    </scm>    
+    <url>http://ferris.sourceforge.net/journal-ejb</url>
+    <inceptionYear>March 21, 2008</inceptionYear>
+    <parent>
+        <artifactId>ferris-standard-project</artifactId>
+        <groupId>org.ferris</groupId>
+        <version>0.0.4</version>
+    </parent>
+    <build>
+        <plugins>              
+            <!--
+             | Jar Plugin
+             |
+             | This plugin provides the capability to build and sign jars.
+             |
+             | Binds by default to the lifecycle phase: package.
+             |
+             | Configured here to NOT INCLUDE the Maven descriptor
+             | files in the META-INF/ directory.  I do not want these
+             | descriptor files because I found they cause a problem
+             | when deploying to GlassFish.
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                    </archive>
+                </configuration>
+            </plugin> 
+            
+            <!--
+             | Site Plugin
+             |
+             | Tell the build process I want to use the site plugin and I
+             | want to attach it to the default lifecycle prepare-package
+             | phase.  By attaching this to the prepare-package phase, I
+             | can get the site build before the assembly creates the "bin"
+             | and "src" distributions of this project.
+             |
+             | @see ferris-parent-pom pom.xml pluginManagement
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                    </execution>
+                </executions>
+            </plugin>             
+            
+            <!--
+             | Assembly Plugin
+             |
+             | The Assembly Plugin for Maven is primarily intended to allow 
+             | users to aggregate the project output along with its 
+             | dependencies, modules, site documentation, and other files 
+             | into a single distributable archive.
+             |
+             | Although this plugin is configured in ferris-standard-project
+             | it is customized here for two reasons.
+             |  1. Do not run "ferris-bin-assembly" from ferris-assemblies
+             |  2. Run "ferris-src-assembly" from ferris-assemblies
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId> 
+                <artifactId>maven-assembly-plugin</artifactId>			               
+                <executions>
+                    <execution>
+                        <id>ferris-bin-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <skipAssembly>true</skipAssembly>                          
+                        </configuration>
+                    </execution>                    
+                </executions>
+            </plugin>
+            
+            <!--
+             | EJB Plugin
+             |
+             | This plugin generates J2EE Enterprise Javabean (EJB) file as
+             | well as the associated client jar.
+             |
+             | Binds by default to the lifecycle phase: package
+             |         
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ejb-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <ejbVersion>3.1</ejbVersion>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib</classpathPrefix>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>      
+        </plugins>
+    </build>
+  
+    <dependencies>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.14</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>3.2.1.ga</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.ejb</groupId>
+            <artifactId>ejb-api</artifactId>
+            <version>3.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>1.8.0.7</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.1.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.ferris</groupId>
+            <artifactId>ferris-constraint</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ferris</groupId>
+            <artifactId>ferris-sql</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ferris</groupId>
+            <artifactId>ferris-junit</artifactId>
+            <version>0.0.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>       
+    </dependencies>
+ 
+</project>
