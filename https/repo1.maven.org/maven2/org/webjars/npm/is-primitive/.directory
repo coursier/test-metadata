@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/is-primitive</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/is-primitive</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="1.0.0/" title="1.0.0/">1.0.0/</a>                                            2015-08-30 08:28         -      
+<a href="2.0.0/" title="2.0.0/">2.0.0/</a>                                            2015-05-24 04:17         -      
+<a href="3.0.1/" title="3.0.1/">3.0.1/</a>                                            2021-10-28 15:48         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2021-10-28 15:48       396      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2021-10-28 15:48        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2021-10-28 15:48        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2021-10-28 15:48        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2021-10-28 15:48       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/randomatic</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/randomatic</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="1.1.0/" title="1.1.0/">1.1.0/</a>                                            2015-05-24 16:36         -      
+<a href="1.1.7/" title="1.1.7/">1.1.7/</a>                                            2017-10-12 07:29         -      
+<a href="2.0.0/" title="2.0.0/">2.0.0/</a>                                            2017-11-24 10:20         -      
+<a href="3.0.0/" title="3.0.0/">3.0.0/</a>                                            2018-05-17 09:22         -      
+<a href="3.1.0/" title="3.1.0/">3.1.0/</a>                                            2018-08-14 16:28         -      
+<a href="3.1.1/" title="3.1.1/">3.1.1/</a>                                            2018-11-07 10:39         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2018-11-07 10:42       487      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2018-11-07 10:42        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2018-11-07 10:42        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
