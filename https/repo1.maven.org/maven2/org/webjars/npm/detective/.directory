@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/detective</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/detective</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="4.3.1/" title="4.3.1/">4.3.1/</a>                                            2016-05-29 07:20         -      
+<a href="4.3.2/" title="4.3.2/">4.3.2/</a>                                            2021-08-30 12:23         -      
+<a href="4.7.1/" title="4.7.1/">4.7.1/</a>                                            2018-02-16 11:58         -      
+<a href="5.1.0/" title="5.1.0/">5.1.0/</a>                                            2018-03-06 09:11         -      
+<a href="5.2.0/" title="5.2.0/">5.2.0/</a>                                            2019-02-23 14:08         -      
+<a href="5.2.1/" title="5.2.1/">5.2.1/</a>                                            2022-06-22 12:44         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2022-06-22 12:45       486      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2022-06-22 12:45        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2022-06-22 12:45        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2022-06-22 12:45        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2022-06-22 12:45       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/bower/dstore</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/bower/dstore</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="1.0.3/" title="1.0.3/">1.0.3/</a>                                            2019-08-14 03:55         -      
+<a href="1.1.1/" title="1.1.1/">1.1.1/</a>                                            2016-02-29 09:44         -      
+<a href="1.1.2/" title="1.1.2/">1.1.2/</a>                                            2017-09-18 11:49         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2019-08-14 03:56       392      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2019-08-14 03:56        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2019-08-14 03:56        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

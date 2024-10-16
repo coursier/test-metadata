@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/defined</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/defined</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="0.0.0/" title="0.0.0/">0.0.0/</a>                                            2020-09-11 15:04         -      
+<a href="1.0.0/" title="1.0.0/">1.0.0/</a>                                            2016-05-29 06:09         -      
+<a href="1.0.1/" title="1.0.1/">1.0.1/</a>                                            2022-10-16 12:05         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2022-10-16 12:06       391      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2022-10-16 12:06        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2022-10-16 12:06        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2022-10-16 12:06        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2022-10-16 12:06       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

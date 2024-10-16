@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/for-in</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/for-in</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="0.1.4/" title="0.1.4/">0.1.4/</a>                                            2015-05-24 04:37         -      
+<a href="0.1.8/" title="0.1.8/">0.1.8/</a>                                            2018-02-15 16:27         -      
+<a href="1.0.2/" title="1.0.2/">1.0.2/</a>                                            2017-07-11 13:24         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2018-02-15 16:28       390      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2018-02-15 16:28        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2018-02-15 16:28        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

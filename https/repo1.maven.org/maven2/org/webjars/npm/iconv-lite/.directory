@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/iconv-lite</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/iconv-lite</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="0.2.11/" title="0.2.11/">0.2.11/</a>                                           2016-06-03 21:32         -      
+<a href="0.4.13/" title="0.4.13/">0.4.13/</a>                                           2016-07-13 11:14         -      
+<a href="0.4.15/" title="0.4.15/">0.4.15/</a>                                           2017-03-09 19:06         -      
+<a href="0.4.19/" title="0.4.19/">0.4.19/</a>                                           2018-01-30 19:07         -      
+<a href="0.4.21/" title="0.4.21/">0.4.21/</a>                                           2018-04-17 14:46         -      
+<a href="0.4.22/" title="0.4.22/">0.4.22/</a>                                           2018-05-06 12:57         -      
+<a href="0.4.23/" title="0.4.23/">0.4.23/</a>                                           2018-05-14 01:32         -      
+<a href="0.4.24/" title="0.4.24/">0.4.24/</a>                                           2018-09-02 02:53         -      
+<a href="0.4.3/" title="0.4.3/">0.4.3/</a>                                            2015-08-25 17:20         -      
+<a href="0.4.8/" title="0.4.8/">0.4.8/</a>                                            2015-10-12 22:25         -      
+<a href="0.4.9/" title="0.4.9/">0.4.9/</a>                                            2015-05-24 21:18         -      
+<a href="0.5.0/" title="0.5.0/">0.5.0/</a>                                            2019-06-28 22:34         -      
+<a href="0.5.1/" title="0.5.1/">0.5.1/</a>                                            2020-02-04 06:15         -      
+<a href="0.5.2/" title="0.5.2/">0.5.2/</a>                                            2020-06-22 14:27         -      
+<a href="0.6.2/" title="0.6.2/">0.6.2/</a>                                            2020-09-15 01:59         -      
+<a href="0.6.3/" title="0.6.3/">0.6.3/</a>                                            2021-06-08 05:58         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2021-06-08 05:58       826      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2021-06-08 05:58        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2021-06-08 05:58        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2021-06-08 05:58        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2021-06-08 05:58       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

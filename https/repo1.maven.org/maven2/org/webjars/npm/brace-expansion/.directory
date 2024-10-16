@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/brace-expansion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/brace-expansion</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="1.1.0/" title="1.1.0/">1.1.0/</a>                                            2015-05-23 22:10         -      
+<a href="1.1.11/" title="1.1.11/">1.1.11/</a>                                           2018-02-13 03:08         -      
+<a href="1.1.7/" title="1.1.7/">1.1.7/</a>                                            2017-06-07 02:44         -      
+<a href="1.1.8/" title="1.1.8/">1.1.8/</a>                                            2017-07-11 13:19         -      
+<a href="2.0.1/" title="2.0.1/">2.0.1/</a>                                            2022-05-24 17:31         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2022-05-24 17:32       462      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2022-05-24 17:32        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2022-05-24 17:32        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2022-05-24 17:32        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2022-05-24 17:32       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

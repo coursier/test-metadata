@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/braces</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/braces</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="0.1.2/" title="0.1.2/">0.1.2/</a>                                            2015-10-12 22:54         -      
+<a href="0.1.5/" title="0.1.5/">0.1.5/</a>                                            2018-02-16 12:53         -      
+<a href="1.8.0/" title="1.8.0/">1.8.0/</a>                                            2015-05-24 03:27         -      
+<a href="1.8.5/" title="1.8.5/">1.8.5/</a>                                            2016-11-23 10:24         -      
+<a href="2.2.2/" title="2.2.2/">2.2.2/</a>                                            2017-10-16 16:13         -      
+<a href="2.3.0/" title="2.3.0/">2.3.0/</a>                                            2017-11-14 20:17         -      
+<a href="2.3.1/" title="2.3.1/">2.3.1/</a>                                            2018-02-21 12:24         -      
+<a href="2.3.2/" title="2.3.2/">2.3.2/</a>                                            2018-05-12 17:02         -      
+<a href="3.0.2/" title="3.0.2/">3.0.2/</a>                                            2019-08-14 17:23         -      
+<a href="3.0.3/" title="3.0.3/">3.0.3/</a>                                            2024-08-13 22:16         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2024-08-13 22:17       607      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2024-08-13 22:17        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2024-08-13 22:17        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2024-08-13 22:17        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2024-08-13 22:17       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

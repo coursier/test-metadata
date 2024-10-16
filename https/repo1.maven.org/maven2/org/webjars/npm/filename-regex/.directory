@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/filename-regex</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/filename-regex</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="2.0.0/" title="2.0.0/">2.0.0/</a>                                            2015-05-24 03:18         -      
+<a href="2.0.1/" title="2.0.1/">2.0.1/</a>                                            2018-02-14 17:20         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2018-02-14 17:21       367      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2018-02-14 17:21        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2018-02-14 17:21        40      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
