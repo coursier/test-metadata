@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <name>index-linux-musl-amd64</name>
+    <groupId>io.get-coursier.jvm.indices</groupId>
+    <artifactId>index-linux-musl-amd64</artifactId>
+    <packaging>jar</packaging>
+    <description>JVM index for linux-musl-amd64</description>
+    <version>0.0.4-58-5b73e9</version>
+    <url>https://github.com/coursier/jvm-index</url>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://spdx.org/licenses/Apache-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/io.get-coursier/jvm-index.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:io.get-coursier/jvm-index.git</developerConnection>
+        <url>https://github.com/io.get-coursier/jvm-index</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>alexarchambault</id>
+            <name>Alex Archambault</name>
+            <url>https://github.com/alexarchambault</url>
+        </developer>
+    </developers>
+    <properties> </properties>
+    <dependencies> </dependencies>
+</project>
