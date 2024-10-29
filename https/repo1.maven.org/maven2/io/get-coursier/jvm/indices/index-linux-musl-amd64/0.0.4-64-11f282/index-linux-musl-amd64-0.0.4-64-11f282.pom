@@ -7,7 +7,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <artifactId>index-linux-musl-amd64</artifactId>
     <packaging>jar</packaging>
     <description>JVM index for linux-musl-amd64</description>
-    <version>0.0.4-58-5b73e9</version>
+    <version>0.0.4-64-11f282</version>
     <url>https://github.com/coursier/jvm-index</url>
     <licenses>
         <license>
