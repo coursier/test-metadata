@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>string-width</artifactId>
+  <version>4.2.3</version>
+  <name>string-width</name>
+  <description>Get the visual width of a string - the number of columns required to display it</description>
+  <url>https://github.com/sindresorhus/string-width#readme</url>
+  <organization>
+    <name>Sindre Sorhus</name>
+    <url>https://github.com/sindresorhus/string-width#readme</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>sindresorhus</name>
+      <email>sindresorhus@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/sindresorhus/string-width.git</connection>
+    <developerConnection>https://github.com/sindresorhus/string-width.git</developerConnection>
+    <url>https://github.com/sindresorhus/string-width</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/sindresorhus/string-width/issues</url>
+  </issueManagement>
+  <properties>
+    <org.mvnpm-strip-ansi.version>[6.0.1,7)</org.mvnpm-strip-ansi.version>
+    <org.mvnpm-is-fullwidth-code-point.version>[3.0.0,4)</org.mvnpm-is-fullwidth-code-point.version>
+    <org.mvnpm-emoji-regex.version>[8.0.0,9)</org.mvnpm-emoji-regex.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>emoji-regex</artifactId>
+      <version>${org.mvnpm-emoji-regex.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>is-fullwidth-code-point</artifactId>
+      <version>${org.mvnpm-is-fullwidth-code-point.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>strip-ansi</artifactId>
+      <version>${org.mvnpm-strip-ansi.version}</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>get-caller-file</artifactId>
+  <version>2.0.5</version>
+  <name>get-caller-file</name>
+  <description>[![Build Status](https://travis-ci.org/stefanpenner/get-caller-file.svg?branch=master)](https://travis-ci.org/stefanpenner/get-caller-file) [![Build status](https://ci.appveyor.com/api/projects/status/ol2q94g1932cy14a/branch/master?svg=true)](https://ci.a</description>
+  <url>https://github.com/stefanpenner/get-caller-file#readme</url>
+  <organization>
+    <name>Stefan Penner</name>
+    <url>https://github.com/stefanpenner/get-caller-file#readme</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>ISC</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>stefanpenner</name>
+      <email>stefan.penner@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/stefanpenner/get-caller-file.git</connection>
+    <developerConnection>https://github.com/stefanpenner/get-caller-file.git</developerConnection>
+    <url>https://github.com/stefanpenner/get-caller-file</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/stefanpenner/get-caller-file/issues</url>
+  </issueManagement>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>color-convert</artifactId>
+  <version>2.0.1</version>
+  <name>color-convert</name>
+  <description>Plain color conversion functions</description>
+  <url>https://github.com/Qix-/color-convert#readme</url>
+  <organization>
+    <name>Heather Arthur</name>
+    <url>https://github.com/Qix-/color-convert#readme</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>qix</name>
+      <email>i.am.qix@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/Qix-/color-convert.git</connection>
+    <developerConnection>https://github.com/Qix-/color-convert.git</developerConnection>
+    <url>https://github.com/Qix-/color-convert</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/Qix-/color-convert/issues</url>
+  </issueManagement>
+  <properties>
+    <org.mvnpm-color-name.version>[1.1.4,1.2)</org.mvnpm-color-name.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>color-name</artifactId>
+      <version>${org.mvnpm-color-name.version}</version>
+    </dependency>
+  </dependencies>
+</project>

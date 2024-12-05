@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>cliui</artifactId>
+  <version>8.0.1</version>
+  <name>cliui</name>
+  <description>easily create complex multi-column command-line-interfaces</description>
+  <url>https://github.com/yargs/cliui#readme</url>
+  <organization>
+    <name>Ben Coe</name>
+    <url>https://github.com/yargs/cliui#readme</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>ISC</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>bcoe</name>
+      <email>bencoe@gmail.com</email>
+    </developer>
+    <developer>
+      <name>oss-bot</name>
+      <email>bencoe+oss-bot@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yargs/cliui.git</connection>
+    <developerConnection>https://github.com/yargs/cliui.git</developerConnection>
+    <url>https://github.com/yargs/cliui</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/yargs/cliui/issues</url>
+  </issueManagement>
+  <properties>
+    <org.mvnpm-wrap-ansi.version>[7.0.0,8)</org.mvnpm-wrap-ansi.version>
+    <org.mvnpm-strip-ansi.version>[6.0.1,7)</org.mvnpm-strip-ansi.version>
+    <org.mvnpm-string-width.version>[4.2.0,5)</org.mvnpm-string-width.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>string-width</artifactId>
+      <version>${org.mvnpm-string-width.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>strip-ansi</artifactId>
+      <version>${org.mvnpm-strip-ansi.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>wrap-ansi</artifactId>
+      <version>${org.mvnpm-wrap-ansi.version}</version>
+    </dependency>
+  </dependencies>
+</project>

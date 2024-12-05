@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>y18n</artifactId>
+  <version>5.0.8</version>
+  <name>y18n</name>
+  <description>the bare-bones internationalization library used by yargs</description>
+  <url>https://github.com/yargs/y18n</url>
+  <organization>
+    <name>Ben Coe</name>
+    <url>https://github.com/yargs/y18n</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>ISC</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>bcoe</name>
+      <email>bencoe@gmail.com</email>
+    </developer>
+    <developer>
+      <name>nexdrew</name>
+      <email>andrewbgoode@gmail.com</email>
+    </developer>
+    <developer>
+      <name>oss-bot</name>
+      <email>bencoe+oss-bot@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yargs/y18n.git</connection>
+    <developerConnection>https://github.com/yargs/y18n.git</developerConnection>
+    <url>https://github.com/yargs/y18n</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/yargs/y18n/issues</url>
+  </issueManagement>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>strip-ansi</artifactId>
+  <version>6.0.1</version>
+  <name>strip-ansi</name>
+  <description>Strip ANSI escape codes from a string</description>
+  <url>https://github.com/chalk/strip-ansi#readme</url>
+  <organization>
+    <name>Sindre Sorhus</name>
+    <url>https://github.com/chalk/strip-ansi#readme</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>sindresorhus</name>
+      <email>sindresorhus@gmail.com</email>
+    </developer>
+    <developer>
+      <name>qix</name>
+      <email>josh@junon.me</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/chalk/strip-ansi.git</connection>
+    <developerConnection>https://github.com/chalk/strip-ansi.git</developerConnection>
+    <url>https://github.com/chalk/strip-ansi</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/chalk/strip-ansi/issues</url>
+  </issueManagement>
+  <properties>
+    <org.mvnpm-ansi-regex.version>[5.0.1,6)</org.mvnpm-ansi-regex.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>ansi-regex</artifactId>
+      <version>${org.mvnpm-ansi-regex.version}</version>
+    </dependency>
+  </dependencies>
+</project>

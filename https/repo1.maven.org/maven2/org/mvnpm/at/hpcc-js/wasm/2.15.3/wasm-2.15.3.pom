@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm.at.hpcc-js</groupId>
+  <artifactId>wasm</artifactId>
+  <version>2.15.3</version>
+  <name>hpcc-js wasm</name>
+  <description>hpcc-js - WASM Libraries</description>
+  <url>https://hpcc-systems.github.io/hpcc-js-wasm/</url>
+  <organization>
+    <name>Gordon Smith</name>
+    <url>https://hpcc-systems.github.io/hpcc-js-wasm/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>hpcc-js</name>
+      <email>gordon.smith@lexisnexisrisk.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/hpcc-systems/hpcc-js-wasm.git</connection>
+    <developerConnection>https://github.com/hpcc-systems/hpcc-js-wasm.git</developerConnection>
+    <url>https://github.com/hpcc-systems/hpcc-js-wasm</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/hpcc-systems/hpcc-js-wasm/issues</url>
+  </issueManagement>
+  <properties>
+    <org.mvnpm-yargs.version>17.7.2</org.mvnpm-yargs.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.mvnpm</groupId>
+      <artifactId>yargs</artifactId>
+      <version>${org.mvnpm-yargs.version}</version>
+    </dependency>
+  </dependencies>
+</project>

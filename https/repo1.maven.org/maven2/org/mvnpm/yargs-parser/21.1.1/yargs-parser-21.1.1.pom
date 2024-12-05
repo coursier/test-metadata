@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mvnpm</groupId>
+  <artifactId>yargs-parser</artifactId>
+  <version>21.1.1</version>
+  <name>yargs-parser</name>
+  <description>the mighty option parser used by yargs</description>
+  <url>https://github.com/yargs/yargs-parser#readme</url>
+  <organization>
+    <name>Ben Coe</name>
+    <url>https://github.com/yargs/yargs-parser#readme</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>ISC</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>bcoe</name>
+      <email>bencoe@gmail.com</email>
+    </developer>
+    <developer>
+      <name>nexdrew</name>
+      <email>andrewbgoode@gmail.com</email>
+    </developer>
+    <developer>
+      <name>oss-bot</name>
+      <email>bencoe+oss-bot@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/yargs/yargs-parser.git</connection>
+    <developerConnection>https://github.com/yargs/yargs-parser.git</developerConnection>
+    <url>https://github.com/yargs/yargs-parser</url>
+  </scm>
+  <issueManagement>
+    <url>https://github.com/yargs/yargs-parser/issues</url>
+  </issueManagement>
+</project>
