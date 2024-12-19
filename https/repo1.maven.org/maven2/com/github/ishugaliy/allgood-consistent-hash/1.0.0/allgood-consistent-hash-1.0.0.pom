@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.ishugaliy</groupId>
+  <artifactId>allgood-consistent-hash</artifactId>
+  <version>1.0.0</version>
+  <name>AllGood Consisntent Hash</name>
+  <description>Java implementation of Consistent Hash Ring with Virtual Nodes</description>
+  <url>https://github.com/ishugaliy/allgood-consistent-hash</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/ishugaliy/allgood-consistent-hash/blob/master/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ishugaliy</id>
+      <name>Yuriy Shugaliy</name>
+      <email>yuriy.shugaliy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/ishugaliy/allgood-consistent-hash.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:ishugaliy/allgood-consistent-hash.git</developerConnection>
+    <url>https://github.com/ishugaliy/allgood-consistent-hash</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/ishugaliy/allgood-consistent-hash/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.30</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.openhft</groupId>
+      <artifactId>zero-allocation-hashing</artifactId>
+      <version>0.11</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
