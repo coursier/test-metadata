@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: io/get-coursier/coursier-cli_2.13</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>io/get-coursier/coursier-cli_2.13</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="2.1.10/" title="2.1.10/">2.1.10/</a>                                           2024-05-06 13:18         -      
+<a href="2.1.11/" title="2.1.11/">2.1.11/</a>                                           2024-09-09 20:10         -      
+<a href="2.1.12/" title="2.1.12/">2.1.12/</a>                                           2024-09-11 10:50         -      
+<a href="2.1.13/" title="2.1.13/">2.1.13/</a>                                           2024-09-17 15:10         -      
+<a href="2.1.14/" title="2.1.14/">2.1.14/</a>                                           2024-10-09 16:45         -      
+<a href="2.1.15/" title="2.1.15/">2.1.15/</a>                                           2024-11-05 15:01         -      
+<a href="2.1.16/" title="2.1.16/">2.1.16/</a>                                           2024-11-06 19:11         -      
+<a href="2.1.17/" title="2.1.17/">2.1.17/</a>                                           2024-11-08 13:12         -      
+<a href="2.1.18/" title="2.1.18/">2.1.18/</a>                                           2024-11-19 17:01         -      
+<a href="2.1.19/" title="2.1.19/">2.1.19/</a>                                           2024-11-27 19:09         -      
+<a href="2.1.20/" title="2.1.20/">2.1.20/</a>                                           2024-12-05 13:19         -      
+<a href="2.1.21/" title="2.1.21/">2.1.21/</a>                                           2024-12-11 12:50         -      
+<a href="2.1.22/" title="2.1.22/">2.1.22/</a>                                           2024-12-17 15:12         -      
+<a href="2.1.23/" title="2.1.23/">2.1.23/</a>                                           2024-12-27 09:06         -      
+<a href="2.1.24/" title="2.1.24/">2.1.24/</a>                                           2025-01-09 21:19         -      
+<a href="2.1.25-M1/" title="2.1.25-M1/">2.1.25-M1/</a>                                        2025-02-07 18:34         -      
+<a href="2.1.7/" title="2.1.7/">2.1.7/</a>                                            2023-09-09 15:43         -      
+<a href="2.1.8/" title="2.1.8/">2.1.8/</a>                                            2023-11-22 14:15         -      
+<a href="2.1.9/" title="2.1.9/">2.1.9/</a>                                            2024-02-08 12:34         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2025-02-07 18:36       924      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2025-02-07 18:36        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2025-02-07 18:36        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2025-02-07 18:36        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2025-02-07 18:36       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

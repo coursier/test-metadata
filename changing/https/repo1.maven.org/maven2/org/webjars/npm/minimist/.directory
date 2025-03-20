@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: org/webjars/npm/minimist</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>org/webjars/npm/minimist</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="0.0.10/" title="0.0.10/">0.0.10/</a>                                           2018-02-14 18:02         -      
+<a href="0.0.5/" title="0.0.5/">0.0.5/</a>                                            2015-06-15 19:04         -      
+<a href="0.0.8/" title="0.0.8/">0.0.8/</a>                                            2015-05-21 03:44         -      
+<a href="0.2.2/" title="0.2.2/">0.2.2/</a>                                            2023-01-23 17:26         -      
+<a href="1.1.1/" title="1.1.1/">1.1.1/</a>                                            2015-05-24 00:46         -      
+<a href="1.1.3/" title="1.1.3/">1.1.3/</a>                                            2015-08-29 15:03         -      
+<a href="1.2.0/" title="1.2.0/">1.2.0/</a>                                            2016-02-02 20:47         -      
+<a href="1.2.4/" title="1.2.4/">1.2.4/</a>                                            2020-03-12 17:25         -      
+<a href="1.2.5/" title="1.2.5/">1.2.5/</a>                                            2020-03-19 17:20         -      
+<a href="1.2.6/" title="1.2.6/">1.2.6/</a>                                            2022-03-30 18:23         -      
+<a href="1.2.7/" title="1.2.7/">1.2.7/</a>                                            2022-10-16 11:54         -      
+<a href="1.2.8/" title="1.2.8/">1.2.8/</a>                                            2023-02-14 20:11         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2023-02-14 20:12       641      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2023-02-14 20:12        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2023-02-14 20:12        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2023-02-14 20:12        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2023-02-14 20:12       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>

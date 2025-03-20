@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Central Repository: io/get-coursier/dependency_3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+body {
+	background: #fff;
+}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>io/get-coursier/dependency_3</h1>
+	</header>
+	<hr/>
+	<main>
+		<pre id="contents">
+<a href="../">../</a>
+<a href="0.2.0/" title="0.2.0/">0.2.0/</a>                                            2021-05-27 14:20         -      
+<a href="0.2.1/" title="0.2.1/">0.2.1/</a>                                            2022-02-22 16:17         -      
+<a href="0.2.2/" title="0.2.2/">0.2.2/</a>                                            2022-03-23 12:56         -      
+<a href="0.2.3/" title="0.2.3/">0.2.3/</a>                                            2023-06-12 13:12         -      
+<a href="0.2.4/" title="0.2.4/">0.2.4/</a>                                            2024-10-18 14:26         -      
+<a href="0.2.5/" title="0.2.5/">0.2.5/</a>                                            2024-11-11 17:09         -      
+<a href="0.3.0/" title="0.3.0/">0.3.0/</a>                                            2024-11-12 12:19         -      
+<a href="0.3.1/" title="0.3.1/">0.3.1/</a>                                            2024-11-12 16:26         -      
+<a href="0.3.2/" title="0.3.2/">0.3.2/</a>                                            2024-12-05 11:08         -      
+<a href="maven-metadata.xml" title="maven-metadata.xml">maven-metadata.xml</a>                                2024-12-05 11:09       582      
+<a href="maven-metadata.xml.md5" title="maven-metadata.xml.md5">maven-metadata.xml.md5</a>                            2024-12-05 11:09        32      
+<a href="maven-metadata.xml.sha1" title="maven-metadata.xml.sha1">maven-metadata.xml.sha1</a>                           2024-12-05 11:09        40      
+<a href="maven-metadata.xml.sha256" title="maven-metadata.xml.sha256">maven-metadata.xml.sha256</a>                         2024-12-05 11:09        64      
+<a href="maven-metadata.xml.sha512" title="maven-metadata.xml.sha512">maven-metadata.xml.sha512</a>                         2024-12-05 11:09       128      
+		</pre>
+	</main>
+	<hr/>
+</body>
+
+</html>
