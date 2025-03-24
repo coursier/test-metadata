@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-integration",
+    "version": "3.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.springframework.integration",
+          "module": "spring-integration-core",
+          "version": {
+            "requires": "6.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-integration-3.3.4.jar",
+          "url": "spring-boot-starter-integration-3.3.4.jar",
+          "size": 4743,
+          "sha512": "c78787e277e27bc8a4c4dcc6a23f192acec0405a50c0493a65bcab69f3430845528a6143cf1ff105c7d018cd59d90ad1a198832b352c58147e5c5032078d4e2d",
+          "sha256": "0605e5383494af3f5b805af712ccb54482a24f6343548cea0d54319a906bb477",
+          "sha1": "efd59a13d50154d526e146a6ef347c62ca99e5b7",
+          "md5": "a852c8f589610cddc476255bfb5bb99e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-aop",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.springframework.integration",
+          "module": "spring-integration-core",
+          "version": {
+            "requires": "6.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-integration-3.3.4.jar",
+          "url": "spring-boot-starter-integration-3.3.4.jar",
+          "size": 4743,
+          "sha512": "c78787e277e27bc8a4c4dcc6a23f192acec0405a50c0493a65bcab69f3430845528a6143cf1ff105c7d018cd59d90ad1a198832b352c58147e5c5032078d4e2d",
+          "sha256": "0605e5383494af3f5b805af712ccb54482a24f6343548cea0d54319a906bb477",
+          "sha1": "efd59a13d50154d526e146a6ef347c62ca99e5b7",
+          "md5": "a852c8f589610cddc476255bfb5bb99e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-integration-3.3.4-javadoc.jar",
+          "url": "spring-boot-starter-integration-3.3.4-javadoc.jar",
+          "size": 4746,
+          "sha512": "eddd8a11670a89ac8587264012ab555b3d9b230ad2d892a539709d4f3764b72c7c36f131637c66822981ea334856828b236c94af037859aa8d6b6546ba73384d",
+          "sha256": "820284bc586b9a7c4e228836779d59b64d4d308f210d3ae8bbfa00787f9ed432",
+          "sha1": "b30d4759ef666e4163c290d72cc1e4e8623eac9e",
+          "md5": "bc8934e1bae57dd16ea818d3afb3eb18"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-integration-3.3.4-sources.jar",
+          "url": "spring-boot-starter-integration-3.3.4-sources.jar",
+          "size": 4744,
+          "sha512": "841d4b8a93531cfb3c8da42403c04368c3df10d376531598f06a35cc3f0349bb0805df93f7c014944097c04f413a0cd73d5af900af84d498c171a036448c7290",
+          "sha256": "a6d71977823d816ed962544312aa5baecd728add73e054096bb642546cf18793",
+          "sha1": "9f86d0d36fb7d79226249e08554d6c9fe8ceec95",
+          "md5": "cef6e80e8382d9528bea076996e58ae6"
+        }
+      ]
+    }
+  ]
+}

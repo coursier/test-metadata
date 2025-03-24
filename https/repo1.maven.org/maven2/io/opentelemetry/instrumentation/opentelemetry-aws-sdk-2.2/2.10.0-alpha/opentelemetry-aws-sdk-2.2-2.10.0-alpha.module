@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.instrumentation",
+    "module": "opentelemetry-aws-sdk-2.2",
+    "version": "2.10.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api-incubator",
+          "version": {
+            "requires": "2.10.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-aws-sdk-2.2-2.10.0-alpha.jar",
+          "url": "opentelemetry-aws-sdk-2.2-2.10.0-alpha.jar",
+          "size": 78172,
+          "sha512": "3d2bcc35ae8dd1112255f79ed6f7c02d99e13eac01681483ff9f72aa9e9aa454660c294f8dda51fd9640df68a0e4786dcf93ce59d8f29db36da3bc0843af356f",
+          "sha256": "437e80e50b3430e8c42c6d15fb2af0f49b4bd7a8e0aebd85bec5eb14aef675bc",
+          "sha1": "9198a259bb1863658631e31b21538337cbe3c353",
+          "md5": "7648c49cde7ee3db523d15abce44519c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-xray-propagator",
+          "version": {
+            "requires": "1.40.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api-incubator",
+          "version": {
+            "requires": "2.10.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-aws-sdk-2.2-2.10.0-alpha.jar",
+          "url": "opentelemetry-aws-sdk-2.2-2.10.0-alpha.jar",
+          "size": 78172,
+          "sha512": "3d2bcc35ae8dd1112255f79ed6f7c02d99e13eac01681483ff9f72aa9e9aa454660c294f8dda51fd9640df68a0e4786dcf93ce59d8f29db36da3bc0843af356f",
+          "sha256": "437e80e50b3430e8c42c6d15fb2af0f49b4bd7a8e0aebd85bec5eb14aef675bc",
+          "sha1": "9198a259bb1863658631e31b21538337cbe3c353",
+          "md5": "7648c49cde7ee3db523d15abce44519c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-aws-sdk-2.2-2.10.0-alpha-javadoc.jar",
+          "url": "opentelemetry-aws-sdk-2.2-2.10.0-alpha-javadoc.jar",
+          "size": 136381,
+          "sha512": "803f26f4416d8fddff504e1bba9ba20e3203164bf7109f36fe5a950f23f246e8f46cf3b57b3718748472158640f5b0046bc46a20a461638dd7f757c287cf8be7",
+          "sha256": "242cea8f5f9643c06cb1ea03fee6f657d72ec6ee8be158be7d1c71f275e7b757",
+          "sha1": "a59dba797c2eec05692e48114aaace1ee6ed1a4e",
+          "md5": "bee588948e9dcd4801a7811802c5aad7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-aws-sdk-2.2-2.10.0-alpha-sources.jar",
+          "url": "opentelemetry-aws-sdk-2.2-2.10.0-alpha-sources.jar",
+          "size": 43865,
+          "sha512": "ada6d77f38fafd0e4966a2262cd819ad45b4faccf98800c16c5f71c41c7c5a0d8a988d7e62afde282e476a081ee986368375cd8016b82e6854bb21ad868e0280",
+          "sha256": "8023f631841fed21314cdccc97c5a1790c162dc0ade48618ba6c9c08a254c26f",
+          "sha1": "f21e7cc54d09bec820fb223099fa6f86069b29f1",
+          "md5": "e0cc37e87f78a8d8fa4e8ad739e4504e"
+        }
+      ]
+    }
+  ]
+}

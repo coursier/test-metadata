@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.instrumentation",
+    "module": "opentelemetry-instrumentation-api-incubator",
+    "version": "2.10.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.28.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha.jar",
+          "url": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha.jar",
+          "size": 135491,
+          "sha512": "8643100e506ca13c00ecd04efa76603c27e1469f79b1c3e13959000b77fc7d73907f89426c54811f9b0ee57cc387f4ea8e6e2bb5efd504579617b17147f5d116",
+          "sha256": "e6ad0bcee4674993f15fd672002090f7b108ffe95fe7da2d882989cbeb719a4c",
+          "sha1": "ff9478ab6e7eed91c853075000a71bb19b91f27b",
+          "md5": "760ae0892a1a29c5700d5de89886b2de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api-incubator",
+          "version": {
+            "requires": "1.44.1-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.28.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha.jar",
+          "url": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha.jar",
+          "size": 135491,
+          "sha512": "8643100e506ca13c00ecd04efa76603c27e1469f79b1c3e13959000b77fc7d73907f89426c54811f9b0ee57cc387f4ea8e6e2bb5efd504579617b17147f5d116",
+          "sha256": "e6ad0bcee4674993f15fd672002090f7b108ffe95fe7da2d882989cbeb719a4c",
+          "sha1": "ff9478ab6e7eed91c853075000a71bb19b91f27b",
+          "md5": "760ae0892a1a29c5700d5de89886b2de"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha-javadoc.jar",
+          "url": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha-javadoc.jar",
+          "size": 278744,
+          "sha512": "dadd9897fa3d3577dd8878d2a731e76df95bf55a4e8c4df666907b4950552ad1e82eb83102ba81aa0b13f39091fdfdf7cd1c3a06a6453bd9e28defda18c4e391",
+          "sha256": "55dcb50f4699cc0abbe1a2bb61e21cfc0e79e1074c8fd35830a678b45c95a83e",
+          "sha1": "c72da14733d88fec32f9f0aff220ddd9778ad1a0",
+          "md5": "726303d9d7808bb7bb55a581e53e856e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha-sources.jar",
+          "url": "opentelemetry-instrumentation-api-incubator-2.10.0-alpha-sources.jar",
+          "size": 73479,
+          "sha512": "f92e05dfd5255849843dc33a38e2242d37c44d849eba174b11fb6723e7fdc431279bbff184f412b348ee3c34c77c50415bd42fec591fcb6bf07c1b11538fd750",
+          "sha256": "f31fc686978b190596d6177b435e1764ff9dabde24542150727969b2107af4be",
+          "sha1": "826f18a1e030e5b53db13b47f8e7a04f1cc1df28",
+          "md5": "88b9f7cbd562510d6c80cc8ac916b694"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.roaringbitmap",
+    "module": "shims",
+    "version": "0.9.45",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "hhuuaxn5lbe53k7ihlieytxv5u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "shims-0.9.45.jar",
+          "url": "shims-0.9.45.jar",
+          "size": 2551,
+          "sha512": "44baa9a38c6d89f152322417e5f04ade56ec25a7b599d7c52f0eb3730499441bf54cac060cfcd5a31729621aa6f87dfd44fee99ab32051048aff824350cda94e",
+          "sha256": "4af32f9523c6249ad00d76b69129f59ad22976ef8cff86b6dd5479f6a64cec8d",
+          "sha1": "480ae48bcdde25c911aad8d212ba2641fe9b4be9",
+          "md5": "2fdcac0fa9b0c8d81ec5bb6cf569d4f3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "shims-0.9.45.jar",
+          "url": "shims-0.9.45.jar",
+          "size": 2551,
+          "sha512": "44baa9a38c6d89f152322417e5f04ade56ec25a7b599d7c52f0eb3730499441bf54cac060cfcd5a31729621aa6f87dfd44fee99ab32051048aff824350cda94e",
+          "sha256": "4af32f9523c6249ad00d76b69129f59ad22976ef8cff86b6dd5479f6a64cec8d",
+          "sha1": "480ae48bcdde25c911aad8d212ba2641fe9b4be9",
+          "md5": "2fdcac0fa9b0c8d81ec5bb6cf569d4f3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "shims-0.9.45-sources.jar",
+          "url": "shims-0.9.45-sources.jar",
+          "size": 1325,
+          "sha512": "43fd0c4176c9c51e441946edceb5960dfc3fd4ae6b9b1eb984682c946479c1638e6beb95e43d2fd6b46869ac163ba0201cadf71f275b6bc46754171122fdc67c",
+          "sha256": "ef90222f3de42f9c4a92f83a0478126de7920c0ce4daa43356274654b05c123c",
+          "sha1": "77815f57f163a04e5fd3c0aca6942aedae96e467",
+          "md5": "c041aca3aae43532ac176638c305ebe2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "shims-0.9.45-javadoc.jar",
+          "url": "shims-0.9.45-javadoc.jar",
+          "size": 105187,
+          "sha512": "9fb9f5bf4709da5c87d778f42240c5eaae84ac8601f2b96aefe37f487989fc93b42ccd534291e9a4fdd5bee07062785c2587def7d102fc8dcc1ac4fa10b36923",
+          "sha256": "1453b3f865f3d78f4c053addae08247bfa053af79e7ba4ade288d884c0f28ea6",
+          "sha1": "a81db0b1491633238717b38fb79e5d34b51fc0ac",
+          "md5": "2f9e19e32488dd084663455b913badae"
+        }
+      ]
+    }
+  ]
+}

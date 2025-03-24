@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.springframework.boot",
+    "module": "spring-boot-starter-data-rest",
+    "version": "3.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-rest-webmvc",
+          "version": {
+            "requires": "4.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-data-rest-3.3.4.jar",
+          "url": "spring-boot-starter-data-rest-3.3.4.jar",
+          "size": 4777,
+          "sha512": "5a33ca8ea410a122692d9a3234c8dfdee5d01bf6df1171c8c35bc68412f23bfe0410763fcf1b89b57d428980575e0da8a4332c9b3f71c2c55465eaa6d4a184a6",
+          "sha256": "b63d30e9a91022074d14d7cf1bd4e245af41721144c6563cb2fd431d2bd87a16",
+          "sha1": "4da3124bcb02f82be8903c18d31dc95fa1a8be16",
+          "md5": "426d1be6f8f33811e0fe02de522e4bb2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-rest-webmvc",
+          "version": {
+            "requires": "4.3.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spring-boot-starter-data-rest-3.3.4.jar",
+          "url": "spring-boot-starter-data-rest-3.3.4.jar",
+          "size": 4777,
+          "sha512": "5a33ca8ea410a122692d9a3234c8dfdee5d01bf6df1171c8c35bc68412f23bfe0410763fcf1b89b57d428980575e0da8a4332c9b3f71c2c55465eaa6d4a184a6",
+          "sha256": "b63d30e9a91022074d14d7cf1bd4e245af41721144c6563cb2fd431d2bd87a16",
+          "sha1": "4da3124bcb02f82be8903c18d31dc95fa1a8be16",
+          "md5": "426d1be6f8f33811e0fe02de522e4bb2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-data-rest-3.3.4-javadoc.jar",
+          "url": "spring-boot-starter-data-rest-3.3.4-javadoc.jar",
+          "size": 4747,
+          "sha512": "2acff4d8f95628856a28f2f9d411cd84547d83a2670ffc2572303848bb402b19767f0830a39f7952ef3b1f1c29c738d01c3d8a0127c89b1e0ddb151280e656b7",
+          "sha256": "53b10bc9351446c357284ad7059634ee9d97e2ad11ee2b4bfb214de132126f0b",
+          "sha1": "bef0a4c9f68d2698c517f2c2ec1b446b5beb174c",
+          "md5": "e995238bc6400578992bdbdf76e5adca"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-boot-starter-data-rest-3.3.4-sources.jar",
+          "url": "spring-boot-starter-data-rest-3.3.4-sources.jar",
+          "size": 4746,
+          "sha512": "20a66cfc01fc736942d1c932d30fd969eaa32f83e34e6c3a731673d4f654b838062e4697b0ae98cb64810b774264f53803aa781faa5be631761d7313dd2a9ce5",
+          "sha256": "f04fe13720f4b3ba903c3b095afa87a95ccf5f9727d68560ea5b82fda0011e18",
+          "sha1": "350091f7877fa8a4714796784ae87a819866894e",
+          "md5": "8dac1a97f5c8e050bdb2f9f113fc2eb9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.contrib",
+    "module": "opentelemetry-aws-xray-propagator",
+    "version": "1.40.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.43.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-aws-xray-propagator-1.40.0-alpha.jar",
+          "url": "opentelemetry-aws-xray-propagator-1.40.0-alpha.jar",
+          "size": 14189,
+          "sha512": "79a5b0cf80663a0a6d004cdad7a577b59e983ad3bcaeda209b094e921b84aa7d3bf1e78db04c0133cf236e6ac5ba80a0e7b6e1ca184b6daaa43d82f01c2426c8",
+          "sha256": "282581320bad31c2b32d902252c4de5d680a4e8fa9ab5fb65d30322ded62dd1b",
+          "sha1": "e1b3f86fee39d8cb443e68af50abb3cac1606174",
+          "md5": "bdfa33e53a2acae3d94d3783602914de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.43.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-aws-xray-propagator-1.40.0-alpha.jar",
+          "url": "opentelemetry-aws-xray-propagator-1.40.0-alpha.jar",
+          "size": 14189,
+          "sha512": "79a5b0cf80663a0a6d004cdad7a577b59e983ad3bcaeda209b094e921b84aa7d3bf1e78db04c0133cf236e6ac5ba80a0e7b6e1ca184b6daaa43d82f01c2426c8",
+          "sha256": "282581320bad31c2b32d902252c4de5d680a4e8fa9ab5fb65d30322ded62dd1b",
+          "sha1": "e1b3f86fee39d8cb443e68af50abb3cac1606174",
+          "md5": "bdfa33e53a2acae3d94d3783602914de"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-aws-xray-propagator-1.40.0-alpha-javadoc.jar",
+          "url": "opentelemetry-aws-xray-propagator-1.40.0-alpha-javadoc.jar",
+          "size": 86429,
+          "sha512": "4630ad479ec87a09c7d81e79fe69aa6d2c1fd125a3898497c5dba8b2b666980ff9c2a0b094df0e66f39aa9366d5e5a72af21a79523e3571848c71366deb47ed8",
+          "sha256": "50e25d56b47cde2608472f4d2f2de457db19aaa04d957cf2b219962e910e5af7",
+          "sha1": "0d2357175601220c3d50b3a2340989667209ae76",
+          "md5": "e48a82b7f39321f8d07a0572289f2f10"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-aws-xray-propagator-1.40.0-alpha-sources.jar",
+          "url": "opentelemetry-aws-xray-propagator-1.40.0-alpha-sources.jar",
+          "size": 8852,
+          "sha512": "2d93c140d7b3d4e4c4197ae349a86ac606c7d3225b5560fd49846c21138e4a77636f427249d14bc54190d097e408cb65100f3f6f72881adbf98fd5f19b486be8",
+          "sha256": "f7fde433a6527f13c648e9f98ae5e5fcbe2667e68648181208b4ee96bec10c7c",
+          "sha1": "ba7678809b29a85f78cb39f123e0fa594dba2099",
+          "md5": "989a6b01ca616bd6d5c2a0dd54a3b756"
+        }
+      ]
+    }
+  ]
+}

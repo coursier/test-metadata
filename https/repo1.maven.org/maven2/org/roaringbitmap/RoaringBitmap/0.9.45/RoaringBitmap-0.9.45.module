@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.roaringbitmap",
+    "module": "RoaringBitmap",
+    "version": "0.9.45",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "hhuuaxn5lbe53k7ihlieytxv5u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "RoaringBitmap-0.9.45.jar",
+          "url": "RoaringBitmap-0.9.45.jar",
+          "size": 443362,
+          "sha512": "65b6820d09e9666507f2293ac8cc2fe359fd4414952e97b2a295273d6cd6efbb0a6bf5768d3eabd60c16e7d1e5b91f8e5c54be5e018f54dad08e7daa66b99993",
+          "sha256": "f3a88f1684b6a1622c1f4f4dbaac4f9fdb7d640e2abf37469a0a2d01a9ea1932",
+          "sha1": "856885b6afb1cad048dd188eb126e16dc47dd713",
+          "md5": "c3b52f9b0f42b3b73588005e5cd905a1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.roaringbitmap",
+          "module": "shims",
+          "version": {
+            "requires": "0.9.45"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "RoaringBitmap-0.9.45.jar",
+          "url": "RoaringBitmap-0.9.45.jar",
+          "size": 443362,
+          "sha512": "65b6820d09e9666507f2293ac8cc2fe359fd4414952e97b2a295273d6cd6efbb0a6bf5768d3eabd60c16e7d1e5b91f8e5c54be5e018f54dad08e7daa66b99993",
+          "sha256": "f3a88f1684b6a1622c1f4f4dbaac4f9fdb7d640e2abf37469a0a2d01a9ea1932",
+          "sha1": "856885b6afb1cad048dd188eb126e16dc47dd713",
+          "md5": "c3b52f9b0f42b3b73588005e5cd905a1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "RoaringBitmap-0.9.45-sources.jar",
+          "url": "RoaringBitmap-0.9.45-sources.jar",
+          "size": 271141,
+          "sha512": "8ac3108d8e09696fd23e92c3849dd2633feb4523c6a8739c644407bcad1089cfc3cee8101ab2bdf903a5f28032905c0143b0877e72bcc8f75b2828e341b8748f",
+          "sha256": "94060917f592e86aca36c04aa049462ce70a0958c00845ffef4f8af58ca92ae2",
+          "sha1": "619128eda18a49ed50ab1ce2d4f79183fa0fc920",
+          "md5": "98c136d97b6c07c6f3772a584996fec5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "RoaringBitmap-0.9.45-javadoc.jar",
+          "url": "RoaringBitmap-0.9.45-javadoc.jar",
+          "size": 682937,
+          "sha512": "cd041ef273c587f19471bbdf5dd44d025c786768cedb6723a8d504279e033355745fa615210f659e528243d42a06bbe989dd39f61a885b4ab6bd83b9a420c37f",
+          "sha256": "31642bf7f559d4f4a591c685185eb0fb222ea6d97922415c64a33d7d1643fe0d",
+          "sha1": "99800c3ec53f201f0339052066b8325984827f49",
+          "md5": "e119eaf7db0ba765b8a958190affb18e"
+        }
+      ]
+    }
+  ]
+}

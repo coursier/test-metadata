@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.instrumentation",
+    "module": "opentelemetry-apache-httpclient-5.2",
+    "version": "2.10.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api-incubator",
+          "version": {
+            "requires": "2.10.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha.jar",
+          "url": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha.jar",
+          "size": 12735,
+          "sha512": "c4022839309c6985e4c574f11338c7c96e8d67a7992a99d47b75525331bde4f8d0bc704be0c9a91160b71791a50a8c9ef67b77f7236bef3092b39ac6db3c9f23",
+          "sha256": "2b62148bc6204b64935f601efd20502a35d7d30c12e3ffbe768022bdbf1c0996",
+          "sha1": "6967961403907c0e4192132472193a4a602ebeca",
+          "md5": "29c08a23b8760dad030859079c8d1470"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api",
+          "version": {
+            "requires": "2.10.0"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-api-incubator",
+          "version": {
+            "requires": "2.10.0-alpha"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          },
+          "excludes": [
+            {
+              "group": "io.opentelemetry.instrumentation",
+              "module": "opentelemetry-instrumentation-bom-alpha"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha.jar",
+          "url": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha.jar",
+          "size": 12735,
+          "sha512": "c4022839309c6985e4c574f11338c7c96e8d67a7992a99d47b75525331bde4f8d0bc704be0c9a91160b71791a50a8c9ef67b77f7236bef3092b39ac6db3c9f23",
+          "sha256": "2b62148bc6204b64935f601efd20502a35d7d30c12e3ffbe768022bdbf1c0996",
+          "sha1": "6967961403907c0e4192132472193a4a602ebeca",
+          "md5": "29c08a23b8760dad030859079c8d1470"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha-javadoc.jar",
+          "url": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha-javadoc.jar",
+          "size": 99766,
+          "sha512": "d614abe0c06ad78beefe292441607689acb8dd85710baab08306f008046d6b1ed53674fab83f14c5ceac04d8473075d4af95aed18df95689855da3215ba9687b",
+          "sha256": "0ef7fe76f7616015898ccefec364b9e3fa3c4d8b1878cde92730643b843af01d",
+          "sha1": "941607c79638b3ae49f3599c6cdce4a1155fcd06",
+          "md5": "ac895ce2b2abd3e84de11b06f8228034"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha-sources.jar",
+          "url": "opentelemetry-apache-httpclient-5.2-2.10.0-alpha-sources.jar",
+          "size": 7475,
+          "sha512": "db351f8a2c3500748c9c8f607b8ecbb36cfc228cfa2390fc69962e85888a207dae425937fb7090d234798c1872bba6217ccd137f8ef3bbc80791f8f7e233d2bc",
+          "sha256": "bb9c300d6ce8da681cd17237bc7d712526f256ed18c8ddcce0b44ddb58c6fc8d",
+          "sha1": "3ce804029b3efb54e9d95c4f3c7cf721a66bb9f8",
+          "md5": "e8d4b7d2bf8c11e881531bcae6e993f3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-common",
+    "version": "1.44.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.44.1.jar",
+          "url": "opentelemetry-sdk-common-1.44.1.jar",
+          "size": 54518,
+          "sha512": "42a39d1226914375b3566961082bea659dae1d39b7774bcc99ffaa53197cb580d56d43180c8e4b6ee80387b8e00f6abbba66304110fcbdb95f0f78ed367099df",
+          "sha256": "3770fc477ee0fab21e796bb559f0a996d38c744f3a170868d1b3b85b63b827d0",
+          "sha1": "61d7f6063f4c01167bedd9e21ffb9dd4a834a7ce",
+          "md5": "0edc83efe9e67a88258a63334b2c1b34"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.44.1.jar",
+          "url": "opentelemetry-sdk-common-1.44.1.jar",
+          "size": 54518,
+          "sha512": "42a39d1226914375b3566961082bea659dae1d39b7774bcc99ffaa53197cb580d56d43180c8e4b6ee80387b8e00f6abbba66304110fcbdb95f0f78ed367099df",
+          "sha256": "3770fc477ee0fab21e796bb559f0a996d38c744f3a170868d1b3b85b63b827d0",
+          "sha1": "61d7f6063f4c01167bedd9e21ffb9dd4a834a7ce",
+          "md5": "0edc83efe9e67a88258a63334b2c1b34"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.44.1-javadoc.jar",
+          "url": "opentelemetry-sdk-common-1.44.1-javadoc.jar",
+          "size": 130484,
+          "sha512": "fc79c96eb5f0e6c71ab488584f50cb9a094546afff8621179bd1c5d87776c74e6bc1947e1bb16b5531dbe957656ed1ced27bc111b791120f9b41c153a6ef3381",
+          "sha256": "dff08081ac14fb109e08a3dc4ca428560ed5225b228f9b3c6e8391669a41e90f",
+          "sha1": "390d6f73838a8ed34bf571bda50b13be6339e35b",
+          "md5": "c430c04ef714a97d8c5f8470e9df8905"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.44.1-sources.jar",
+          "url": "opentelemetry-sdk-common-1.44.1-sources.jar",
+          "size": 37584,
+          "sha512": "2e748ca86cad9e30eec832d2453106c203fbff0d538be51c5c76e4838a2b67ab4d7a1b8eaedc7959500ad58f159d4f1e6ca4864776f86197a6426a746c33ced6",
+          "sha256": "e1801125d48e0ba0cb016db0cea3445aaec57c322e6765ac788e3f9b959a3ec1",
+          "sha1": "f32e6425606e599c5756ab6910744102dad9be89",
+          "md5": "7cd57c6f22b153fa43c6e5b411ae9430"
+        }
+      ]
+    }
+  ]
+}

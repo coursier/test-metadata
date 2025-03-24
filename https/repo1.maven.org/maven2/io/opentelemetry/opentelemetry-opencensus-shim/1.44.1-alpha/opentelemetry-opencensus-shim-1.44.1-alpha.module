@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-opencensus-shim",
+    "version": "1.44.1-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-extension-trace-propagators",
+          "version": {
+            "requires": "1.44.1"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.44.1"
+          }
+        },
+        {
+          "group": "io.opencensus",
+          "module": "opencensus-api",
+          "version": {
+            "requires": "0.31.1"
+          }
+        },
+        {
+          "group": "io.opencensus",
+          "module": "opencensus-impl-core",
+          "version": {
+            "requires": "0.31.1"
+          }
+        },
+        {
+          "group": "io.opencensus",
+          "module": "opencensus-exporter-metrics-util",
+          "version": {
+            "requires": "0.31.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-opencensus-shim-1.44.1-alpha.jar",
+          "url": "opentelemetry-opencensus-shim-1.44.1-alpha.jar",
+          "size": 36228,
+          "sha512": "868454f1564c43be76afcb66ed8088a85568c33ead1cb87a5d17de121b0d4dc00c4ce52695cc26c1b0e2fb55ea6e88bad653b5c3a1a00d516ed53ee1a0b34ed5",
+          "sha256": "7288e3fc3e92496a1d320c76c4f6380a58b4ecf06851b05ed0e65eb666a6eff2",
+          "sha1": "1f6e81a802f3bc1a2911f04610dc5f396f0fff2e",
+          "md5": "b176643c584fa2c4b76b59f0ecadfcc1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.44.1"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-extension-trace-propagators",
+          "version": {
+            "requires": "1.44.1"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.44.1"
+          }
+        },
+        {
+          "group": "io.opencensus",
+          "module": "opencensus-api",
+          "version": {
+            "requires": "0.31.1"
+          }
+        },
+        {
+          "group": "io.opencensus",
+          "module": "opencensus-impl-core",
+          "version": {
+            "requires": "0.31.1"
+          }
+        },
+        {
+          "group": "io.opencensus",
+          "module": "opencensus-exporter-metrics-util",
+          "version": {
+            "requires": "0.31.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-opencensus-shim-1.44.1-alpha.jar",
+          "url": "opentelemetry-opencensus-shim-1.44.1-alpha.jar",
+          "size": 36228,
+          "sha512": "868454f1564c43be76afcb66ed8088a85568c33ead1cb87a5d17de121b0d4dc00c4ce52695cc26c1b0e2fb55ea6e88bad653b5c3a1a00d516ed53ee1a0b34ed5",
+          "sha256": "7288e3fc3e92496a1d320c76c4f6380a58b4ecf06851b05ed0e65eb666a6eff2",
+          "sha1": "1f6e81a802f3bc1a2911f04610dc5f396f0fff2e",
+          "md5": "b176643c584fa2c4b76b59f0ecadfcc1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-opencensus-shim-1.44.1-alpha-javadoc.jar",
+          "url": "opentelemetry-opencensus-shim-1.44.1-alpha-javadoc.jar",
+          "size": 87498,
+          "sha512": "478f209f85407f705116b0974e617d96b973389cdba0b1f280cc6cda3cbf267cf726548e14aae4e341741b71c84f79a61f798694d47dd373cabe70551aa5a0f8",
+          "sha256": "f13009fb40d509a0d537eee19d49a148043ee7e9706c74988ffd2a91fe8643c2",
+          "sha1": "05411c59ee91b29832c5941bf5f086b369d3e607",
+          "md5": "c16298ed6a9ebc7df390a5ff9ac14292"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-opencensus-shim-1.44.1-alpha-sources.jar",
+          "url": "opentelemetry-opencensus-shim-1.44.1-alpha-sources.jar",
+          "size": 19603,
+          "sha512": "25685c2692361e050669e0ee5cd577c34384fe90d5cbf88d287a62a0489ed1f98b20ce94af474e69a08deb0802b7dce5d93608c07dccf55ad5c8a365a7c30dad",
+          "sha256": "31aaafcb075393e9a973179922b02362081edb88b2d119b68b10848d89385fce",
+          "sha1": "86bc0ee7d4e4d3aca53ac8587e3b671a70ea3528",
+          "md5": "057fc80b9ccd7cc34de04598f3ba05cd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.thrift",
+    "module": "libthrift",
+    "version": "0.21.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "libthrift-0.21.0.jar",
+          "url": "libthrift-0.21.0.jar",
+          "size": 360465,
+          "sha512": "ee9563caca19f4010f57391eb388620028750b106b341fc2732d086919bd627804609fefb8b69ce6bd27f9afecf967910f1e8155ad0e7ef992281eee2faac0d5",
+          "sha256": "53166303415f6a9a852e424dca30c48b03a8aeb43429e2adce4685ffc1e44d81",
+          "sha1": "5497a90b56d1c637305f884a41f4109e4326c4c4",
+          "md5": "d8d38a4276e7d1bb084f391bc8f2c002"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents.core5",
+          "module": "httpcore5",
+          "version": {
+            "requires": "5.2"
+          }
+        },
+        {
+          "group": "jakarta.servlet",
+          "module": "jakarta.servlet-api",
+          "version": {
+            "requires": "5.0.0"
+          }
+        },
+        {
+          "group": "jakarta.annotation",
+          "module": "jakarta.annotation-api",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "libthrift-0.21.0.jar",
+          "url": "libthrift-0.21.0.jar",
+          "size": 360465,
+          "sha512": "ee9563caca19f4010f57391eb388620028750b106b341fc2732d086919bd627804609fefb8b69ce6bd27f9afecf967910f1e8155ad0e7ef992281eee2faac0d5",
+          "sha256": "53166303415f6a9a852e424dca30c48b03a8aeb43429e2adce4685ffc1e44d81",
+          "sha1": "5497a90b56d1c637305f884a41f4109e4326c4c4",
+          "md5": "d8d38a4276e7d1bb084f391bc8f2c002"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "libthrift-0.21.0-javadoc.jar",
+          "url": "libthrift-0.21.0-javadoc.jar",
+          "size": 878988,
+          "sha512": "152294b8b643fcb124cc3d47c610e26bd194835a102e15f926e345fc14ee6189ebe25f32c24b6dd45560d36982976d1a90fd2aedd1c043518b9b454bf22e1398",
+          "sha256": "1ac5d61753448de2ce067625369a3f7798cbdec28bf1cebb24b7fd9689cf1280",
+          "sha1": "2fcf93de4147bfcd3eb5fca9d11cb0c08e75d62b",
+          "md5": "383e817acbba19fb05ba8d61b413ad12"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "libthrift-0.21.0-sources.jar",
+          "url": "libthrift-0.21.0-sources.jar",
+          "size": 246381,
+          "sha512": "5b53a21f0c89049e192d3565219e1554029cb95fb0a3fba77913edcdb8bc6a3a75f4b93ffe963ade95493b1bbe137a4870d17f97c7dcbaa2e1d4375c8057e1ab",
+          "sha256": "1b0f4fb00c2bef7689fd01d7d83bbcf851c72187430aa28a5c3ea8e20510dd0f",
+          "sha1": "fb55ec0206e41e06263289dfcd7981b349075519",
+          "md5": "5ace50517716909a8cc99b870ea399d4"
+        }
+      ]
+    }
+  ]
+}

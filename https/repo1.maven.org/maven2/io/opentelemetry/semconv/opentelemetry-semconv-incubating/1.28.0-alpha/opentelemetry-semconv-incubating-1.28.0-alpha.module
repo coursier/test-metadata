@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.semconv",
+    "module": "opentelemetry-semconv-incubating",
+    "version": "1.28.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.28.0-alpha"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-semconv-incubating-1.28.0-alpha.jar",
+          "url": "opentelemetry-semconv-incubating-1.28.0-alpha.jar",
+          "size": 127300,
+          "sha512": "d19b524faf87d1bd73badbe967a882af8351b33a985d0009b752ddd3d6f199ba92123aad78e2465c260861cd0ae3c2d2bd1fd971b9de2db7c14013b7c27f5370",
+          "sha256": "4f1d39ec6833a9276d4d59109c6e8490a4f44bdd68cb342af2afe25dee544251",
+          "sha1": "f4bc65abb433ef6acea751d0d40702027545c127",
+          "md5": "fa7ea22f12ba8e9fff5962ad8f4a269c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry.semconv",
+          "module": "opentelemetry-semconv",
+          "version": {
+            "requires": "1.28.0-alpha"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-semconv-incubating-1.28.0-alpha.jar",
+          "url": "opentelemetry-semconv-incubating-1.28.0-alpha.jar",
+          "size": 127300,
+          "sha512": "d19b524faf87d1bd73badbe967a882af8351b33a985d0009b752ddd3d6f199ba92123aad78e2465c260861cd0ae3c2d2bd1fd971b9de2db7c14013b7c27f5370",
+          "sha256": "4f1d39ec6833a9276d4d59109c6e8490a4f44bdd68cb342af2afe25dee544251",
+          "sha1": "f4bc65abb433ef6acea751d0d40702027545c127",
+          "md5": "fa7ea22f12ba8e9fff5962ad8f4a269c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-semconv-incubating-1.28.0-alpha-javadoc.jar",
+          "url": "opentelemetry-semconv-incubating-1.28.0-alpha-javadoc.jar",
+          "size": 585378,
+          "sha512": "2a87c061190ee8bb428e66667a9e470ac26c48983a74a1cccb9151d4753aeae6fd82257c0e10917172846639d761d69c8fa75938590542b227e6f8fb407a4fe7",
+          "sha256": "8d5feaa5782bc827cb3fb70d72ed09d5e555ed074099c82bf98e4f177d564f6c",
+          "sha1": "63b3f44a59f70712460d9fb32aca3a61a56e6577",
+          "md5": "42d4ede718a0f55affd27dc56be717a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-semconv-incubating-1.28.0-alpha-sources.jar",
+          "url": "opentelemetry-semconv-incubating-1.28.0-alpha-sources.jar",
+          "size": 100647,
+          "sha512": "305ccad46a59355576cad70752a58a23d7eb43e87e545f10f9f6286f1d0c4eafd1affa788fe57c3722d5e933e763beac3e14c4baa1a51aef2dd4027747fda922",
+          "sha256": "e6988cfa0e1af4a5e36b51608351d279e00e073515490f9b73a55fd168a2aa34",
+          "sha1": "89934fddc67165552bb51241ad986ac762f38891",
+          "md5": "d6cc6b73cac465bf29177bfc675c5efe"
+        }
+      ]
+    }
+  ]
+}
