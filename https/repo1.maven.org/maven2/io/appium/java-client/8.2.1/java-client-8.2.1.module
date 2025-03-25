@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.appium",
+    "module": "java-client",
+    "version": "8.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-api",
+          "version": {
+            "strictly": "[4.5.0, 5.0)",
+            "requires": "[4.5.0, 5.0)",
+            "prefers": "4.5.0"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-remote-driver",
+          "version": {
+            "strictly": "[4.5.0, 5.0)",
+            "requires": "[4.5.0, 5.0)",
+            "prefers": "4.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "java-client-8.2.1.jar",
+          "url": "java-client-8.2.1.jar",
+          "size": 601475,
+          "sha512": "5652dba1afdc91888d0310fe46f14e3f869feb50e8016995921338d6dfe56b858cc86c86313ab9d27d71f80a7f0f1bf962ca383e3f57dcc9c4fe7c59ceb43c4c",
+          "sha256": "089921085a46a6f522a2aeaba834cfc6abf7efcd55724cece5414f9336373338",
+          "sha1": "c87e496f4c05c6cb89d3b6a17d4f3e85b5f6346a",
+          "md5": "fbca886e8b494575c23ccb84c8cfdba9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-support",
+          "version": {
+            "strictly": "[4.5.0, 5.0)",
+            "requires": "[4.5.0, 5.0)",
+            "prefers": "4.5.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "cglib",
+          "module": "cglib",
+          "version": {
+            "requires": "3.3.0"
+          }
+        },
+        {
+          "group": "commons-validator",
+          "module": "commons-validator",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-api",
+          "version": {
+            "strictly": "[4.5.0, 5.0)",
+            "requires": "[4.5.0, 5.0)",
+            "prefers": "4.5.0"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-remote-driver",
+          "version": {
+            "strictly": "[4.5.0, 5.0)",
+            "requires": "[4.5.0, 5.0)",
+            "prefers": "4.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "java-client-8.2.1.jar",
+          "url": "java-client-8.2.1.jar",
+          "size": 601475,
+          "sha512": "5652dba1afdc91888d0310fe46f14e3f869feb50e8016995921338d6dfe56b858cc86c86313ab9d27d71f80a7f0f1bf962ca383e3f57dcc9c4fe7c59ceb43c4c",
+          "sha256": "089921085a46a6f522a2aeaba834cfc6abf7efcd55724cece5414f9336373338",
+          "sha1": "c87e496f4c05c6cb89d3b6a17d4f3e85b5f6346a",
+          "md5": "fbca886e8b494575c23ccb84c8cfdba9"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "java-client-8.2.1-all.jar",
+          "url": "java-client-8.2.1-all.jar",
+          "size": 16735483,
+          "sha512": "9bbdd213eb3f2fe1bbf5e20603e5904838990da90024cf844b52d2cca80667a1aae82cc41994780c0ee62bd22c2deb1835ee1d6f270f28df570edab72012ba98",
+          "sha256": "4b9eee02213e09b3acddaa66f067b99aeb8529d0a7eee256b55e950bf14d1c05",
+          "sha1": "71da6909b6cf087873ab84dd53203ba4fc6a8a01",
+          "md5": "efb562a2d489da5f4b7d84a44e697bac"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "java-client-8.2.1-javadoc.jar",
+          "url": "java-client-8.2.1-javadoc.jar",
+          "size": 2502280,
+          "sha512": "8e392aabd9a516e76ce11bf56ca3358377652a248c5e843ebf2ce4272eff36f0ac176bbb91bbf4cd6cbe4d8d3c7b2b1fa031079d9b8500edd3b5562021f18e0a",
+          "sha256": "7815d058fa066f7d399ed9491b6090acb56f0dae54eeb5b69f49c7844363afae",
+          "sha1": "94d57f72d5159ed206689bd2a2b80c064838fff6",
+          "md5": "81620825b0c95d6f48ef7a286d5ca34e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "java-client-8.2.1-sources.jar",
+          "url": "java-client-8.2.1-sources.jar",
+          "size": 582628,
+          "sha512": "e5f5f7d392e1bc2723a1af7d9777006ed6b4601f8e4fcab30eb7c520e05de307e27ed0a28e2a9c7ad489a08bdee6d022498b22eba210abc711cee99af9bebb94",
+          "sha256": "576f767c06a2aff24775d655df8db0cd2e170875db42b0b63c1b45fd4203152a",
+          "sha1": "9996530e0b41c26658e6e7e62dc0deac7cc85bb6",
+          "md5": "33689530a9397f2312a0d65cb6606a8f"
+        }
+      ]
+    }
+  ]
+}
