@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotest-common/6.0.0.M3/kotest-common-6.0.0.M3.module",
+    "group": "io.kotest",
+    "module": "kotest-common",
+    "version": "6.0.0.M3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotest-common-js-6.0.0.M3.klib",
+          "url": "kotest-common-js-6.0.0.M3.klib",
+          "size": 28820,
+          "sha512": "1a440362eac19f9acef3bd043d5c6c51802f329d5af5b7e54cfbd7ae14f4c04412ad8be28183568b498d93cf1e1397c2b0b88da3ed3a11fe0d00ee85ed362c24",
+          "sha256": "abe2a72767912e5121f73d1866964c7306d225d62c65e88024e07d11fce433db",
+          "sha1": "de11f2227a505c928eef64439969b7a5b281887d",
+          "md5": "c66c280c550b925f8f19b5be14c90735"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotest-common-js-6.0.0.M3.klib",
+          "url": "kotest-common-js-6.0.0.M3.klib",
+          "size": 28820,
+          "sha512": "1a440362eac19f9acef3bd043d5c6c51802f329d5af5b7e54cfbd7ae14f4c04412ad8be28183568b498d93cf1e1397c2b0b88da3ed3a11fe0d00ee85ed362c24",
+          "sha256": "abe2a72767912e5121f73d1866964c7306d225d62c65e88024e07d11fce433db",
+          "sha1": "de11f2227a505c928eef64439969b7a5b281887d",
+          "md5": "c66c280c550b925f8f19b5be14c90735"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotest-common-js-6.0.0.M3-sources.jar",
+          "url": "kotest-common-js-6.0.0.M3-sources.jar",
+          "size": 8693,
+          "sha512": "dc20f7503f8d4a20134e6c86d0b00f7c0b1c0e6c0817ce30eda6ce6a5fd51d5249d35ad928b67f4dfeeaa8908bed3502c4791b2666102443152d2f68f9804f4f",
+          "sha256": "d5b5c012f8759a6366beb53cf339815493fe749825e00c39d177a0be62970ffb",
+          "sha1": "77816517ea473493e7a430d7a7ab59b72840accd",
+          "md5": "e77ccd4d096df1193a1879d34b857b2b"
+        }
+      ]
+    }
+  ]
+}

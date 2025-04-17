@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../atomicfu/0.26.1/atomicfu-0.26.1.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "atomicfu",
+    "version": "0.26.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "atomicfu-js-0.26.1.klib",
+          "url": "atomicfu-js-0.26.1.klib",
+          "size": 35815,
+          "sha512": "07bfe6a9f211cba73d014974f0d1999d827adddb9acf9199defbdd8a16f87f7a3516eaa05a106fe8cbe32f01818df0ed58fbb74169e0d9c7691c104991f2c644",
+          "sha256": "0417e8f07a940b27f9400a65592d757052fa989573f1eb55866c015f32b1e38f",
+          "sha1": "ba91e363bea53a576f68a7678e2cb65872b28e2b",
+          "md5": "788fa034b9545b74c424a7535a384a76"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "prefers": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atomicfu-js-0.26.1.klib",
+          "url": "atomicfu-js-0.26.1.klib",
+          "size": 35815,
+          "sha512": "07bfe6a9f211cba73d014974f0d1999d827adddb9acf9199defbdd8a16f87f7a3516eaa05a106fe8cbe32f01818df0ed58fbb74169e0d9c7691c104991f2c644",
+          "sha256": "0417e8f07a940b27f9400a65592d757052fa989573f1eb55866c015f32b1e38f",
+          "sha1": "ba91e363bea53a576f68a7678e2cb65872b28e2b",
+          "md5": "788fa034b9545b74c424a7535a384a76"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "atomicfu-js-0.26.1-sources.jar",
+          "url": "atomicfu-js-0.26.1-sources.jar",
+          "size": 10041,
+          "sha512": "bbe1c1817e60792356cc60110c55ce3e11b4dff2d5f8021db960e3739da535acb5601ff669194873cb85897de1f0e471c78231a7d2d1abae44d0bdd01842c77b",
+          "sha256": "cf3d26e9af9c9531ec115056acad8c5800fa3bdba283b8ccc702cd405c664d3c",
+          "sha1": "b58722f1455c3d2e147f7ba1838cc1a96d323c18",
+          "md5": "a62682adf2d60af252527a6bb3568138"
+        }
+      ]
+    }
+  ]
+}

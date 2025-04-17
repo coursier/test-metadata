@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotest-framework-engine/6.0.0.M3/kotest-framework-engine-6.0.0.M3.module",
+    "group": "io.kotest",
+    "module": "kotest-framework-engine",
+    "version": "6.0.0.M3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-shared",
+          "version": {
+            "requires": "6.0.0.M3"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-common",
+          "version": {
+            "requires": "6.0.0.M3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotest-framework-engine-js-6.0.0.M3.klib",
+          "url": "kotest-framework-engine-js-6.0.0.M3.klib",
+          "size": 874849,
+          "sha512": "9db66443d1f8c2bde3d8ca3f0542ae8a187fb5908cf9c388eb31b1fd73ae92c40bc78c6f3db27b407cb425e30e4cdd76c32557878df9fa9b3dc17b7c57e7e92c",
+          "sha256": "78d13d8271d2ad0b5c81623890b2790678783fe362e7bbc8dd9b64451006a80e",
+          "sha1": "718b37bc197ffbad90ece766a10c74fdf7e5406d",
+          "md5": "a4804fce5c39f1ef99fe945f562e9995"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-shared",
+          "version": {
+            "requires": "6.0.0.M3"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-common",
+          "version": {
+            "requires": "6.0.0.M3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotest-framework-engine-js-6.0.0.M3.klib",
+          "url": "kotest-framework-engine-js-6.0.0.M3.klib",
+          "size": 874849,
+          "sha512": "9db66443d1f8c2bde3d8ca3f0542ae8a187fb5908cf9c388eb31b1fd73ae92c40bc78c6f3db27b407cb425e30e4cdd76c32557878df9fa9b3dc17b7c57e7e92c",
+          "sha256": "78d13d8271d2ad0b5c81623890b2790678783fe362e7bbc8dd9b64451006a80e",
+          "sha1": "718b37bc197ffbad90ece766a10c74fdf7e5406d",
+          "md5": "a4804fce5c39f1ef99fe945f562e9995"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kotest-framework-engine-js-6.0.0.M3-sources.jar",
+          "url": "kotest-framework-engine-js-6.0.0.M3-sources.jar",
+          "size": 245356,
+          "sha512": "0bf2c520cd4fb30b28c5cdda09645ac6fd630c99998fc07c08d76514b4de5eff98e4a09478ebe282229a3a29a4fbdc787492c8046ad6fccda82591e8dc26a772",
+          "sha256": "d474ea98485f83cf431af7486c4abe39d2ec91c1ba5b88e7eaf66787ff4ebf7b",
+          "sha1": "41ce97ce79595f524630fd140371b599f521991a",
+          "md5": "5ee7f01e5f7d63462a4c777a963ffb3a"
+        }
+      ]
+    }
+  ]
+}
