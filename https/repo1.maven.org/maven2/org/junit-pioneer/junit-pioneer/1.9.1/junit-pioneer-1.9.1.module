@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.junit-pioneer",
+    "module": "junit-pioneer",
+    "version": "1.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.9.1.jar",
+          "url": "junit-pioneer-1.9.1.jar",
+          "size": 197909,
+          "sha512": "e7f7c4ad178bf72235dc243d61968f85c5cb7e83ae8104fd4906a835320d2da0429a18f901e8aea90ac32a0273af8be72072842b425fcdeead9eba5ddf4eb8d1",
+          "sha256": "122842adae5d369b5d24f3ce862c5322584dae3c639fd7a5f289b2dc3a83a0d0",
+          "sha1": "48f738af59216470e7ddeb4a85bf8ca77a9313e5",
+          "md5": "2f780bcdf6ddd98a2f5871c269109a56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-api"
+        },
+        {
+          "group": "org.junit.jupiter",
+          "module": "junit-jupiter-params"
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-launcher"
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-pioneer-1.9.1.jar",
+          "url": "junit-pioneer-1.9.1.jar",
+          "size": 197909,
+          "sha512": "e7f7c4ad178bf72235dc243d61968f85c5cb7e83ae8104fd4906a835320d2da0429a18f901e8aea90ac32a0273af8be72072842b425fcdeead9eba5ddf4eb8d1",
+          "sha256": "122842adae5d369b5d24f3ce862c5322584dae3c639fd7a5f289b2dc3a83a0d0",
+          "sha1": "48f738af59216470e7ddeb4a85bf8ca77a9313e5",
+          "md5": "2f780bcdf6ddd98a2f5871c269109a56"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.9.1-javadoc.jar",
+          "url": "junit-pioneer-1.9.1-javadoc.jar",
+          "size": 380086,
+          "sha512": "199db27349a7a9b2152310448ff145b72de6770f4d3bc7af911a45e7139dadaeaa2786c13ec00dc7e91e999bc77f6c6e179073b072c2fc7fabbde3adb24a6aa9",
+          "sha256": "d633601ad17f0d91cee2f40acb0fc43be265e5bc6cd3260193223b41b06e1c99",
+          "sha1": "9d8aaf67075260f9d17c2debd9e3c6879acdd5fe",
+          "md5": "595d2bee6320f92e2938d79676a698fc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.9.1-sources.jar",
+          "url": "junit-pioneer-1.9.1-sources.jar",
+          "size": 161261,
+          "sha512": "30d8cdd6d50185529063c0619314a50b7376dc86661afbb94fb204045dfe73787e4b6d61d8b5acf96a35b12197a53d32a4ec5a72cd18d712e9e699f0592640f9",
+          "sha256": "e19bbe631ab9a3fa0d37827cc2bff17bb73a9135d327a68666d19232f7bf3c22",
+          "sha1": "2d2f29f0e7e20207ba3c47c8e55d9c8c7c5b9ad2",
+          "md5": "df0681a3dbe6f1051040617c5e15022f"
+        }
+      ]
+    },
+    {
+      "name": "jacksonApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "junit-pioneer-1.9.1.jar",
+          "url": "junit-pioneer-1.9.1.jar",
+          "size": 197909,
+          "sha512": "e7f7c4ad178bf72235dc243d61968f85c5cb7e83ae8104fd4906a835320d2da0429a18f901e8aea90ac32a0273af8be72072842b425fcdeead9eba5ddf4eb8d1",
+          "sha256": "122842adae5d369b5d24f3ce862c5322584dae3c639fd7a5f289b2dc3a83a0d0",
+          "sha1": "48f738af59216470e7ddeb4a85bf8ca77a9313e5",
+          "md5": "2f780bcdf6ddd98a2f5871c269109a56"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.junit-pioneer",
+          "name": "junit-pioneer-jackson",
+          "version": "1.9.1"
+        }
+      ]
+    },
+    {
+      "name": "jacksonRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.13.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-pioneer-1.9.1.jar",
+          "url": "junit-pioneer-1.9.1.jar",
+          "size": 197909,
+          "sha512": "e7f7c4ad178bf72235dc243d61968f85c5cb7e83ae8104fd4906a835320d2da0429a18f901e8aea90ac32a0273af8be72072842b425fcdeead9eba5ddf4eb8d1",
+          "sha256": "122842adae5d369b5d24f3ce862c5322584dae3c639fd7a5f289b2dc3a83a0d0",
+          "sha1": "48f738af59216470e7ddeb4a85bf8ca77a9313e5",
+          "md5": "2f780bcdf6ddd98a2f5871c269109a56"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.junit-pioneer",
+          "name": "junit-pioneer-jackson",
+          "version": "1.9.1"
+        }
+      ]
+    }
+  ]
+}
