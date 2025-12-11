@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.openapi",
+    "module": "micronaut-openapi-common",
+    "version": "6.17.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.34"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-openapi-common-6.17.3.jar",
+          "url": "micronaut-openapi-common-6.17.3.jar",
+          "size": 88575,
+          "sha512": "2fb7e70d74e3012e61287581f7e23c9333e4e7f374c7bd7bed8974c9aca03faba5c2a29bea82b00c2aefb441ad75a50216d83d5c4bc9237774b754288ddfe228",
+          "sha256": "52dc271c108e5e4e19a5b1aad47b3b9fb5342ec6c91a0bce9123c07053430f79",
+          "sha1": "89af4ff0e1d9fd21eb3f6c62b1c310daea7ff215",
+          "md5": "2648a54a2c4f7076e8f3ed8c3144ee10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-bom",
+          "version": {
+            "requires": "4.9.5"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-openapi-common-6.17.3.jar",
+          "url": "micronaut-openapi-common-6.17.3.jar",
+          "size": 88575,
+          "sha512": "2fb7e70d74e3012e61287581f7e23c9333e4e7f374c7bd7bed8974c9aca03faba5c2a29bea82b00c2aefb441ad75a50216d83d5c4bc9237774b754288ddfe228",
+          "sha256": "52dc271c108e5e4e19a5b1aad47b3b9fb5342ec6c91a0bce9123c07053430f79",
+          "sha1": "89af4ff0e1d9fd21eb3f6c62b1c310daea7ff215",
+          "md5": "2648a54a2c4f7076e8f3ed8c3144ee10"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-common-6.17.3-sources.jar",
+          "url": "micronaut-openapi-common-6.17.3-sources.jar",
+          "size": 53673,
+          "sha512": "2e752700a90b7019307b373f0a96e983dcc88cd560a5d562f297c0853377378f8c9a60da32624d48b13d3ab90496baac9a3465a7245de79c9e1dbf0d9d0b2e86",
+          "sha256": "93534ccfa498032811f50437c1a4925f50da073074b4f61bc83915ea04663733",
+          "sha1": "3eb32e5430b661880e8087129d4b8642e0469531",
+          "md5": "df55eaf69617d4c5f85218fad1ea261c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-common-6.17.3-javadoc.jar",
+          "url": "micronaut-openapi-common-6.17.3-javadoc.jar",
+          "size": 245625,
+          "sha512": "f633ab9326e07d607400c226deccd34b83f1da5ec33c724779d88295d52593a16253bace7a65127d7936d4567ad05a5d61cd6587149d699ebbf26f5caba9f1da",
+          "sha256": "9446e0cde2fff882b0d33042b18473bb04cb4e656e3ad1951e3b3c06f4f94d81",
+          "sha1": "6ce33be4e01c97a1a27adfe9cfa6ede827064a93",
+          "md5": "92b2a5db99358dbf787753dde7d76ae8"
+        }
+      ]
+    }
+  ]
+}

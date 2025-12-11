@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.openapi",
+    "module": "micronaut-openapi-annotations",
+    "version": "6.17.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.34"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-openapi-annotations-6.17.3.jar",
+          "url": "micronaut-openapi-annotations-6.17.3.jar",
+          "size": 8835,
+          "sha512": "504a0dd596a415686cce69777cd2a95535e3435dd255847553d610b2c45c741d9a8677173a038c9c7d21dd0c15d056b024665d71bafb022ccdcb0e5c3319cfdf",
+          "sha256": "ce238088cfe1a11a12948b31b2634750ea13338d98b516ef58691cc3fc634b30",
+          "sha1": "1e007c22eb1c61e09ff3c95afb4de18afe07a6ab",
+          "md5": "8010f09960f45866b0260e505dadee63"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-bom",
+          "version": {
+            "requires": "4.9.5"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-openapi-annotations-6.17.3.jar",
+          "url": "micronaut-openapi-annotations-6.17.3.jar",
+          "size": 8835,
+          "sha512": "504a0dd596a415686cce69777cd2a95535e3435dd255847553d610b2c45c741d9a8677173a038c9c7d21dd0c15d056b024665d71bafb022ccdcb0e5c3319cfdf",
+          "sha256": "ce238088cfe1a11a12948b31b2634750ea13338d98b516ef58691cc3fc634b30",
+          "sha1": "1e007c22eb1c61e09ff3c95afb4de18afe07a6ab",
+          "md5": "8010f09960f45866b0260e505dadee63"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-annotations-6.17.3-sources.jar",
+          "url": "micronaut-openapi-annotations-6.17.3-sources.jar",
+          "size": 11857,
+          "sha512": "c04f80968e9cbcbad55820a243ce9745e6fe5f6b0c7259c8d0d8c7a561ca180efde43a93130652ec2179d664b6204c3fffc25aa7af5b94c51ece6d9ccb371e04",
+          "sha256": "8c936a27266d6a9e950e5672f83b0da1814db3aa4f5648fdc51c4e0ddeba10bf",
+          "sha1": "175d6552272677760f9f3cbd5a0c97b6e5693a29",
+          "md5": "37e7ad9be768b5e052aba099eece53a9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-annotations-6.17.3-javadoc.jar",
+          "url": "micronaut-openapi-annotations-6.17.3-javadoc.jar",
+          "size": 105381,
+          "sha512": "a5e6298e05b16cb939e01be00f43319a21d893230f0e2715f6cf0ff58c9127fff7616e720af97dac4b7586d29b1f0221291be6f2a4f112e8ed98a29ddde05ecf",
+          "sha256": "218628cbe1d51ecf9f076deba33c00e01b6d340b606b2c41e8697b4a476a39f1",
+          "sha1": "f86d516f89e109afc5eff72584d74ea82d99f9d9",
+          "md5": "edfd8e425883865c965db787cb0b2e0a"
+        }
+      ]
+    }
+  ]
+}

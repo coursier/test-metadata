@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-context-propagation",
+    "version": "4.9.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "4.9.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-context-propagation-4.9.9.jar",
+          "url": "micronaut-context-propagation-4.9.9.jar",
+          "size": 10299,
+          "sha512": "7076f0b2e7feaeb1c9ed9ffc10ab47ab63eee4cebbee6ccce0cb1cec11a26176299b80b8913dc3f320a94463243e59df7d6b6ec40b4746780a09214ab3d76636",
+          "sha256": "87beab17835d8c3c482e574de192f34725d7e9a8138affef6556fdbda5d418f8",
+          "sha1": "c77296814c16f4d209b10ae2266daeed5fbeb6bf",
+          "md5": "9a162fab79afaf6ec2d9bf2a7b64082a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "4.9.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-context-propagation-4.9.9.jar",
+          "url": "micronaut-context-propagation-4.9.9.jar",
+          "size": 10299,
+          "sha512": "7076f0b2e7feaeb1c9ed9ffc10ab47ab63eee4cebbee6ccce0cb1cec11a26176299b80b8913dc3f320a94463243e59df7d6b6ec40b4746780a09214ab3d76636",
+          "sha256": "87beab17835d8c3c482e574de192f34725d7e9a8138affef6556fdbda5d418f8",
+          "sha1": "c77296814c16f4d209b10ae2266daeed5fbeb6bf",
+          "md5": "9a162fab79afaf6ec2d9bf2a7b64082a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-context-propagation-4.9.9-sources.jar",
+          "url": "micronaut-context-propagation-4.9.9-sources.jar",
+          "size": 5796,
+          "sha512": "be7920ba06cf8459f8de74c8f86372772d4842ce0fec61803ae370bcdf5c07674729e5f2140261d0ddd8818b57842f7ac7e130d880dfc224250810ebc079497a",
+          "sha256": "49971d65fec772f5d6be3f66b03f381835ff7b5232d2aea74f45a9d219088203",
+          "sha1": "cf9871dc57f5e4337b6e99870c5c0744283b4411",
+          "md5": "8685b6d6ffdd72ef45154af4072e88fa"
+        },
+        {
+          "name": "micronaut-context-propagation-4.9.9-sources.jar",
+          "url": "micronaut-context-propagation-4.9.9-sources.jar",
+          "size": 5796,
+          "sha512": "be7920ba06cf8459f8de74c8f86372772d4842ce0fec61803ae370bcdf5c07674729e5f2140261d0ddd8818b57842f7ac7e130d880dfc224250810ebc079497a",
+          "sha256": "49971d65fec772f5d6be3f66b03f381835ff7b5232d2aea74f45a9d219088203",
+          "sha1": "cf9871dc57f5e4337b6e99870c5c0744283b4411",
+          "md5": "8685b6d6ffdd72ef45154af4072e88fa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-context-propagation-4.9.9-javadoc.jar",
+          "url": "micronaut-context-propagation-4.9.9-javadoc.jar",
+          "size": 95027,
+          "sha512": "8702dc9db93c73c84418a7fcad5765da53308f42500226fc67cdff3e1043153dc04b2c034d38ab0b42f27425d3598dc75b85e1fe11d0b6b3639fa8660e866da4",
+          "sha256": "a10d6f3db1256108fadd5f15b0f770d15fa538ac7a47fa92ace31186e55a7ca1",
+          "sha1": "ecfad5d0f9b2fa57c6b44c742c293e897a8bef8f",
+          "md5": "a956dcea351da600f1534009a1aa004e"
+        }
+      ]
+    }
+  ]
+}

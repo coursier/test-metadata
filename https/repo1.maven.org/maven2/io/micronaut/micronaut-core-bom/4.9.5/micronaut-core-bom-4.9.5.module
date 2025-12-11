@@ -1,0 +1,1450 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-core-bom",
+    "version": "4.9.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.27"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.19.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.9.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bom",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.2.2.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-json",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-sql",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-afterburner",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-parameter-names",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "jakarta.annotation",
+          "module": "jakarta.annotation-api",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-annotation-processing-embeddable",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-compiler-embeddable",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-slf4j",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing",
+          "version": {
+            "requires": "1.9.25-1.0.20"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.9.25-1.0.20"
+          }
+        },
+        {
+          "group": "io.methvin",
+          "module": "directory-watcher",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-classes-quic",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http2",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http3",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-native-quic",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-common",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler-proxy",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-tcnative-boringssl-static",
+          "version": {
+            "requires": "2.0.72.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-io_uring",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-unix-common",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.7.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-test",
+          "version": {
+            "requires": "3.7.7"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-buffer-netty",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context-propagation",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-processor",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-reactive",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-discovery-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-function",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-function-client",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-function-web",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-graal",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-jdk",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-tck",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-netty",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-netty-http3",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-server",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-server-netty",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-server-tck",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-tck",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-validation",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-groovy",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-groovy-test",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-java",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-java-test",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-kotlin",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-kotlin-test",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-jackson-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-jackson-databind",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-json-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-management",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-messaging",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-retry",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-router",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime-osx",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-websocket",
+          "version": {
+            "requires": "4.9.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.27"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.19.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.9.25"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-bom",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bom",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-bom",
+          "version": {
+            "requires": "4.2.2.Final"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-json",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-sql",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "4.0.27"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-xml",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-yaml",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jdk8",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-afterburner",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-parameter-names",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "jakarta.annotation",
+          "module": "jakarta.annotation-api",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-annotation-processing-embeddable",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-compiler-embeddable",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-test",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactive",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-rx2",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-slf4j",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing",
+          "version": {
+            "requires": "1.9.25-1.0.20"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.9.25-1.0.20"
+          }
+        },
+        {
+          "group": "io.methvin",
+          "module": "directory-watcher",
+          "version": {
+            "requires": "0.19.0"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-buffer",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-classes-quic",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http2",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http3",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-native-quic",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-common",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-handler-proxy",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-tcnative-boringssl-static",
+          "version": {
+            "requires": "2.0.72.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-epoll",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-io_uring",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-kqueue",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-transport-native-unix-common",
+          "version": {
+            "requires": "4.2.2.Final"
+          }
+        },
+        {
+          "group": "org.reactivestreams",
+          "module": "reactive-streams",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-core",
+          "version": {
+            "requires": "3.7.7"
+          }
+        },
+        {
+          "group": "io.projectreactor",
+          "module": "reactor-test",
+          "version": {
+            "requires": "3.7.7"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-buffer-netty",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-context-propagation",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-processor",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-reactive",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-discovery-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-function",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-function-client",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-function-web",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-graal",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-jdk",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-client-tck",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-netty",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-netty-http3",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-server",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-server-netty",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-server-tck",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-tck",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-http-validation",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-groovy",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-groovy-test",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-java",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-java-test",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-kotlin",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject-kotlin-test",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-jackson-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-jackson-databind",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-json-core",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-management",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-messaging",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-retry",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-router",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime-osx",
+          "version": {
+            "requires": "4.9.5"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-websocket",
+          "version": {
+            "requires": "4.9.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-core-bom-4.9.5.toml",
+          "url": "micronaut-core-bom-4.9.5.toml",
+          "size": 13395,
+          "sha512": "834d444160c7da2a827bbe760450f5fc6978bf0d1d4e86f87bd1a18a9abdb77a7bec84d73f42fa240f16a36e9709ea5e2f3430a7db4eae11af27fed011685681",
+          "sha256": "ea0e1711af876598d0ad8059534f537cdbe5e6161bbb06c1aed7b0cede33f267",
+          "sha1": "22fff959b7f221c76d9ffe4fbbc373905fa96e52",
+          "md5": "75bbd8de35871126f1ae7525b99f5843"
+        }
+      ]
+    }
+  ]
+}
