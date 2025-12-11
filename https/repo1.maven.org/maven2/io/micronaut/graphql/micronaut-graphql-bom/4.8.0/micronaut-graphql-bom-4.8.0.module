@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.graphql",
+    "module": "micronaut-graphql-bom",
+    "version": "4.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "22.4"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java-extended-scalars",
+          "version": {
+            "requires": "22.0"
+          }
+        },
+        {
+          "group": "com.graphql-java-kickstart",
+          "module": "graphql-java-tools",
+          "version": {
+            "requires": "14.0.1"
+          }
+        },
+        {
+          "group": "io.leangen.graphql",
+          "module": "spqr",
+          "version": {
+            "requires": "0.12.4"
+          }
+        },
+        {
+          "group": "io.micronaut.graphql",
+          "module": "micronaut-graphql",
+          "version": {
+            "requires": "4.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java",
+          "version": {
+            "requires": "22.4"
+          }
+        },
+        {
+          "group": "com.graphql-java",
+          "module": "graphql-java-extended-scalars",
+          "version": {
+            "requires": "22.0"
+          }
+        },
+        {
+          "group": "com.graphql-java-kickstart",
+          "module": "graphql-java-tools",
+          "version": {
+            "requires": "14.0.1"
+          }
+        },
+        {
+          "group": "io.leangen.graphql",
+          "module": "spqr",
+          "version": {
+            "requires": "0.12.4"
+          }
+        },
+        {
+          "group": "io.micronaut.graphql",
+          "module": "micronaut-graphql",
+          "version": {
+            "requires": "4.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-graphql-bom-4.8.0.toml",
+          "url": "micronaut-graphql-bom-4.8.0.toml",
+          "size": 996,
+          "sha512": "288aeaf049b821f3066e557f66fc2abfc512a7eee086b26c9cfc6871c760340b35b8df8e1f75bbb92b8c7015c612a960700fe62522d0b4ea10ac3e5aa828dcd5",
+          "sha256": "edb34f58173cde7158447e3e98033dcd72104b0972db01aa1e026450c72e4086",
+          "sha1": "ac5270878f36b504a4a85ccd41f690ebc99fb272",
+          "md5": "0e20a13586690439bd99e9eddcd18e4a"
+        }
+      ]
+    }
+  ]
+}

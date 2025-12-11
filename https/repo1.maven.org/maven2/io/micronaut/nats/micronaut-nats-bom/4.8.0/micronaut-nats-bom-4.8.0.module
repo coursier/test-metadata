@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.nats",
+    "module": "micronaut-nats-bom",
+    "version": "4.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.nats",
+          "module": "micronaut-nats",
+          "version": {
+            "requires": "4.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.nats",
+          "module": "micronaut-nats",
+          "version": {
+            "requires": "4.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-nats-bom-4.8.0.toml",
+          "url": "micronaut-nats-bom-4.8.0.toml",
+          "size": 389,
+          "sha512": "e215059eea6430f13cc58a41e816ccfa98ee714a81d3a97bd744937390724a4c03717692766928971a4dfa7dfea397b30e5e2cb70ffd439aae8d3266bacfdbf1",
+          "sha256": "dc641b3467c3d8c60141524587c5a40073a82a9db7effaa7ad6bc9b032d0faf2",
+          "sha1": "fc2335425f5e442f4f97c425719fbd8d40376ca7",
+          "md5": "6c4083c0c5701f5faea5a30b24db9a16"
+        }
+      ]
+    }
+  ]
+}

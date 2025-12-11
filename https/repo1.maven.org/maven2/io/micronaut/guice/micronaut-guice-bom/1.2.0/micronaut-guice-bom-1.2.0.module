@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.guice",
+    "module": "micronaut-guice-bom",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.8-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice-annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice-processor",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.4.8-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice-annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice-processor",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-guice-bom-1.2.0.toml",
+          "url": "micronaut-guice-bom-1.2.0.toml",
+          "size": 850,
+          "sha512": "c9e85b3104679fba1ad9a60e70740a418ae4ce6ad075a7629b11aa05d43af38212d90dbf0163fbf3a707a087c509b193961e8e1a5e067cf2b1de681a37407f67",
+          "sha256": "6ec2010a3162c18709e30187b270cd4a68d77f22045145c372f86bc21e4d441d",
+          "sha1": "3af1e116ba1944776f87a496d7fd97fd1ed20bb2",
+          "md5": "3e43c99239635d335694f786d4403665"
+        }
+      ]
+    }
+  ]
+}

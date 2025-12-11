@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.groovy",
+    "module": "micronaut-groovy-bom",
+    "version": "4.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.18"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-function-groovy",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-runtime-groovy",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "4.0.18"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-function-groovy",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-runtime-groovy",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-groovy-bom-4.7.0.toml",
+          "url": "micronaut-groovy-bom-4.7.0.toml",
+          "size": 554,
+          "sha512": "239a0fe61592ca02aa0eb0d4e3bb6dfddac3226be9d078bddbeb68542768fac625f16470dc00c2882e0da566f4565245bb0847a1ce346c3b44acd014fd3b2d55",
+          "sha256": "830b4e88c0175eaa89df759b14480016897aad22ef2a1d3ea2b3f47f2792f6b6",
+          "sha1": "3bf76f3ccdcc44304fed269341bcc3facb6c9360",
+          "md5": "398cb089b88df60e741422b732f9f5fa"
+        }
+      ]
+    }
+  ]
+}

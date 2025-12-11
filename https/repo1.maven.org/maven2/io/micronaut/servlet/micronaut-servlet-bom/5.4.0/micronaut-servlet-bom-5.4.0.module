@@ -1,0 +1,248 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.servlet",
+    "module": "micronaut-servlet-bom",
+    "version": "5.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-bom",
+          "version": {
+            "requires": "12.0.21"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "jakarta.servlet",
+          "module": "jakarta.servlet-api",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-poja-apache",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-poja-common",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-poja-test",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-jdk",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-jetty",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-tomcat",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-undertow",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-api",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-core",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-engine",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-processor",
+          "version": {
+            "requires": "5.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-bom",
+          "version": {
+            "requires": "12.0.21"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "jakarta.servlet",
+          "module": "jakarta.servlet-api",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-poja-apache",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-poja-common",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-poja-test",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-jdk",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-jetty",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-tomcat",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-http-server-undertow",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-api",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-core",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-engine",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-processor",
+          "version": {
+            "requires": "5.4.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-servlet-bom-5.4.0.toml",
+          "url": "micronaut-servlet-bom-5.4.0.toml",
+          "size": 2029,
+          "sha512": "6c81794dc6bbdb8dd69ff98ebe631f58d5a58df0559f390d6d9dc77a87c0c1f3e5a37900acd988d38dd26a9dbb1e6d5c7cb3296d90dd43ac22bcd22b6af7b55c",
+          "sha256": "57d02ecd137226b4d7a453ed0a92b2bef6248ca53e7a9cbee32803524738ebaf",
+          "sha1": "3f29253b4401e0dfa9595b26daea3ff202e4fd96",
+          "md5": "0aa81467b787b47e4d927efcd87cc962"
+        }
+      ]
+    }
+  ]
+}

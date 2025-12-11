@@ -1,0 +1,442 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.tracing",
+    "module": "micronaut-tracing-bom",
+    "version": "7.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.zipkin.brave",
+          "module": "brave-bom",
+          "version": {
+            "requires": "6.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.51.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom-alpha",
+          "version": {
+            "requires": "1.51.0-alpha"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom",
+          "version": {
+            "requires": "2.16.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom-alpha",
+          "version": {
+            "requires": "2.16.0-alpha"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.zipkin.reporter2",
+          "module": "zipkin-reporter-bom",
+          "version": {
+            "requires": "3.5.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-resources",
+          "version": {
+            "requires": "1.46.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-xray",
+          "version": {
+            "requires": "1.46.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-xray-propagator",
+          "version": {
+            "requires": "1.46.0-alpha"
+          }
+        },
+        {
+          "group": "com.google.cloud.opentelemetry",
+          "module": "exporter-auto",
+          "version": {
+            "requires": "0.36.0-alpha"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-annotation",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-brave",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-brave-http",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-core",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-jaeger",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-annotation",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-grpc",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-http",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-jdbc",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-kafka",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-zipkin-exporter",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentracing",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-zipkin-http-client",
+          "version": {
+            "requires": "7.1.4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.zipkin.brave",
+          "module": "brave-bom",
+          "version": {
+            "requires": "6.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom",
+          "version": {
+            "requires": "1.51.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-bom-alpha",
+          "version": {
+            "requires": "1.51.0-alpha"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom",
+          "version": {
+            "requires": "2.16.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.opentelemetry.instrumentation",
+          "module": "opentelemetry-instrumentation-bom-alpha",
+          "version": {
+            "requires": "2.16.0-alpha"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.zipkin.reporter2",
+          "module": "zipkin-reporter-bom",
+          "version": {
+            "requires": "3.5.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-resources",
+          "version": {
+            "requires": "1.46.0-alpha"
+          }
+        },
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-xray",
+          "version": {
+            "requires": "1.46.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry.contrib",
+          "module": "opentelemetry-aws-xray-propagator",
+          "version": {
+            "requires": "1.46.0-alpha"
+          }
+        },
+        {
+          "group": "com.google.cloud.opentelemetry",
+          "module": "exporter-auto",
+          "version": {
+            "requires": "0.36.0-alpha"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-annotation",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-brave",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-brave-http",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-core",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-jaeger",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-annotation",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-grpc",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-http",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-jdbc",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-kafka",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentelemetry-zipkin-exporter",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-opentracing",
+          "version": {
+            "requires": "7.1.4"
+          }
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-zipkin-http-client",
+          "version": {
+            "requires": "7.1.4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-tracing-bom-7.1.4.toml",
+          "url": "micronaut-tracing-bom-7.1.4.toml",
+          "size": 4570,
+          "sha512": "3539c76046335a7082f565ea01d883ecb3c6404d3179bcc6cd1faf61201ec7c7ee04d03876a230c4bbc5efdb983e2c221a0d3539076336da4ffb65249acf2b73",
+          "sha256": "2b70f24de8164536cb9defe15eee64370c66f9da488c6b3526c5d4b56a311417",
+          "sha1": "b4aefb4d2858d1decb33d1e8a03828633c5dd1f7",
+          "md5": "c0c4c6b5f6e3e5a1added4c3aa5dc060"
+        }
+      ]
+    }
+  ]
+}

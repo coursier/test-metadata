@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.toml",
+    "module": "micronaut-toml-bom",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.toml",
+          "module": "micronaut-toml",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.toml",
+          "module": "micronaut-toml",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-toml-bom-2.7.0.toml",
+          "url": "micronaut-toml-bom-2.7.0.toml",
+          "size": 389,
+          "sha512": "fdc5a461278142a9105f50997ea512e710be0547f7cb577272da639567b9a78a15f29ba55335753a0e4667955be82b8836554d1634eb5face0aebb991ffe49be",
+          "sha256": "e659de703409402e143ea3468a3e0590201d684485f025aa0316cf1df0d726f2",
+          "sha1": "1a7e9c765e72d403367cd014a80508af609ed3a1",
+          "md5": "7041ed95f756d9cfa5d1ee95b97880fd"
+        }
+      ]
+    }
+  ]
+}

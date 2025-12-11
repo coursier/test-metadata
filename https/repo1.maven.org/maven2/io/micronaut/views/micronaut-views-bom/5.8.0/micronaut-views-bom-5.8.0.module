@@ -1,0 +1,404 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.views",
+    "module": "micronaut-views-bom",
+    "version": "5.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "com.github.jknack",
+          "module": "handlebars",
+          "version": {
+            "requires": "4.3.1"
+          }
+        },
+        {
+          "group": "io.jstach",
+          "module": "jstachio",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "io.jstach",
+          "module": "jstachio-apt",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte-kotlin",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte-native-resources",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.fizzed",
+          "module": "rocker-runtime",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.google.template",
+          "module": "soy",
+          "version": {
+            "requires": "2023-09-13"
+          }
+        },
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.1.3.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-engine-core",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-core",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-fieldset",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-fieldset-tck",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-freemarker",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-handlebars",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-htmx",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-jstachio",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-jte",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-pebble",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-react",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-rocker",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-soy",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-thymeleaf",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-velocity",
+          "version": {
+            "requires": "5.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "com.github.jknack",
+          "module": "handlebars",
+          "version": {
+            "requires": "4.3.1"
+          }
+        },
+        {
+          "group": "io.jstach",
+          "module": "jstachio",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "io.jstach",
+          "module": "jstachio-apt",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte-kotlin",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "gg.jte",
+          "module": "jte-native-resources",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "com.fizzed",
+          "module": "rocker-runtime",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.google.template",
+          "module": "soy",
+          "version": {
+            "requires": "2023-09-13"
+          }
+        },
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.1.3.RELEASE"
+          }
+        },
+        {
+          "group": "org.apache.velocity",
+          "module": "velocity-engine-core",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-core",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-fieldset",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-fieldset-tck",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-freemarker",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-handlebars",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-htmx",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-jstachio",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-jte",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-pebble",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-react",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-rocker",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-soy",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-thymeleaf",
+          "version": {
+            "requires": "5.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-velocity",
+          "version": {
+            "requires": "5.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-views-bom-5.8.0.toml",
+          "url": "micronaut-views-bom-5.8.0.toml",
+          "size": 3137,
+          "sha512": "948164f65be94e934f4ace3c7b47c79f1331aaa8b29b452204f88c52e203f40e8053c350852e4cf00268465470665f17d90d041b10aea474c2ef834b1864cb32",
+          "sha256": "78969bc1a8605c73f247a4f26930e79d44de02190ed6c7f56fd8eb0393781a64",
+          "sha1": "aa33f83293c3ecbbfcc4e4bf144f4a8d19beb04f",
+          "md5": "ef2ae875e2de33a6be4f00f72b9d9a08"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.flyway",
+    "module": "micronaut-flyway-bom",
+    "version": "7.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-mysql",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-oracle",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-sqlserver",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "io.micronaut.flyway",
+          "module": "micronaut-flyway",
+          "version": {
+            "requires": "7.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-mysql",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-oracle",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-sqlserver",
+          "version": {
+            "requires": "10.22.0"
+          }
+        },
+        {
+          "group": "io.micronaut.flyway",
+          "module": "micronaut-flyway",
+          "version": {
+            "requires": "7.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-flyway-bom-7.8.0.toml",
+          "url": "micronaut-flyway-bom-7.8.0.toml",
+          "size": 897,
+          "sha512": "0b140b85be7cb1c7631dee1e179ff43bf409b991cea6b40d1649be176603d58589b34cdae8d3338b85a53632922db1e709f5568a810c093960fe2b25d1a7d08d",
+          "sha256": "dec2a82121ea02072119aa0efbf26184c77df06b2f9b7b1b402917af84c982d1",
+          "sha1": "290daca09a6c48889b46ed6d3b1af64f1dd23ea7",
+          "md5": "9c154d995bcf7c28cf7dc8f7fe2e1d36"
+        }
+      ]
+    }
+  ]
+}

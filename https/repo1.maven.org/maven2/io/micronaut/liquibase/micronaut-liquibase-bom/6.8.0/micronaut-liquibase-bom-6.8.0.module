@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.liquibase",
+    "module": "micronaut-liquibase-bom",
+    "version": "6.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.liquibase",
+          "module": "liquibase-core",
+          "version": {
+            "requires": "4.32.0"
+          }
+        },
+        {
+          "group": "io.micronaut.liquibase",
+          "module": "micronaut-liquibase",
+          "version": {
+            "requires": "6.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.liquibase",
+          "module": "liquibase-core",
+          "version": {
+            "requires": "4.32.0"
+          }
+        },
+        {
+          "group": "io.micronaut.liquibase",
+          "module": "micronaut-liquibase",
+          "version": {
+            "requires": "6.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-liquibase-bom-6.8.0.toml",
+          "url": "micronaut-liquibase-bom-6.8.0.toml",
+          "size": 546,
+          "sha512": "ffb40d9d00ea05d7fcd63bc6166dcacfd8c1e2809c8448281c6cdde161b5f0da37c93f67a93a7fcf2841c841bde2f26339c2b0837f14934171c47f8bd6880999",
+          "sha256": "03c14966d6e8130b3777f7698639947e518b6fd689b624714bf97b1d43165af5",
+          "sha1": "9cc09b9b98e1ac962b83bbd28e9c338f72a426ca",
+          "md5": "289b386b43cdb2d5dcec515fd47f7984"
+        }
+      ]
+    }
+  ]
+}

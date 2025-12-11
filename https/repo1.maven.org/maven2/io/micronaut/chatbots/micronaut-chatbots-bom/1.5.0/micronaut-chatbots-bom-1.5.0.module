@@ -1,0 +1,278 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.chatbots",
+    "module": "micronaut-chatbots-bom",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-azure-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-gcp-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-http",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-lambda",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-google-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-http",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-lambda",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-azure-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-gcp-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-http",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-lambda",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-azure-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-gcp-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-http",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-basecamp-lambda",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-google-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-http",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-lambda",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-azure-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-gcp-function",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-http",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-telegram-lambda",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-chatbots-bom-1.5.0.toml",
+          "url": "micronaut-chatbots-bom-1.5.0.toml",
+          "size": 2708,
+          "sha512": "c34ffe06e9c68b52a9ea44c0793bd7bf8513223707defac188d54801afb996712aff1b894c125010daca180b47a269125eb2c5211b24f16ade4f955481a219b2",
+          "sha256": "129aebaf168531e3c50a2ddd25c11d4e901d814b819e269e375faa0a8e9da414",
+          "sha1": "ad0c9dff058caa16e24708956bba549c2da7ca72",
+          "md5": "f6aa7afc9d3002a037fdaa293766a727"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.xml",
+    "module": "micronaut-jackson-xml-bom",
+    "version": "4.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.xml",
+          "module": "micronaut-jackson-xml",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.xml",
+          "module": "micronaut-jackson-xml",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-jackson-xml-bom-4.7.0.toml",
+          "url": "micronaut-jackson-xml-bom-4.7.0.toml",
+          "size": 436,
+          "sha512": "4aec35380648c80c7fa82a7de1cd540590e77347133bf2d3b3ff19d0f18f5e33705e12cee6b1abc665d61f19169a8bd2f68508508a7a02d99ab326cf7df00201",
+          "sha256": "9f6a7c5c1f0889ed4d7985350ceb0c13a7de72a9c772377aea59627c5605aeda",
+          "sha1": "8df3c605495f8cf07b2800b8a0e17c71bbb4f5dc",
+          "md5": "093531c9e5865ff4f238f68b784212d8"
+        }
+      ]
+    }
+  ]
+}

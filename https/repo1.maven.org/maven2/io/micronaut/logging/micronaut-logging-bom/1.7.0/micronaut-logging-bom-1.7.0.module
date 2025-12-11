@@ -1,0 +1,276 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.logging",
+    "module": "micronaut-logging-bom",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-bom",
+          "version": {
+            "requires": "2.24.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.24.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-access",
+          "version": {
+            "requires": "1.5.18"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.18"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-core",
+          "version": {
+            "requires": "1.5.18"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-ext",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-log4j12",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "osgi-over-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-reload4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.17"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-bom",
+          "version": {
+            "requires": "2.24.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.24.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-access",
+          "version": {
+            "requires": "1.5.18"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.18"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-core",
+          "version": {
+            "requires": "1.5.18"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-ext",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "log4j-over-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-log4j12",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "osgi-over-slf4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-reload4j",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "2.0.17"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-logging-bom-1.7.0.toml",
+          "url": "micronaut-logging-bom-1.7.0.toml",
+          "size": 1722,
+          "sha512": "14b72dfbf1c301f24eb246057c7a1351ba40cc408c3c56506e5a62db2e0e83f6fbe03ea365fddc22916ef4f8219300552b4d0c941a103bd341dc86a916a56683",
+          "sha256": "84ffdc9bc216e9394ecd96878356b8ab8668ffb8c7d568847d01a795b70f3aa3",
+          "sha1": "549ab2509d6d7a005865c0dbe8300247873894ee",
+          "md5": "001b9395e65e1f04d5d28b64c4cd11bd"
+        }
+      ]
+    }
+  ]
+}

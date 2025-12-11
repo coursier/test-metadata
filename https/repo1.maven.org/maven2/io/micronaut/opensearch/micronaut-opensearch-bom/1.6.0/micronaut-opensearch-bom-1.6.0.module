@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.opensearch",
+    "module": "micronaut-opensearch-bom",
+    "version": "1.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5",
+          "version": {
+            "requires": "5.5"
+          }
+        },
+        {
+          "group": "org.opensearch.client",
+          "module": "opensearch-java",
+          "version": {
+            "requires": "2.24.0"
+          }
+        },
+        {
+          "group": "org.opensearch.client",
+          "module": "opensearch-rest-client",
+          "version": {
+            "requires": "2.19.2"
+          }
+        },
+        {
+          "group": "org.opensearch",
+          "module": "opensearch-testcontainers",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-amazon",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-httpclient5",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-restclient",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5",
+          "version": {
+            "requires": "5.5"
+          }
+        },
+        {
+          "group": "org.opensearch.client",
+          "module": "opensearch-java",
+          "version": {
+            "requires": "2.24.0"
+          }
+        },
+        {
+          "group": "org.opensearch.client",
+          "module": "opensearch-rest-client",
+          "version": {
+            "requires": "2.19.2"
+          }
+        },
+        {
+          "group": "org.opensearch",
+          "module": "opensearch-testcontainers",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-amazon",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-httpclient5",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-restclient",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-opensearch-bom-1.6.0.toml",
+          "url": "micronaut-opensearch-bom-1.6.0.toml",
+          "size": 1565,
+          "sha512": "d7285caeda89f40369667d673d5fbb6ca63c89ddaad020f43dd1224870974b3942af28aee60f959caf197e6d2f69b64166a9a578ae5ebff889b238ea7a69ffb1",
+          "sha256": "3d41ea54f1d24505fc13983a1c023242bd4f1a535dd9d2fdccfeb1ff527f409f",
+          "sha1": "9df8bbcd12a8526f88f06efd73cc99224e00ce6e",
+          "md5": "463e29bf796b6a19fb6b074bb6f0b681"
+        }
+      ]
+    }
+  ]
+}

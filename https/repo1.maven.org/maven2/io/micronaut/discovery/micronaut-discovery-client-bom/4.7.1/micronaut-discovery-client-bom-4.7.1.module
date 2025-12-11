@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.discovery",
+    "module": "micronaut-discovery-client-bom",
+    "version": "4.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.discovery",
+          "module": "micronaut-discovery-client",
+          "version": {
+            "requires": "4.7.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.discovery",
+          "module": "micronaut-discovery-client",
+          "version": {
+            "requires": "4.7.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-discovery-client-bom-4.7.1.toml",
+          "url": "micronaut-discovery-client-bom-4.7.1.toml",
+          "size": 483,
+          "sha512": "7505b978b9ad656cc12cd1ae84050c2d760c6f86e739f005cff4ceea398535126d69773d6c34bff92773a7a45e6b4679c933fb78358b86ef6cf3c98ad7aa9ca9",
+          "sha256": "fe5f249ffc09a96f91cb8249e35713f5b7c6d7d14a798943aef5e4c3c126c9b7",
+          "sha1": "be9433550bffe85dc721d0a66eb11332a9c3190e",
+          "md5": "293f6366dda668f9abf98509fe567ab5"
+        }
+      ]
+    }
+  ]
+}

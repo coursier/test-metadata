@@ -1,0 +1,264 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.cache",
+    "module": "micronaut-cache-bom",
+    "version": "5.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache",
+          "version": {
+            "requires": "3.10.8"
+          }
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache-clustered",
+          "version": {
+            "requires": "3.10.8"
+          }
+        },
+        {
+          "group": "com.hazelcast",
+          "module": "hazelcast",
+          "version": {
+            "requires": "5.3.7"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-client-hotrod",
+          "version": {
+            "requires": "15.2.4.Final"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-core",
+          "version": {
+            "requires": "15.2.4.Final"
+          }
+        },
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-caffeine",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-core",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-ehcache",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-hazelcast",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-infinispan",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-management",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-noop",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-tck",
+          "version": {
+            "requires": "5.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache",
+          "version": {
+            "requires": "3.10.8"
+          }
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache-clustered",
+          "version": {
+            "requires": "3.10.8"
+          }
+        },
+        {
+          "group": "com.hazelcast",
+          "module": "hazelcast",
+          "version": {
+            "requires": "5.3.7"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-client-hotrod",
+          "version": {
+            "requires": "15.2.4.Final"
+          }
+        },
+        {
+          "group": "org.infinispan",
+          "module": "infinispan-core",
+          "version": {
+            "requires": "15.2.4.Final"
+          }
+        },
+        {
+          "group": "javax.cache",
+          "module": "cache-api",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-caffeine",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-core",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-ehcache",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-hazelcast",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-infinispan",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-management",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-noop",
+          "version": {
+            "requires": "5.3.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-tck",
+          "version": {
+            "requires": "5.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-cache-bom-5.3.0.toml",
+          "url": "micronaut-cache-bom-5.3.0.toml",
+          "size": 2047,
+          "sha512": "c0baafff34c2bb133787ee7011db796af72629f8cabe754d4cf528fa2929aff0231c88b97bd77410e75d7ac01446db2a9c815a9b0bcfb5dbd276435d6252ed73",
+          "sha256": "6ae2c2cd9b1998db74a27e350bf103f672a9a0afb9270b07820bfe8e49241938",
+          "sha1": "8c3ade5ae5efcc72fc093968f1999ce4af3cf49b",
+          "md5": "f143b9d788c3426b86c94860f2bc2c2d"
+        }
+      ]
+    }
+  ]
+}

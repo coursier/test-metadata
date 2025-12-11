@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.r2dbc",
+    "module": "micronaut-r2dbc-bom",
+    "version": "6.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-h2",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.mariadb",
+          "module": "r2dbc-mariadb",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-mssql",
+          "version": {
+            "requires": "1.0.2.RELEASE"
+          }
+        },
+        {
+          "group": "io.asyncer",
+          "module": "r2dbc-mysql",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.oracle.database.r2dbc",
+          "module": "oracle-r2dbc",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-pool",
+          "version": {
+            "requires": "1.0.2.RELEASE"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "r2dbc-postgresql",
+          "version": {
+            "requires": "1.0.7.RELEASE"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "io.micronaut.r2dbc",
+          "module": "micronaut-r2dbc-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-h2",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "org.mariadb",
+          "module": "r2dbc-mariadb",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-mssql",
+          "version": {
+            "requires": "1.0.2.RELEASE"
+          }
+        },
+        {
+          "group": "io.asyncer",
+          "module": "r2dbc-mysql",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.oracle.database.r2dbc",
+          "module": "oracle-r2dbc",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-pool",
+          "version": {
+            "requires": "1.0.2.RELEASE"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "r2dbc-postgresql",
+          "version": {
+            "requires": "1.0.7.RELEASE"
+          }
+        },
+        {
+          "group": "io.r2dbc",
+          "module": "r2dbc-spi",
+          "version": {
+            "requires": "1.0.0.RELEASE"
+          }
+        },
+        {
+          "group": "io.micronaut.r2dbc",
+          "module": "micronaut-r2dbc-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-r2dbc-bom-6.1.0.toml",
+          "url": "micronaut-r2dbc-bom-6.1.0.toml",
+          "size": 1348,
+          "sha512": "488ddd6f832065bb702dfac47bd69673db67a2b6eafad7fe7b702bacec46ec97b9d6c296ba1858832190e7efe01bd8bca25f2eb48c815e8f752e3d35faba37ce",
+          "sha256": "3f7d4e234c6688bb50206bb6e4a8488ea3627b7c2d60a9929df42152f8580476",
+          "sha1": "1c220c883aa0549212d77ebb26eb0060efc8c67d",
+          "md5": "7cdd0029312bb0c6085f0fabf0bfba71"
+        }
+      ]
+    }
+  ]
+}

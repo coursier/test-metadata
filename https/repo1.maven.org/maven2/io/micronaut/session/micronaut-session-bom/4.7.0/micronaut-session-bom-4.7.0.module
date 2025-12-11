@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.session",
+    "module": "micronaut-session-bom",
+    "version": "4.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.session",
+          "module": "micronaut-session",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.session",
+          "module": "micronaut-session",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-session-bom-4.7.0.toml",
+          "url": "micronaut-session-bom-4.7.0.toml",
+          "size": 416,
+          "sha512": "8c7e3e6f2ee5061b1a5b1ff86fb1187c151a1fca38a8ec30f476f97e185c0c8003e23fcaf2d7463f0232b9e6e1583f8b4c2ada9a5421f8943960406f5de57857",
+          "sha256": "716ea6a169f0d41bb578d15171fa212259d8c05f2ae5cd9fe0474886a5a607ba",
+          "sha1": "d176f51e797c3e757a62dfe6f4d26075d9c94f79",
+          "md5": "bbb3c39f88e28bd9fcbea40702cfd6d6"
+        }
+      ]
+    }
+  ]
+}

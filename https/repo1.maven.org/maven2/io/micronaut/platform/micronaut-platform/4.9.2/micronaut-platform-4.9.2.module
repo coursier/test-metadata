@@ -1,0 +1,1746 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.platform",
+    "module": "micronaut-platform",
+    "version": "4.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.acme",
+          "module": "micronaut-acme-bom",
+          "version": {
+            "requires": "5.5.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-bom",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-bom",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-bom",
+          "version": {
+            "requires": "5.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-bom",
+          "version": {
+            "requires": "5.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.cassandra",
+          "module": "micronaut-cassandra-bom",
+          "version": {
+            "requires": "6.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-bom",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-bom",
+          "version": {
+            "requires": "5.0.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-bom",
+          "version": {
+            "requires": "4.9.9"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.crac",
+          "module": "micronaut-crac-bom",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-bom",
+          "version": {
+            "requires": "4.13.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.discovery",
+          "module": "micronaut-discovery-client-bom",
+          "version": {
+            "requires": "4.7.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-bom",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.elasticsearch",
+          "module": "micronaut-elasticsearch-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.flyway",
+          "module": "micronaut-flyway-bom",
+          "version": {
+            "requires": "7.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-bom",
+          "version": {
+            "requires": "5.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.graal-languages",
+          "module": "micronaut-graal-languages-bom",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.graphql",
+          "module": "micronaut-graphql-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-groovy-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-bom",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice-bom",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.guides",
+          "module": "micronaut-guides-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.beanvalidation",
+          "module": "micronaut-hibernate-validator-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.xml",
+          "module": "micronaut-jackson-xml-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-bom",
+          "version": {
+            "requires": "4.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jms",
+          "module": "micronaut-jms-bom",
+          "version": {
+            "requires": "4.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jmx",
+          "module": "micronaut-jmx-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-bom",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.kafka",
+          "module": "micronaut-kafka-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-bom",
+          "version": {
+            "requires": "7.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-bom",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.liquibase",
+          "module": "micronaut-liquibase-bom",
+          "version": {
+            "requires": "6.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.logging",
+          "module": "micronaut-logging-bom",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-bom",
+          "version": {
+            "requires": "5.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-bom",
+          "version": {
+            "requires": "5.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqtt-bom",
+          "version": {
+            "requires": "3.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.multitenancy",
+          "module": "micronaut-multitenancy-bom",
+          "version": {
+            "requires": "5.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.nats",
+          "module": "micronaut-nats-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.neo4j",
+          "module": "micronaut-neo4j-bom",
+          "version": {
+            "requires": "6.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-bom",
+          "version": {
+            "requires": "6.17.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-bom",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bom",
+          "version": {
+            "requires": "5.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.picocli",
+          "module": "micronaut-picocli-bom",
+          "version": {
+            "requires": "5.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.problem",
+          "module": "micronaut-problem-json-bom",
+          "version": {
+            "requires": "3.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.pulsar",
+          "module": "micronaut-pulsar-bom",
+          "version": {
+            "requires": "2.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.r2dbc",
+          "module": "micronaut-r2dbc-bom",
+          "version": {
+            "requires": "6.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rabbitmq",
+          "module": "micronaut-rabbitmq-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor-bom",
+          "version": {
+            "requires": "3.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.redis",
+          "module": "micronaut-redis-bom",
+          "version": {
+            "requires": "6.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2-bom",
+          "version": {
+            "requires": "2.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3-bom",
+          "version": {
+            "requires": "3.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-bom",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-bom",
+          "version": {
+            "requires": "2.15.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-bom",
+          "version": {
+            "requires": "5.4.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.session",
+          "module": "micronaut-session-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bom",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-bom",
+          "version": {
+            "requires": "5.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-sql-bom",
+          "version": {
+            "requires": "6.2.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-bom",
+          "version": {
+            "requires": "4.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.toml",
+          "module": "micronaut-toml-bom",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-bom",
+          "version": {
+            "requires": "7.1.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.validation",
+          "module": "micronaut-validation-bom",
+          "version": {
+            "requires": "4.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-bom",
+          "version": {
+            "requires": "5.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.graalvm.nativeimage",
+          "module": "svm",
+          "version": {
+            "requires": "23.1.7"
+          }
+        },
+        {
+          "group": "org.graalvm.sdk",
+          "module": "graal-sdk",
+          "version": {
+            "requires": "24.2.1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.17.0"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.38"
+          }
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.3-groovy-4.0"
+          }
+        },
+        {
+          "group": "com.github.spotbugs",
+          "module": "spotbugs-annotations",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "io.micronaut.platform",
+          "module": "micronaut-parent",
+          "version": {
+            "requires": "4.9.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.12.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.acme",
+          "module": "micronaut-acme-bom",
+          "version": {
+            "requires": "5.5.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-bom",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.aws",
+          "module": "micronaut-aws-bom",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-bom",
+          "version": {
+            "requires": "5.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.cache",
+          "module": "micronaut-cache-bom",
+          "version": {
+            "requires": "5.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.cassandra",
+          "module": "micronaut-cassandra-bom",
+          "version": {
+            "requires": "6.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.chatbots",
+          "module": "micronaut-chatbots-bom",
+          "version": {
+            "requires": "1.5.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-bom",
+          "version": {
+            "requires": "5.0.6"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-bom",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-bom",
+          "version": {
+            "requires": "4.9.9"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.crac",
+          "module": "micronaut-crac-bom",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-bom",
+          "version": {
+            "requires": "4.13.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.discovery",
+          "module": "micronaut-discovery-client-bom",
+          "version": {
+            "requires": "4.7.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-bom",
+          "version": {
+            "requires": "1.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.elasticsearch",
+          "module": "micronaut-elasticsearch-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.email",
+          "module": "micronaut-email-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.flyway",
+          "module": "micronaut-flyway-bom",
+          "version": {
+            "requires": "7.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-bom",
+          "version": {
+            "requires": "5.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.graal-languages",
+          "module": "micronaut-graal-languages-bom",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.graphql",
+          "module": "micronaut-graphql-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.groovy",
+          "module": "micronaut-groovy-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.grpc",
+          "module": "micronaut-grpc-bom",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.guice",
+          "module": "micronaut-guice-bom",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.guides",
+          "module": "micronaut-guides-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.beanvalidation",
+          "module": "micronaut-hibernate-validator-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.xml",
+          "module": "micronaut-jackson-xml-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-bom",
+          "version": {
+            "requires": "4.9.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jms",
+          "module": "micronaut-jms-bom",
+          "version": {
+            "requires": "4.3.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jmx",
+          "module": "micronaut-jmx-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-bom",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.kafka",
+          "module": "micronaut-kafka-bom",
+          "version": {
+            "requires": "5.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-bom",
+          "version": {
+            "requires": "7.1.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-bom",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.liquibase",
+          "module": "micronaut-liquibase-bom",
+          "version": {
+            "requires": "6.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.logging",
+          "module": "micronaut-logging-bom",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.micrometer",
+          "module": "micronaut-micrometer-bom",
+          "version": {
+            "requires": "5.12.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.mongodb",
+          "module": "micronaut-mongo-bom",
+          "version": {
+            "requires": "5.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.mqtt",
+          "module": "micronaut-mqtt-bom",
+          "version": {
+            "requires": "3.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.multitenancy",
+          "module": "micronaut-multitenancy-bom",
+          "version": {
+            "requires": "5.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.nats",
+          "module": "micronaut-nats-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.neo4j",
+          "module": "micronaut-neo4j-bom",
+          "version": {
+            "requires": "6.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.objectstorage",
+          "module": "micronaut-object-storage-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-bom",
+          "version": {
+            "requires": "6.17.3"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.opensearch",
+          "module": "micronaut-opensearch-bom",
+          "version": {
+            "requires": "1.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bom",
+          "version": {
+            "requires": "5.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.picocli",
+          "module": "micronaut-picocli-bom",
+          "version": {
+            "requires": "5.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.problem",
+          "module": "micronaut-problem-json-bom",
+          "version": {
+            "requires": "3.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.pulsar",
+          "module": "micronaut-pulsar-bom",
+          "version": {
+            "requires": "2.6.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.r2dbc",
+          "module": "micronaut-r2dbc-bom",
+          "version": {
+            "requires": "6.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rabbitmq",
+          "module": "micronaut-rabbitmq-bom",
+          "version": {
+            "requires": "4.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.reactor",
+          "module": "micronaut-reactor-bom",
+          "version": {
+            "requires": "3.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.redis",
+          "module": "micronaut-redis-bom",
+          "version": {
+            "requires": "6.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rxjava2",
+          "module": "micronaut-rxjava2-bom",
+          "version": {
+            "requires": "2.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3-bom",
+          "version": {
+            "requires": "3.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.security",
+          "module": "micronaut-security-bom",
+          "version": {
+            "requires": "4.13.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.serde",
+          "module": "micronaut-serde-bom",
+          "version": {
+            "requires": "2.15.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.servlet",
+          "module": "micronaut-servlet-bom",
+          "version": {
+            "requires": "5.4.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.session",
+          "module": "micronaut-session-bom",
+          "version": {
+            "requires": "4.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bom",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.spring",
+          "module": "micronaut-spring-bom",
+          "version": {
+            "requires": "5.11.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-sql-bom",
+          "version": {
+            "requires": "6.2.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.test",
+          "module": "micronaut-test-bom",
+          "version": {
+            "requires": "4.8.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.testresources",
+          "module": "micronaut-test-resources-bom",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.toml",
+          "module": "micronaut-toml-bom",
+          "version": {
+            "requires": "2.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.tracing",
+          "module": "micronaut-tracing-bom",
+          "version": {
+            "requires": "7.1.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.validation",
+          "module": "micronaut-validation-bom",
+          "version": {
+            "requires": "4.10.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.micronaut.views",
+          "module": "micronaut-views-bom",
+          "version": {
+            "requires": "5.8.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.graalvm.nativeimage",
+          "module": "svm",
+          "version": {
+            "requires": "23.1.7"
+          }
+        },
+        {
+          "group": "org.graalvm.sdk",
+          "module": "graal-sdk",
+          "version": {
+            "requires": "24.2.1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "5.17.0"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.38"
+          }
+        },
+        {
+          "group": "org.spockframework",
+          "module": "spock-core",
+          "version": {
+            "requires": "2.3-groovy-4.0"
+          }
+        },
+        {
+          "group": "com.github.spotbugs",
+          "module": "spotbugs-annotations",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "io.micronaut.platform",
+          "module": "micronaut-parent",
+          "version": {
+            "requires": "4.9.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-platform-4.9.2.toml",
+          "url": "micronaut-platform-4.9.2.toml",
+          "size": 145038,
+          "sha512": "e92e9ed3a3e25f3c66bfde05562e404bdb45a7ed1ee05d3b6a72af3cc4661c58fd948860bbc8945d0e10bd598b108d33bf19a0e9471b7f8d6af2789b532fd164",
+          "sha256": "88ece8a7a529e1843e98a60d74fc4088fc7e57c74046ad667f7085a36eeacadf",
+          "sha1": "270e5a072886c6050b90f3bf0e48c508cd4dde10",
+          "md5": "fef47dd39053be5e7dcea3bb22f47225"
+        }
+      ]
+    }
+  ]
+}

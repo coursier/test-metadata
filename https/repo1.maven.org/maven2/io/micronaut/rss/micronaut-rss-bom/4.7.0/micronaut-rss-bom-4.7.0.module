@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.rss",
+    "module": "micronaut-rss-bom",
+    "version": "4.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-itunespodcast",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-jsonfeed",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-jsonfeed-core",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss-core",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss-language",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-itunespodcast",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-jsonfeed",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-jsonfeed-core",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss-core",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rss",
+          "module": "micronaut-rss-language",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-rss-bom-4.7.0.toml",
+          "url": "micronaut-rss-bom-4.7.0.toml",
+          "size": 963,
+          "sha512": "7f323c7c127b2f7a6c06827dfa947ac23b62a5f65e3e06d49d8ced6d22eb2255088d58d892fc168c39cb9375b771bc13ed88b020b72f66bdc6e88bbc463a3e19",
+          "sha256": "57cac8ca7151401e74c93601273e3809000eddd0d15c1060126ee04b51fa8883",
+          "sha1": "d49a94852ecc0cf6fb2aeec055b1d9f3eed61985",
+          "md5": "06b9cd05124362b463bcad9a08770538"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5440 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.ktor",
+    "module": "ktor-bom",
+    "version": "2.3.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-shared-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-shared",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache5-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache5",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-curl",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-curl-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-curl-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin-legacy",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-java-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-java",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-js-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-plugins-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-plugins",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-winhttp",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-winhttp-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-plugins-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-plugins",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-certificates-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-certificates",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-ldap-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-ldap",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-compression-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-compression",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-freemarker-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-freemarker",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jte-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jte",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-locations-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-locations",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics-micrometer-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics-micrometer",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-mustache-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-mustache",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-openapi-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-openapi",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-pebble-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-pebble",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-swagger-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-swagger",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-thymeleaf-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-thymeleaf",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-velocity-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-velocity",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-webjars-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-webjars",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-gson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-gson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-gson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-gson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jackson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jackson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-xml-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-xml",
+          "version": {
+            "requires": "2.3.13"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-io-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-shared-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-shared",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-test-dispatcher-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-utils-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache5-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-apache5",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-curl",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-curl-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-curl-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin-legacy",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-ios",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-java-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-java",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jetty-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-js-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-mock-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-plugins-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-plugins",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-tests-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-winhttp",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-winhttp-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-http-cio-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cio-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-plugins-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-plugins",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-servlet-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-host-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-test-suites-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tests-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-events-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-resources-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websocket-serialization-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-websockets-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-auth-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-encoding-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-resources-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-certificates-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-network-tls-certificates",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2-jakarta-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jetty-test-http2-jakarta",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-ldap-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-ldap",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auto-head-response-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-caching-headers-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-compression-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-compression",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-conditional-headers-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-cors-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-data-conversion-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-double-receive-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-forwarded-header-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-freemarker-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-freemarker",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-hsts-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-http-redirect-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jte-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-jte",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-locations-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-locations",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-method-override-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics-micrometer-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-metrics-micrometer",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-mustache-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-mustache",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-openapi-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-openapi",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-partial-content-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-pebble-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-pebble",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-request-validation-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-resources-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-swagger-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-swagger",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-thymeleaf-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-thymeleaf",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-velocity-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-velocity",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-webjars-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-webjars",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-websockets-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-gson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-gson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-gson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-gson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jackson-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-jackson",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-cbor-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-protobuf-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-js",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-linuxarm64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-linuxx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-tests-mingwx64",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-xml-jvm",
+          "version": {
+            "requires": "2.3.13"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-xml",
+          "version": {
+            "requires": "2.3.13"
+          }
+        }
+      ]
+    }
+  ]
+}

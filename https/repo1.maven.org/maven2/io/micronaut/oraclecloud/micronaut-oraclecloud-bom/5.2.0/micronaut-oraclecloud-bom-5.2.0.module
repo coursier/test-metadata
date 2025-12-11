@@ -1,0 +1,4940 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.oraclecloud",
+    "module": "micronaut-oraclecloud-bom",
+    "version": "5.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-circuitbreaker",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common-httpclient",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common-httpclient-jersey",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common-httpclient-jersey3",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-enforcer-rules",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-audit",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-containerengine",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-core",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-database",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dns",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-email",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage-generated",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage-extensions",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-filestorage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identity",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loadbalancer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache-configurator-jersey",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache-configurator-jersey3",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-resteasy-client-configurator",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-sasl",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-oke-workload-identity",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-sasl-oke-workload-identity",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-aispeech-realtime",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcesearch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-keymanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-announcementsservice",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-healthchecks",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waas",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-streaming",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcemanager",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-monitoring",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ons",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-autoscaling",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-budget",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-workrequests",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-limits",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-functions",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-events",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dts",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oce",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oda",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-analytics",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-integration",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osmanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplace",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apigateway",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datacatalog",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataflow",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datascience",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-nosql",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-secrets",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vault",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bds",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-encryption",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cims",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datasafe",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mysql",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataintegration",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ocvp",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usageapi",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-blockchain",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingingestion",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-logging",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loganalytics",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementdashboard",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-sch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingsearch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementagent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudguard",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opsi",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-computeinstanceagent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-optimizer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-tenantmanagercontrolplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-rover",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-artifacts",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmsynthetics",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-goldengate",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmcontrolplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmtraces",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkloadbalancer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vulnerabilityscanning",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemigration",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicecatalog",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ailanguage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-operatoraccesscontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bastion",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-genericartifactscontent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-jms",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-devops",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aianomalydetection",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservice",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservicedataplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmconfig",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waf",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificates",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificatesmanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasetools",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemanagerproxy",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-appmgmtcontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ospgateway",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identitydataplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-visualbuilder",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubusage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubsubscription",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osuborganizationsubscription",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubbillingschedule",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dashboardservice",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-threatintelligence",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aivision",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aispeech",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-stackmonitoring",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemesh",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-adm",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-licensemanager",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-onesubscription",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-governancerulescontrolplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waa",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkfirewall",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vnmonitoring",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-emwarehouse",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-lockbox",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fusionapps",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mediaservices",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opa",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opensearch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudmigrations",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudbridge",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-disasterrecovery",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-containerinstances",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aidocument",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-queue",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-recovery",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vbsinst",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identitydomains",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-accessgovernancecp",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ocicontrolcenter",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osmanagementhub",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fleetsoftwareupdate",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-computecloudatcustomer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplacepublisher",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-redis",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-jmsjavadownloads",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-psql",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeai",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeaiinference",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-capacitymanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-globallydistributeddatabase",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-desktops",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-emaildataplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-clusterplacementgroups",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplaceprivateoffer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcescheduler",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-demandsignal",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fleetappsmanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-delegateaccesscontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeaiagent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeaiagentruntime",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-securityattribute",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-zpr",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dblm",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mngdmac",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-lustrefilestorage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-modeldeployment",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-distributeddatabase",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apiaccesscontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-wlms",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "api",
+          "version": {
+            "requires": "1.0.209"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.209"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "testing-junit4",
+          "version": {
+            "requires": "1.0.209"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-atp",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-accessgovernancecp",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-adm",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aianomalydetection",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aidocument",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ailanguage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aispeech",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aivision",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-analytics",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-announcementsservice",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apiaccesscontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apigateway",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmconfig",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmcontrolplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmsynthetics",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmtraces",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-appmgmtcontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-artifacts",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-audit",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-autoscaling",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-bastion",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-bds",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-blockchain",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-budget",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-capacitymanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-certificates",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-certificatesmanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cims",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-circuitbreaker",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cloudbridge",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cloudguard",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cloudmigrations",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-clusterplacementgroups",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-computecloudatcustomer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-computeinstanceagent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-containerengine",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-containerinstances",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-core",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dashboardservice",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-database",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-databasemanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-databasemigration",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-databasetools",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datacatalog",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dataflow",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dataintegration",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datalabelingservice",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datalabelingservicedataplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datasafe",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datascience",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dblm",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-delegateaccesscontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-demandsignal",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-desktops",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-devops",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-disasterrecovery",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-distributeddatabase",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dns",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dts",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-email",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-emaildataplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-emwarehouse",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-encryption",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-events",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-filestorage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-fleetappsmanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-fleetsoftwareupdate",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-functions",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-fusionapps",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeai",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeaiagent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeaiagentruntime",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeaiinference",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-genericartifactscontent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-globallydistributeddatabase",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-goldengate",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-governancerulescontrolplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-healthchecks",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-identity",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-identitydataplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-identitydomains",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-integration",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-jms",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-jmsjavadownloads",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-keymanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-licensemanager",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-limits",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loadbalancer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-lockbox",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loganalytics",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-logging",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loggingingestion",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loggingsearch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-lustrefilestorage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-managementagent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-managementdashboard",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-marketplace",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-marketplaceprivateoffer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-marketplacepublisher",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-mediaservices",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-mngdmac",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-modeldeployment",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-monitoring",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-mysql",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-networkfirewall",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-networkloadbalancer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-nosql",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-objectstorage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-objectstorage-extensions",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-objectstorage-generated",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-oce",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ocicontrolcenter",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ocvp",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-oda",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-onesubscription",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ons",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-opa",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-opensearch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-operatoraccesscontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-opsi",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-optimizer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osmanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osmanagementhub",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ospgateway",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osubbillingschedule",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osuborganizationsubscription",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osubsubscription",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osubusage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-psql",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-queue",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-recovery",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-redis",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-resourcemanager",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-resourcescheduler",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-resourcesearch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-rover",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-sch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-secrets",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-securityattribute",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-servicecatalog",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-servicemanagerproxy",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-servicemesh",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-stackmonitoring",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-streaming",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-tenantmanagercontrolplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-threatintelligence",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-usage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-usageapi",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vault",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vbsinst",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-visualbuilder",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vnmonitoring",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vulnerabilityscanning",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-waa",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-waas",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-waf",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-wlms",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-workrequests",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-zpr",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-certificates",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-common",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http-test",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-httpclient-apache-http-core",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-httpclient-netty",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-logging",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-micrometer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-oke-kubernetes-client",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-oke-workload-identity",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-base",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-reactor",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-rxjava2",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-vault",
+          "version": {
+            "requires": "5.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-circuitbreaker",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common-httpclient",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common-httpclient-jersey",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-common-httpclient-jersey3",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-enforcer-rules",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-audit",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-containerengine",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-core",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-database",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dns",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-email",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage-generated",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage-extensions",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-filestorage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identity",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loadbalancer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-objectstorage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache-configurator-jersey",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache-configurator-jersey3",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-resteasy-client-configurator",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-sasl",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-oke-workload-identity",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-sasl-oke-workload-identity",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-aispeech-realtime",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcesearch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-addons-apache",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-keymanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-announcementsservice",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-healthchecks",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waas",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-streaming",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcemanager",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-monitoring",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ons",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-autoscaling",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-budget",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-workrequests",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-limits",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-functions",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-events",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dts",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oce",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-oda",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-analytics",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-integration",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osmanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplace",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apigateway",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datacatalog",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataflow",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datascience",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-nosql",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-secrets",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vault",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bds",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-encryption",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cims",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datasafe",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mysql",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dataintegration",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ocvp",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usageapi",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-blockchain",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingingestion",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-logging",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loganalytics",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementdashboard",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-sch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-loggingsearch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-managementagent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudguard",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opsi",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-computeinstanceagent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-optimizer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-tenantmanagercontrolplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-rover",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-artifacts",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmsynthetics",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-goldengate",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmcontrolplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmtraces",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkloadbalancer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vulnerabilityscanning",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasemigration",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicecatalog",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ailanguage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-operatoraccesscontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-bastion",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-genericartifactscontent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-jms",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-devops",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aianomalydetection",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservice",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-datalabelingservicedataplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apmconfig",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waf",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificates",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-certificatesmanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-usage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-databasetools",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemanagerproxy",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-appmgmtcontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ospgateway",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identitydataplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-visualbuilder",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubusage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubsubscription",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osuborganizationsubscription",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osubbillingschedule",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dashboardservice",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-threatintelligence",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aivision",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aispeech",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-stackmonitoring",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-servicemesh",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-adm",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-licensemanager",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-onesubscription",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-governancerulescontrolplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-waa",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-networkfirewall",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vnmonitoring",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-emwarehouse",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-lockbox",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fusionapps",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mediaservices",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opa",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-opensearch",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudmigrations",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-cloudbridge",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-disasterrecovery",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-containerinstances",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-aidocument",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-queue",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-recovery",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-vbsinst",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-identitydomains",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-accessgovernancecp",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-ocicontrolcenter",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-osmanagementhub",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fleetsoftwareupdate",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-computecloudatcustomer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplacepublisher",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-redis",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-jmsjavadownloads",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-psql",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeai",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeaiinference",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-capacitymanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-globallydistributeddatabase",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-desktops",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-emaildataplane",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-clusterplacementgroups",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-marketplaceprivateoffer",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-resourcescheduler",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-demandsignal",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-fleetappsmanagement",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-delegateaccesscontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeaiagent",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-generativeaiagentruntime",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-securityattribute",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-zpr",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-dblm",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-mngdmac",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-lustrefilestorage",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-modeldeployment",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-distributeddatabase",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-apiaccesscontrol",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.oracle.oci.sdk",
+          "module": "oci-java-sdk-wlms",
+          "version": {
+            "requires": "3.67.2"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "api",
+          "version": {
+            "requires": "1.0.209"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "runtime",
+          "version": {
+            "requires": "1.0.209"
+          }
+        },
+        {
+          "group": "com.fnproject.fn",
+          "module": "testing-junit4",
+          "version": {
+            "requires": "1.0.209"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-atp",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-accessgovernancecp",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-adm",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aianomalydetection",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aidocument",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ailanguage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aispeech",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-aivision",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-analytics",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-announcementsservice",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apiaccesscontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apigateway",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmconfig",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmcontrolplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmsynthetics",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-apmtraces",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-appmgmtcontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-artifacts",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-audit",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-autoscaling",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-bastion",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-bds",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-blockchain",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-budget",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-capacitymanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-certificates",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-certificatesmanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cims",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-circuitbreaker",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cloudbridge",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cloudguard",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-cloudmigrations",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-clusterplacementgroups",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-computecloudatcustomer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-computeinstanceagent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-containerengine",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-containerinstances",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-core",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dashboardservice",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-database",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-databasemanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-databasemigration",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-databasetools",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datacatalog",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dataflow",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dataintegration",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datalabelingservice",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datalabelingservicedataplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datasafe",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-datascience",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dblm",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-delegateaccesscontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-demandsignal",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-desktops",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-devops",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-disasterrecovery",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-distributeddatabase",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dns",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-dts",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-email",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-emaildataplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-emwarehouse",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-encryption",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-events",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-filestorage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-fleetappsmanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-fleetsoftwareupdate",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-functions",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-fusionapps",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeai",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeaiagent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeaiagentruntime",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-generativeaiinference",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-genericartifactscontent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-globallydistributeddatabase",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-goldengate",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-governancerulescontrolplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-healthchecks",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-identity",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-identitydataplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-identitydomains",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-integration",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-jms",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-jmsjavadownloads",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-keymanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-licensemanager",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-limits",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loadbalancer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-lockbox",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loganalytics",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-logging",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loggingingestion",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-loggingsearch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-lustrefilestorage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-managementagent",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-managementdashboard",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-marketplace",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-marketplaceprivateoffer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-marketplacepublisher",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-mediaservices",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-mngdmac",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-modeldeployment",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-monitoring",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-mysql",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-networkfirewall",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-networkloadbalancer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-nosql",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-objectstorage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-objectstorage-extensions",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-objectstorage-generated",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-oce",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ocicontrolcenter",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ocvp",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-oda",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-onesubscription",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ons",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-opa",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-opensearch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-operatoraccesscontrol",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-opsi",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-optimizer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osmanagement",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osmanagementhub",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-ospgateway",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osubbillingschedule",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osuborganizationsubscription",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osubsubscription",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-osubusage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-psql",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-queue",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-recovery",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-redis",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-resourcemanager",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-resourcescheduler",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-resourcesearch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-rover",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-sch",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-secrets",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-securityattribute",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-servicecatalog",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-servicemanagerproxy",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-servicemesh",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-stackmonitoring",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-streaming",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-tenantmanagercontrolplane",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-threatintelligence",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-usage",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-usageapi",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vault",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vbsinst",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-visualbuilder",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vnmonitoring",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-vulnerabilityscanning",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-waa",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-waas",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-waf",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-wlms",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-workrequests",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-bmc-zpr",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-certificates",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-common",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-function-http-test",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-httpclient-apache-http-core",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-httpclient-netty",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-logging",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-micrometer",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-oke-kubernetes-client",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-oke-workload-identity",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-base",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-reactor",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-sdk-rxjava2",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.oraclecloud",
+          "module": "micronaut-oraclecloud-vault",
+          "version": {
+            "requires": "5.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-oraclecloud-bom-5.2.0.toml",
+          "url": "micronaut-oraclecloud-bom-5.2.0.toml",
+          "size": 29681,
+          "sha512": "374fbd14d1f4069e062fed2c301957ce13dc7e0f961c8d81d065017d1ae5147eb3e04bdc7600aff9089cb74b045557553487ff9b2b371d1619bb16f9ccff1f6f",
+          "sha256": "a18ad337a0fae6d96df9e479539cd1603228ed54c01c187a7119ab7ff96141a1",
+          "sha1": "0fa847b4807fb3c16955356ee7ccae48bfbcef66",
+          "md5": "411753d2fed80b5940fae47df071d0d4"
+        }
+      ]
+    }
+  ]
+}

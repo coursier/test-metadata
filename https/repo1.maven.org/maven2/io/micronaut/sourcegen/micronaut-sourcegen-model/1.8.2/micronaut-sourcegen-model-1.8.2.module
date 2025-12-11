@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.sourcegen",
+    "module": "micronaut-sourcegen-model",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-sourcegen-model-1.8.2.jar",
+          "url": "micronaut-sourcegen-model-1.8.2.jar",
+          "size": 175998,
+          "sha512": "0d98ccb0fdccc0fe8feb2651f11c5c624e05a7c8cfcd2aebe45c8281940aafae574fa238b5c6fb3b3a1f124d542ef1e8afa059f2e40545e6173ff138fcd29d4f",
+          "sha256": "f9f1fe2eb938b5d7b7c755d8e96a4c96c71f23954613b2877a6e32f280e71b7e",
+          "sha1": "e0138a5899d6ba2d8bc2a35a0c6b3fcc6bb401f3",
+          "md5": "c35b45d9a7b36329c2ee89d96619b044"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-bom",
+          "version": {
+            "requires": "4.9.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-sourcegen-model-1.8.2.jar",
+          "url": "micronaut-sourcegen-model-1.8.2.jar",
+          "size": 175998,
+          "sha512": "0d98ccb0fdccc0fe8feb2651f11c5c624e05a7c8cfcd2aebe45c8281940aafae574fa238b5c6fb3b3a1f124d542ef1e8afa059f2e40545e6173ff138fcd29d4f",
+          "sha256": "f9f1fe2eb938b5d7b7c755d8e96a4c96c71f23954613b2877a6e32f280e71b7e",
+          "sha1": "e0138a5899d6ba2d8bc2a35a0c6b3fcc6bb401f3",
+          "md5": "c35b45d9a7b36329c2ee89d96619b044"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-sourcegen-model-1.8.2-sources.jar",
+          "url": "micronaut-sourcegen-model-1.8.2-sources.jar",
+          "size": 50136,
+          "sha512": "918f200da6fb073fcf68f64d58d5d6c5f8b30ccebf1366b84936bb0aaa974aed722ab8fb847ac527194726e424351a1218bfdbc352c58cc8055bccd5be71766a",
+          "sha256": "ddd081ad5f84650e7d4ff6aa6cb5aa36a7e163bbce684c403ae6cfe0febd8943",
+          "sha1": "6bcffbb8bf69154bc2ed825df4bcb89bd6c70851",
+          "md5": "f6b5a46dcdc5d05f370b4a48ef333e2a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-sourcegen-model-1.8.2-javadoc.jar",
+          "url": "micronaut-sourcegen-model-1.8.2-javadoc.jar",
+          "size": 541120,
+          "sha512": "c7d8a7355b989f290ec72dc48b0202db6b4ae79c05e40a8f6738d7a814535b1dcf62d38dfd1dab888977daa31b2b480b366c783b20e0ad0ae39099ea1a60789a",
+          "sha256": "fdfbcddcafd7b6edfaf3e6d650fefd4cbf385d16eda630b174253d37fb29c65e",
+          "sha1": "ec706ce4b999d22059a8f4bf7910e17e8047f85e",
+          "md5": "951eaafbc85bcdc989278c79c53ae3bf"
+        }
+      ]
+    }
+  ]
+}

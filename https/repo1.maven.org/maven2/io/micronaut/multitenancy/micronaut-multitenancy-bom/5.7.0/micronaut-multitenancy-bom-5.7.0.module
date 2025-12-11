@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.multitenancy",
+    "module": "micronaut-multitenancy-bom",
+    "version": "5.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "de.malkusch.whois-server-list",
+          "module": "public-suffix-list",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.multitenancy",
+          "module": "micronaut-multitenancy",
+          "version": {
+            "requires": "5.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.multitenancy",
+          "module": "micronaut-multitenancy-annotations",
+          "version": {
+            "requires": "5.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "de.malkusch.whois-server-list",
+          "module": "public-suffix-list",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.multitenancy",
+          "module": "micronaut-multitenancy",
+          "version": {
+            "requires": "5.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.multitenancy",
+          "module": "micronaut-multitenancy-annotations",
+          "version": {
+            "requires": "5.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-multitenancy-bom-5.7.0.toml",
+          "url": "micronaut-multitenancy-bom-5.7.0.toml",
+          "size": 774,
+          "sha512": "9edf14b29f2c11cda314d8b1af7d52149582f8c7161fb542ebbb890ca785c83180525ec983f12addc22f41a8ea83c555343a8c38e5264fd51d564d33e4a427f0",
+          "sha256": "41d0e2df87c5e89ca75be1323be65d09f448cd555d988fd5c797078cf2b9b727",
+          "sha1": "ceddebadc8dcf60b564e64bdcfaa6c6a4160050d",
+          "md5": "530e5335e148206259751053f0e2697e"
+        }
+      ]
+    }
+  ]
+}

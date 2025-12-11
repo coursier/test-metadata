@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.jsonschema",
+    "module": "micronaut-json-schema-bom",
+    "version": "1.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.networknt",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "1.5.7"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-annotations",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-generator",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-processor",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-validation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.networknt",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "1.5.7"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-annotations",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-common",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-generator",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-processor",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jsonschema",
+          "module": "micronaut-json-schema-validation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-json-schema-bom-1.6.0.toml",
+          "url": "micronaut-json-schema-bom-1.6.0.toml",
+          "size": 1232,
+          "sha512": "a7376e804d3500e646aa731b3984eede742fb6c20f7cde8deca51472c20eaab54047d2cf4f0786e580ee50702bdb656d9fcd62f94fec4f11be4833f32837fac0",
+          "sha256": "75429b3420217ed466d8ef0ba64cb097650d937303ab8a86815566158bcdb834",
+          "sha1": "f4a69bb9f204ce6195119138af60f7f96b13ae28",
+          "md5": "ff53abb9ba70e03be8ad4ddf77a1ad02"
+        }
+      ]
+    }
+  ]
+}

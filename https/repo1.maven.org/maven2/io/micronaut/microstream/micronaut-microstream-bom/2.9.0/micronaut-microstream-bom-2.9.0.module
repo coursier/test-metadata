@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.microstream",
+    "module": "micronaut-microstream-bom",
+    "version": "2.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "one.microstream",
+          "module": "microstream-afs-aws-dynamodb",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-afs-aws-s3",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-cache",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-afs-sql",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-embedded-configuration",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-restservice",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-annotations",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-cache",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-rest",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "one.microstream",
+          "module": "microstream-afs-aws-dynamodb",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-afs-aws-s3",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-cache",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-afs-sql",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-embedded-configuration",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "one.microstream",
+          "module": "microstream-storage-restservice",
+          "version": {
+            "requires": "08.01.02-MS-GA"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-annotations",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-cache",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.microstream",
+          "module": "micronaut-microstream-rest",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-microstream-bom-2.9.0.toml",
+          "url": "micronaut-microstream-bom-2.9.0.toml",
+          "size": 1666,
+          "sha512": "dac1a8e5bc1944835251d873f3fc633b23f68daeb0c67ac04fccfb04670d10ad06d91662ee3243453867b6bf717c1da901a62895dbb290e302e432d52de4881a",
+          "sha256": "bd9f0388cdf2bbf619408af06c4385fd9ae61e5243d0ff05953a0a92370ae922",
+          "sha1": "98862e79a4872737e5fc8ada481b110b88e3d6c1",
+          "md5": "460b7a6404719639b3463cd2060a35b3"
+        }
+      ]
+    }
+  ]
+}

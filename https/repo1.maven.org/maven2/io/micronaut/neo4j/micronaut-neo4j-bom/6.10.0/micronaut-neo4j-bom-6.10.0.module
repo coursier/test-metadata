@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.neo4j",
+    "module": "micronaut-neo4j-bom",
+    "version": "6.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.neo4j.test",
+          "module": "neo4j-harness",
+          "version": {
+            "requires": "5.26.8"
+          }
+        },
+        {
+          "group": "org.neo4j.driver",
+          "module": "neo4j-java-driver",
+          "version": {
+            "requires": "5.28.5"
+          }
+        },
+        {
+          "group": "io.micronaut.neo4j",
+          "module": "micronaut-neo4j-bolt",
+          "version": {
+            "requires": "6.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.neo4j.test",
+          "module": "neo4j-harness",
+          "version": {
+            "requires": "5.26.8"
+          }
+        },
+        {
+          "group": "org.neo4j.driver",
+          "module": "neo4j-java-driver",
+          "version": {
+            "requires": "5.28.5"
+          }
+        },
+        {
+          "group": "io.micronaut.neo4j",
+          "module": "micronaut-neo4j-bolt",
+          "version": {
+            "requires": "6.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-neo4j-bom-6.10.0.toml",
+          "url": "micronaut-neo4j-bom-6.10.0.toml",
+          "size": 649,
+          "sha512": "ec89a105b4d5827c5f2d41ba1440c755bac7b784f7991b4913fb78da9d98e9725477b6ab311dba610a95212972fb1101fe99f3458b9e204321f240b8ba7bbaec",
+          "sha256": "098e3f28e8f7da95f1ea7993b69e97a71f3c2d4c9a9708ffb21cdb8f2794d448",
+          "sha1": "2b96f6114e624ee5ef02f98f1a86f90e1da95b38",
+          "md5": "365c567eae94d82fdb9e50b50e4d58a4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.kubernetes",
+    "module": "micronaut-kubernetes-bom",
+    "version": "7.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-common",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-discovery",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-informer",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-operator",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-reactor",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-watcher",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-processor",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-reactor",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava2",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava3",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-discovery-client",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-informer",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-operator",
+          "version": {
+            "requires": "7.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-common",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-discovery",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-informer",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-operator",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-reactor",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-openapi-watcher",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-processor",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-reactor",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava2",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-client-rxjava3",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-discovery-client",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-informer",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kubernetes",
+          "module": "micronaut-kubernetes-operator",
+          "version": {
+            "requires": "7.1.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-kubernetes-bom-7.1.1.toml",
+          "url": "micronaut-kubernetes-bom-7.1.1.toml",
+          "size": 2769,
+          "sha512": "6c1ef2d9a8191cda046b3750e9d4c84ea2af448e9de49bb04a337a297399c4fb55e9597ecde24df7419545e805e1362a4237e7e79efb6c5ec3f7ced91220c9cf",
+          "sha256": "35a2b91f44e671e8d852bb61a3c4f82215913898bb53cfc86b1a8a33b3ab381f",
+          "sha1": "b2d992b5bdc65b3865a13547ba04fd83349ee1d0",
+          "md5": "38db9e1feadc239643874671e5b8b504"
+        }
+      ]
+    }
+  ]
+}

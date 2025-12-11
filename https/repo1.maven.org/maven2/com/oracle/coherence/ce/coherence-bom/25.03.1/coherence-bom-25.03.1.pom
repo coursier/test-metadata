@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+  Licensed under the Universal Permissive License v 1.0 as shown at
+  https://oss.oracle.com/licenses/upl.
+  -->
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.coherence.ce</groupId>
+  <artifactId>coherence-bom</artifactId>
+  <version>25.03.1</version>
+  <packaging>pom</packaging>
+  <name>Coherence BOM</name>
+  <description>Oracle Coherence Bill of Materials</description>
+  <url>https://coherence.community/</url>
+  <organization>
+    <name>Oracle</name>
+    <url>http://www.oracle.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Universal Permissive License v 1.0</name>
+      <url>https://oss.oracle.com/licenses/upl</url>
+      <distribution>repo</distribution>
+      <comments>Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+        Licensed under the Universal Permissive License v 1.0 as shown at
+        https://oss.oracle.com/licenses/upl.</comments>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Aleks Seovic</name>
+      <url>https://github.com/aseovic</url>
+    </developer>
+    <developer>
+      <name>Jonathan Knight</name>
+      <url>https://github.com/thegridman</url>
+    </developer>
+    <developer>
+      <name>Joe Fialli</name>
+      <url>https://github.com/jfialli</url>
+    </developer>
+    <developer>
+      <name>Patrick Fry</name>
+      <url>https://github.com/fryp</url>
+    </developer>
+    <developer>
+      <name>Maurice Gamanho</name>
+      <url>https://github.com/mgamanho</url>
+    </developer>
+    <developer>
+      <name>Luk Ho</name>
+      <url>https://github.com/lsho</url>
+    </developer>
+    <developer>
+      <name>Ryan Lubke</name>
+      <url>https://github.com/rlubke</url>
+    </developer>
+    <developer>
+      <name>Kirk Lund</name>
+      <url>https://github.com/kirklund</url>
+    </developer>
+    <developer>
+      <name>Tim Middleton</name>
+      <url>https://github.com/tmiddlet2666</url>
+    </developer>
+    <developer>
+      <name>Chinmay Patel</name>
+      <url>https://github.com/chpatel3</url>
+    </developer>
+    <developer>
+      <name>Vaso Putica</name>
+      <url>https://github.com/vasac</url>
+    </developer>
+    <developer>
+      <name>Emily Rivas</name>
+      <url>https://github.com/ecrivas</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:oracle/coherence.git</connection>
+    <developerConnection>scm:git:git@github.com:oracle/coherence.git</developerConnection>
+    <url>https://github.com/oracle/coherence</url>
+  </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-cdi</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-concurrent</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-cdi-server</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-discovery</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-grpc</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-grpc-proxy-common</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-grpc-proxy-helidon</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-grpc-proxy</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-grpc-client-common</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-grpc-client-helidon</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-hnsw</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-http-netty</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-java-client</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-jcache</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-jpa</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-json</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-login</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-management</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-micrometer</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-mp-config</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-mp-health</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-mp-metrics</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-protobuf</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-rest</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-bedrock</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.oracle.coherence.ce</groupId>
+        <artifactId>coherence-bedrock-testing-support</artifactId>
+        <version>25.03.1</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

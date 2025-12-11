@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.coherence",
+    "module": "micronaut-coherence-bom",
+    "version": "5.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-bom",
+          "version": {
+            "requires": "25.03.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence",
+          "version": {
+            "requires": "25.03.1"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-json",
+          "version": {
+            "requires": "25.03.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-cache",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-data",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-distributed-configuration",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-session",
+          "version": {
+            "requires": "5.0.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-bom",
+          "version": {
+            "requires": "25.03.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence",
+          "version": {
+            "requires": "25.03.1"
+          }
+        },
+        {
+          "group": "com.oracle.coherence.ce",
+          "module": "coherence-json",
+          "version": {
+            "requires": "25.03.1"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-cache",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-data",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-distributed-configuration",
+          "version": {
+            "requires": "5.0.6"
+          }
+        },
+        {
+          "group": "io.micronaut.coherence",
+          "module": "micronaut-coherence-session",
+          "version": {
+            "requires": "5.0.6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-coherence-bom-5.0.6.toml",
+          "url": "micronaut-coherence-bom-5.0.6.toml",
+          "size": 1353,
+          "sha512": "1b0ba7e726dda6eeb0c5c5bf869054b876b418e9870dd1d77d36a33dc05f05e882439ff25849d97c9e2224c1acc4dd049ec0c33245973ea076b089a7e239fe3c",
+          "sha256": "9c307111726926babe23a16f427a0548021d6c5a151063dbba7e5b575504584e",
+          "sha1": "1695b8480e234b08fd1fb4d3aafc66046c0d750a",
+          "md5": "23abfda3693573cac93aec15f70b8018"
+        }
+      ]
+    }
+  ]
+}

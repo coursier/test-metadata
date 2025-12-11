@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.kotlin",
+    "module": "micronaut-kotlin-bom",
+    "version": "4.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "2.3.13"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-extension-functions",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-runtime",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-ktor",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-bom",
+          "version": {
+            "requires": "2.3.13"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-extension-functions",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-kotlin-runtime",
+          "version": {
+            "requires": "4.7.0"
+          }
+        },
+        {
+          "group": "io.micronaut.kotlin",
+          "module": "micronaut-ktor",
+          "version": {
+            "requires": "4.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-kotlin-bom-4.7.0.toml",
+          "url": "micronaut-kotlin-bom-4.7.0.toml",
+          "size": 775,
+          "sha512": "9a0cbd329fe3de4050ce536d783044c28f3904290b0ed9d205a5d3dd499218fe7da479a0517057c1bf4bee99471cacdff1708780bb06c71caa47a048b46f5b53",
+          "sha256": "ee7dfc71308ce97997fd8e9c623907dd51dc1e04a9ce28c04e67c9c31516b26e",
+          "sha1": "86cedac16ac070ddd373ac24739ab196a80ece9e",
+          "md5": "662e1fc9cb4a4dc70750c87427512e57"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.problem",
+    "module": "micronaut-problem-json-bom",
+    "version": "3.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.zalando",
+          "module": "problem",
+          "version": {
+            "requires": "0.27.1"
+          }
+        },
+        {
+          "group": "io.micronaut.problem",
+          "module": "micronaut-problem-json",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.zalando",
+          "module": "problem",
+          "version": {
+            "requires": "0.27.1"
+          }
+        },
+        {
+          "group": "io.micronaut.problem",
+          "module": "micronaut-problem-json",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-problem-json-bom-3.8.0.toml",
+          "url": "micronaut-problem-json-bom-3.8.0.toml",
+          "size": 572,
+          "sha512": "17c32e20a3659255839ecf5f04ffc5d2ec430be8c1856c6bd3e49ca833298f6955415b42f69b07394c08f0b3e99292b78456878cc799641fce002c8c7d6b6125",
+          "sha256": "c2770ee65ed770301e295477b8bc503a26f1e80c56680625c7532396b5665277",
+          "sha1": "8b3a8fd0e35b8bddb4d487cb33366d762af59f59",
+          "md5": "48de8318d7422d77aaca1605a3f61dcd"
+        }
+      ]
+    }
+  ]
+}

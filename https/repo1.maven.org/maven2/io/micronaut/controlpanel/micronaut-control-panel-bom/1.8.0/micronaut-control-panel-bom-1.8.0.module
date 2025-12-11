@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.controlpanel",
+    "module": "micronaut-control-panel-bom",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-management",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-ui",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-management",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.controlpanel",
+          "module": "micronaut-control-panel-ui",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-control-panel-bom-1.8.0.toml",
+          "url": "micronaut-control-panel-bom-1.8.0.toml",
+          "size": 786,
+          "sha512": "8a38d5120d7515c7d0fac7f9b68543561690e46fe353a94e9f6df2eec75a7a5f47bf4d2e090aba8cf254b2e5dc99e8f6f3ed50ce90bce1d50d250b4067a249a6",
+          "sha256": "c9d5f057de33fb1f03bb1005d23524ed58b61385b9f76178e43a4bc3321e375f",
+          "sha1": "0ec43171799371de0d46ae8aa4340ad896c9d712",
+          "md5": "0c72df17040893744db5e06a81677a75"
+        }
+      ]
+    }
+  ]
+}

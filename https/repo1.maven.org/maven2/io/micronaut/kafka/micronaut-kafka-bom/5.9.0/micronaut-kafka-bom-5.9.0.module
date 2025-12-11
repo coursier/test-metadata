@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.kafka",
+    "module": "micronaut-kafka-bom",
+    "version": "5.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-clients",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-streams",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kafka",
+          "module": "micronaut-kafka",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.kafka",
+          "module": "micronaut-kafka-streams",
+          "version": {
+            "requires": "5.9.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-clients",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-streams",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "io.micronaut.kafka",
+          "module": "micronaut-kafka",
+          "version": {
+            "requires": "5.9.0"
+          }
+        },
+        {
+          "group": "io.micronaut.kafka",
+          "module": "micronaut-kafka-streams",
+          "version": {
+            "requires": "5.9.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-kafka-bom-5.9.0.toml",
+          "url": "micronaut-kafka-bom-5.9.0.toml",
+          "size": 725,
+          "sha512": "86349cd76f24612ccadf2f5a35d7b3eeb3cf2415c6791b08764ad80484e3851253169decf16ac127b6660789be7707bedec219ed3cd140ce21ada3c9bef02e78",
+          "sha256": "026bf514c2e302ce96cb24a1fbc630490f0974adec62f06d0b890a9c56b885f2",
+          "sha1": "11fbd7725366efa31d34880236990abc91df0dee",
+          "md5": "661deed28e24da158cf6c343bb5e25a5"
+        }
+      ]
+    }
+  ]
+}

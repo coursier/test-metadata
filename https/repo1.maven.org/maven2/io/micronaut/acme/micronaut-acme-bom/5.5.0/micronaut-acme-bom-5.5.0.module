@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.acme",
+    "module": "micronaut-acme-bom",
+    "version": "5.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.shredzone.acme4j",
+          "module": "acme4j-client",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.acme",
+          "module": "micronaut-acme",
+          "version": {
+            "requires": "5.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.shredzone.acme4j",
+          "module": "acme4j-client",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "io.micronaut.acme",
+          "module": "micronaut-acme",
+          "version": {
+            "requires": "5.5.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-acme-bom-5.5.0.toml",
+          "url": "micronaut-acme-bom-5.5.0.toml",
+          "size": 504,
+          "sha512": "6825a31b2ccb51bc0b5d618b0bf236f71841f9fffebca1f0787f669a029c7c158a3ec2feba09180fa5e243429a7e411632ce00edb184da3731dd8241c159520b",
+          "sha256": "a7728d63cdc0511c845064ecebc998d2c76cdb7fa9be22d3f0f4d6171a2922f9",
+          "sha1": "695edc9c8fccd9b80f0e7aa2dc904437e0d06d0e",
+          "md5": "48ea0f2e9cf0e4c744d7c8763076e160"
+        }
+      ]
+    }
+  ]
+}

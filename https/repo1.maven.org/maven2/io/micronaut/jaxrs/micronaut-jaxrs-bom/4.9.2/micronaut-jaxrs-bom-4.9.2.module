@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.jaxrs",
+    "module": "micronaut-jaxrs-bom",
+    "version": "4.9.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-client",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-common",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-processor",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-server",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-server-security",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-servlet",
+          "version": {
+            "requires": "4.9.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-client",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-common",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-processor",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-server",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-server-security",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "io.micronaut.jaxrs",
+          "module": "micronaut-jaxrs-servlet",
+          "version": {
+            "requires": "4.9.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-jaxrs-bom-4.9.2.toml",
+          "url": "micronaut-jaxrs-bom-4.9.2.toml",
+          "size": 1167,
+          "sha512": "bf6a626d57677f782a85669a2cc4969614d236ea15d8326118d9abebc70400f1388aef7a03c936b234c08f469d907388e2c3f739479b0b50122f0eb9cfd9a358",
+          "sha256": "f74d14f7926127a5a4f37514ac751768bf1d616ecc670b2ed63f2a4442f28c47",
+          "sha1": "169359322da703483edcac6b52b7c4a5dd857cb3",
+          "md5": "9d48454fb800976703fab0e2a8956f3c"
+        }
+      ]
+    }
+  ]
+}

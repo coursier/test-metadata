@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-core-processor",
+    "version": "4.9.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.4"
+          },
+          "excludes": [
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bytecode-writer",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-core-processor-4.9.9.jar",
+          "url": "micronaut-core-processor-4.9.9.jar",
+          "size": 709281,
+          "sha512": "cdef094bd7b704bf955ce90c29b49b534647300e63bde837c674eebfdd281cd6211caba2cdab9c7ea7e269945c1bb82a0b031f864c622c9bd759778ec9630ba4",
+          "sha256": "663e84d274896a793a5dc5990a06dbe23768fe7e58fd5be4a3123fe3e9381337",
+          "sha1": "28d991b3b60777f05942da0b582c7ffcd1881cc4",
+          "md5": "1535429bb07bd0b2bcae6c57c3aa1693"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-reactive",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-aop",
+          "version": {
+            "requires": "4.9.9"
+          }
+        },
+        {
+          "group": "com.github.javaparser",
+          "module": "javaparser-symbol-solver-core",
+          "version": {
+            "requires": "3.26.4"
+          },
+          "excludes": [
+            {
+              "group": "org.javassist",
+              "module": "javassist"
+            },
+            {
+              "group": "com.google.guava",
+              "module": "guava"
+            }
+          ]
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bytecode-writer",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-core-processor-4.9.9.jar",
+          "url": "micronaut-core-processor-4.9.9.jar",
+          "size": 709281,
+          "sha512": "cdef094bd7b704bf955ce90c29b49b534647300e63bde837c674eebfdd281cd6211caba2cdab9c7ea7e269945c1bb82a0b031f864c622c9bd759778ec9630ba4",
+          "sha256": "663e84d274896a793a5dc5990a06dbe23768fe7e58fd5be4a3123fe3e9381337",
+          "sha1": "28d991b3b60777f05942da0b582c7ffcd1881cc4",
+          "md5": "1535429bb07bd0b2bcae6c57c3aa1693"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-core-processor-4.9.9-sources.jar",
+          "url": "micronaut-core-processor-4.9.9-sources.jar",
+          "size": 424404,
+          "sha512": "6ca9f94f20feba8a3143b4730c3e6018e8e3cb521001f601c11c1bb8714abc7dd9918c1e998d3ccdba79f41e4fbe7d3942ca08a095c77723a77459032d0bdca7",
+          "sha256": "058b6bc143a6832bf94a28194a6d92323b0fa07c11aa852f7cd443b98b25dd87",
+          "sha1": "2aaf6e9822b8879f1032a7089e3c12cdd4e2010b",
+          "md5": "67201a38da86b53877f8111f29415ed2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-core-processor-4.9.9-javadoc.jar",
+          "url": "micronaut-core-processor-4.9.9-javadoc.jar",
+          "size": 1104172,
+          "sha512": "a1c16aea0835bb8173a408c35f33cb82fae9b6618822edfc36c7195a646f6f5c984a602259729ada8ff217672dfa12daffa57553e2447ef6c17d657a1d7a4a54",
+          "sha256": "f7b1aa0ac353cdb2835448e7d80e5ef007b00320d82a00cf892fe378fb8c9caf",
+          "sha1": "a9a45ec7c3c37283e7fa8a6e3d8e1b415eddb327",
+          "md5": "221682233fff2e1d170aef75c0dc77ba"
+        }
+      ]
+    }
+  ]
+}

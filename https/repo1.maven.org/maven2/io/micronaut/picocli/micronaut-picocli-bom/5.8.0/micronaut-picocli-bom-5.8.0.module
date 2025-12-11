@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.picocli",
+    "module": "micronaut-picocli-bom",
+    "version": "5.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.7.7"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli-codegen",
+          "version": {
+            "requires": "4.7.7"
+          }
+        },
+        {
+          "group": "io.micronaut.picocli",
+          "module": "micronaut-picocli",
+          "version": {
+            "requires": "5.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.7.7"
+          }
+        },
+        {
+          "group": "info.picocli",
+          "module": "picocli-codegen",
+          "version": {
+            "requires": "4.7.7"
+          }
+        },
+        {
+          "group": "io.micronaut.picocli",
+          "module": "micronaut-picocli",
+          "version": {
+            "requires": "5.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-picocli-bom-5.8.0.toml",
+          "url": "micronaut-picocli-bom-5.8.0.toml",
+          "size": 608,
+          "sha512": "c108f06f9b8f0eab42b24e049a120b7b217ce50fbf536b108fb7bbc5da646d91eacca23d60267ee6c81ffbd57c5f5c436b4f3b3842cf6de07622e77ba4ffd7d4",
+          "sha256": "4a75cf769c98dd4602f0b0faef3d0ebd207045321885709c10de4d5abba7d3c9",
+          "sha1": "0581789a59effb019266a8697be1d8474df1a1d9",
+          "md5": "4ba75898d508c646a075598acc198454"
+        }
+      ]
+    }
+  ]
+}

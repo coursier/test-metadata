@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.cassandra",
+    "module": "micronaut-cassandra-bom",
+    "version": "6.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.datastax.oss",
+          "module": "java-driver-core",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "com.datastax.oss",
+          "module": "java-driver-mapper-processor",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "com.datastax.oss",
+          "module": "java-driver-metrics-micrometer",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cassandra",
+          "module": "micronaut-cassandra",
+          "version": {
+            "requires": "6.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.datastax.oss",
+          "module": "java-driver-core",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "com.datastax.oss",
+          "module": "java-driver-mapper-processor",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "com.datastax.oss",
+          "module": "java-driver-metrics-micrometer",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "io.micronaut.cassandra",
+          "module": "micronaut-cassandra",
+          "version": {
+            "requires": "6.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-cassandra-bom-6.7.0.toml",
+          "url": "micronaut-cassandra-bom-6.7.0.toml",
+          "size": 922,
+          "sha512": "8ac2053897214ef6b9c687ea1858ad35ea44d426ea1ca09918828f058565d9c81317c3d7a3acc706d06d6d6621d5f818e41c77bb812411ee3f5c5085a61f4142",
+          "sha256": "aac2025b05662de1ce0a1061cae385ba53e0bf2afa9dcf682b44aac6ac594705",
+          "sha1": "0f9f75074ad5908aad7ee6b500e204abd70a0b3d",
+          "md5": "79df808cfc43b0272bd48faa1e451832"
+        }
+      ]
+    }
+  ]
+}

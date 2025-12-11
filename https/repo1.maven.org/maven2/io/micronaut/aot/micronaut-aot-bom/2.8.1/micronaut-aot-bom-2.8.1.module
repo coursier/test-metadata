@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.aot",
+    "module": "micronaut-aot-bom",
+    "version": "2.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-api",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-cli",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-core",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-std-optimizers",
+          "version": {
+            "requires": "2.8.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-api",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-cli",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-core",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "io.micronaut.aot",
+          "module": "micronaut-aot-std-optimizers",
+          "version": {
+            "requires": "2.8.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-aot-bom-2.8.1.toml",
+          "url": "micronaut-aot-bom-2.8.1.toml",
+          "size": 739,
+          "sha512": "820cf1b88f720d74c01f93e4519687e0e2bc6f3adc4e452219dc5d1afe3edac243e0de20db6d65189c2e81a6dbd847594b831607e8bbf0a23fe907ccdd68098e",
+          "sha256": "528ca159adbd186f922a331cedb4578597afdf3eb858f3c4b83113bce7fa8b2b",
+          "sha1": "7f661fd3f249d4badfd69a8da29e64c35aab762f",
+          "md5": "5bb24cf633be4cfadf2c91317519f749"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.sourcegen",
+    "module": "micronaut-sourcegen-bytecode-writer",
+    "version": "1.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-model",
+          "version": {
+            "requires": "1.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-sourcegen-bytecode-writer-1.8.2.jar",
+          "url": "micronaut-sourcegen-bytecode-writer-1.8.2.jar",
+          "size": 113556,
+          "sha512": "cfb54eadf9a83771399a5ccf530996e0f3e6bf67a32b8030f3ac89de17ae1ee0f15d6bd7c5fffc01be473e1aaccaeccb69fa2dfdf5a66dd503a71c71256139eb",
+          "sha256": "5ef9c4e24a7928fe02d6b3532c4d4c4865f018aee39867d18ffce7996a497161",
+          "sha1": "ac7230cc75a2da863c788d84a03f80c62b742066",
+          "md5": "4c9890c852ca330dd3baecda3dfda886"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-model",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-bom",
+          "version": {
+            "requires": "4.9.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-sourcegen-bytecode-writer-1.8.2.jar",
+          "url": "micronaut-sourcegen-bytecode-writer-1.8.2.jar",
+          "size": 113556,
+          "sha512": "cfb54eadf9a83771399a5ccf530996e0f3e6bf67a32b8030f3ac89de17ae1ee0f15d6bd7c5fffc01be473e1aaccaeccb69fa2dfdf5a66dd503a71c71256139eb",
+          "sha256": "5ef9c4e24a7928fe02d6b3532c4d4c4865f018aee39867d18ffce7996a497161",
+          "sha1": "ac7230cc75a2da863c788d84a03f80c62b742066",
+          "md5": "4c9890c852ca330dd3baecda3dfda886"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-sourcegen-bytecode-writer-1.8.2-sources.jar",
+          "url": "micronaut-sourcegen-bytecode-writer-1.8.2-sources.jar",
+          "size": 62959,
+          "sha512": "999b4cc38905a90f9424e9490237c973c41cfb97ee10e2e8f6e07f757ff4902e2f2540a5b93f4162c8869f5791f578f8cd784b6f29d702bc97f0e1973eedbe61",
+          "sha256": "c69fd03891a7a0878cd7513b1c2a9fce0b37cf249695deb0604704eabe34d6e1",
+          "sha1": "76514a3c5d86d91e5ac25fea8c74e69a15433a16",
+          "md5": "984772cc1e1e9ee5e8412e69fd6cb162"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-sourcegen-bytecode-writer-1.8.2-javadoc.jar",
+          "url": "micronaut-sourcegen-bytecode-writer-1.8.2-javadoc.jar",
+          "size": 125130,
+          "sha512": "2d4477ae8254aee618e01dcf2a93db7bef2f7cca0b469bcc99bccdb6f067fdcb6f99b834961d2396f1e25bc257d01478d9b7e0ad4b25d7d6f6a33e1ed9db7efe",
+          "sha256": "1f763a429783f099e7d1f9137c1154aad24b9c3228e7eb9d38ad728f590657be",
+          "sha1": "91949682b8f5b09114d055279db1f03dd501f513",
+          "md5": "36cdb16c4f9719d9f561e447c7ac3450"
+        }
+      ]
+    }
+  ]
+}

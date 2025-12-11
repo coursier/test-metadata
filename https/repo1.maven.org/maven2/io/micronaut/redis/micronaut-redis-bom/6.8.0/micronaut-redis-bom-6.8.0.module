@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.redis",
+    "module": "micronaut-redis-bom",
+    "version": "6.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.lettuce",
+          "module": "lettuce-core",
+          "version": {
+            "requires": "6.7.1.RELEASE"
+          }
+        },
+        {
+          "group": "io.micronaut.redis",
+          "module": "micronaut-redis-lettuce",
+          "version": {
+            "requires": "6.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.lettuce",
+          "module": "lettuce-core",
+          "version": {
+            "requires": "6.7.1.RELEASE"
+          }
+        },
+        {
+          "group": "io.micronaut.redis",
+          "module": "micronaut-redis-lettuce",
+          "version": {
+            "requires": "6.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-redis-bom-6.8.0.toml",
+          "url": "micronaut-redis-bom-6.8.0.toml",
+          "size": 522,
+          "sha512": "1030ee2ca2c20e7997d28de887675e72f9e625dd90cd12fdfc8b75d6be8df1ea3c07773f86b865743d115de09af09bf3c36a8556eca676e41bdd89016e62f962",
+          "sha256": "4ea3b5d7615dea264749977048473aa2c7f0b069078186df3f0014fb107e73cf",
+          "sha1": "67a00fe1fe87e3c14f7fc22f3bd4930f5de465f9",
+          "md5": "5e40e30a5fe27aeee85f79bbdf02c8cf"
+        }
+      ]
+    }
+  ]
+}

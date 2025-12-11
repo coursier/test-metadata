@@ -1,0 +1,334 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.gcp",
+    "module": "micronaut-gcp-bom",
+    "version": "5.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.google.cloud.functions",
+          "module": "functions-framework-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "com.google.api",
+          "module": "gax",
+          "version": {
+            "requires": "2.67.2"
+          }
+        },
+        {
+          "group": "com.google.api",
+          "module": "gax-grpc",
+          "version": {
+            "requires": "2.67.2"
+          }
+        },
+        {
+          "group": "com.google.auth",
+          "module": "google-auth-library-oauth2-http",
+          "version": {
+            "requires": "1.37.0"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-core",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-pubsub",
+          "version": {
+            "requires": "1.140.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-secretmanager",
+          "version": {
+            "requires": "2.64.0"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloudevent-types",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.google.cloud.functions.invoker",
+          "module": "java-function-invoker",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-common",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function-cloudevents",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function-http",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function-http-test",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-http-client",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-logging",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-pubsub",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-secret-manager",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-serde-cloudevents",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-tracing",
+          "version": {
+            "requires": "5.12.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "com.google.cloud.functions",
+          "module": "functions-framework-api",
+          "version": {
+            "requires": "1.1.4"
+          }
+        },
+        {
+          "group": "com.google.api",
+          "module": "gax",
+          "version": {
+            "requires": "2.67.2"
+          }
+        },
+        {
+          "group": "com.google.api",
+          "module": "gax-grpc",
+          "version": {
+            "requires": "2.67.2"
+          }
+        },
+        {
+          "group": "com.google.auth",
+          "module": "google-auth-library-oauth2-http",
+          "version": {
+            "requires": "1.37.0"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-core",
+          "version": {
+            "requires": "2.57.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-pubsub",
+          "version": {
+            "requires": "1.140.1"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-secretmanager",
+          "version": {
+            "requires": "2.64.0"
+          }
+        },
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloudevent-types",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.google.cloud.functions.invoker",
+          "module": "java-function-invoker",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-common",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function-cloudevents",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function-http",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-function-http-test",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-http-client",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-logging",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-pubsub",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-secret-manager",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-serde-cloudevents",
+          "version": {
+            "requires": "5.12.0"
+          }
+        },
+        {
+          "group": "io.micronaut.gcp",
+          "module": "micronaut-gcp-tracing",
+          "version": {
+            "requires": "5.12.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-gcp-bom-5.12.0.toml",
+          "url": "micronaut-gcp-bom-5.12.0.toml",
+          "size": 3031,
+          "sha512": "055fb980697c44636ebaf8fe562f212970c669596e633a46cb97159ac9b2b79131b3be6c5dc16b4f2de76e33c18ed5cfeec3a3137a5b66adc699d74fa7e1ce20",
+          "sha256": "423d32d074d894bc14d6e569e41b01a00ca2cd15cd74dc372e3673aa892ecd51",
+          "sha1": "4b568f89b41f9a271e594036c3fd15f8b618fc80",
+          "md5": "a9a341aa5e74b16e6f7a156003200360"
+        }
+      ]
+    }
+  ]
+}

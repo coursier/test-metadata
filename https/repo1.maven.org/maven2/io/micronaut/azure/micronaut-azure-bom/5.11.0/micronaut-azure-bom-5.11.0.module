@@ -1,0 +1,234 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.azure",
+    "module": "micronaut-azure-bom",
+    "version": "5.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-sdk-bom",
+          "version": {
+            "requires": "1.2.35"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.71.0"
+          }
+        },
+        {
+          "group": "com.microsoft.azure.functions",
+          "module": "azure-functions-java-library",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-monitor-opentelemetry-autoconfigure",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-cosmos",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http-test",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-logging",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-sdk",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-secret-manager",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-tracing",
+          "version": {
+            "requires": "5.11.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.azure",
+          "module": "azure-sdk-bom",
+          "version": {
+            "requires": "1.2.35"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "com.azure",
+          "module": "azure-cosmos",
+          "version": {
+            "requires": "4.71.0"
+          }
+        },
+        {
+          "group": "com.microsoft.azure.functions",
+          "module": "azure-functions-java-library",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "com.azure",
+          "module": "azure-monitor-opentelemetry-autoconfigure",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-cosmos",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-function-http-test",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-logging",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-sdk",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-secret-manager",
+          "version": {
+            "requires": "5.11.0"
+          }
+        },
+        {
+          "group": "io.micronaut.azure",
+          "module": "micronaut-azure-tracing",
+          "version": {
+            "requires": "5.11.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-azure-bom-5.11.0.toml",
+          "url": "micronaut-azure-bom-5.11.0.toml",
+          "size": 1943,
+          "sha512": "456f5e2c9faa2437d8340d9c07af26b255e0565a44e6f7b33e9891e1c033b2ca2c22006c74f56be9f4a6c21eac619386fcad045eee1e4e08c002144d3c5dc10c",
+          "sha256": "d0adc2c96c0870997bd456d391bfc2f354d4feca7ba1a6824a8e0f46ee6d5ca3",
+          "sha1": "0fae2509e042b10b803d0ed3c8e6dcf2334a9ca4",
+          "md5": "022d550b8e0b6aad6688ebe547839587"
+        }
+      ]
+    }
+  ]
+}

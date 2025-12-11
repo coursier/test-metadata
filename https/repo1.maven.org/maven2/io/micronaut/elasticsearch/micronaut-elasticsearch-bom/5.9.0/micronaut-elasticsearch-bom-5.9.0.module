@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.elasticsearch",
+    "module": "micronaut-elasticsearch-bom",
+    "version": "5.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "co.elastic.clients",
+          "module": "elasticsearch-java",
+          "version": {
+            "requires": "8.18.2"
+          }
+        },
+        {
+          "group": "org.elasticsearch.client",
+          "module": "elasticsearch-rest-client",
+          "version": {
+            "requires": "8.18.2"
+          }
+        },
+        {
+          "group": "io.micronaut.elasticsearch",
+          "module": "micronaut-elasticsearch",
+          "version": {
+            "requires": "5.9.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "co.elastic.clients",
+          "module": "elasticsearch-java",
+          "version": {
+            "requires": "8.18.2"
+          }
+        },
+        {
+          "group": "org.elasticsearch.client",
+          "module": "elasticsearch-rest-client",
+          "version": {
+            "requires": "8.18.2"
+          }
+        },
+        {
+          "group": "io.micronaut.elasticsearch",
+          "module": "micronaut-elasticsearch",
+          "version": {
+            "requires": "5.9.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-elasticsearch-bom-5.9.0.toml",
+          "url": "micronaut-elasticsearch-bom-5.9.0.toml",
+          "size": 741,
+          "sha512": "ac415efebce2814d898a98317dce4dd6e6fc487c93f72820b51f82c894b59d0f409a48548cee208ab1d7a496b517c4385ab17c0b4eae6c2c6d03654cdf170aea",
+          "sha256": "43efcbb9c09da7f4fe0a561d39c48ccac5115f896b9f91fe68320a10b192143f",
+          "sha1": "9def84675fb5a0c30ec64d9d1fc6d3a1c0a2a91a",
+          "md5": "280464e32ad4432c2efbbd029c269c28"
+        }
+      ]
+    }
+  ]
+}

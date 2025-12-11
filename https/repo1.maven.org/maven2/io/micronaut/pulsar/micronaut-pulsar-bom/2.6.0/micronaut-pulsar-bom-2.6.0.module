@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.pulsar",
+    "module": "micronaut-pulsar-bom",
+    "version": "2.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.pulsar",
+          "module": "pulsar-client-original",
+          "version": {
+            "requires": "3.3.5"
+          }
+        },
+        {
+          "group": "io.micronaut.pulsar",
+          "module": "micronaut-pulsar",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.pulsar",
+          "module": "micronaut-pulsar-multitenant",
+          "version": {
+            "requires": "2.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.pulsar",
+          "module": "pulsar-client-original",
+          "version": {
+            "requires": "3.3.5"
+          }
+        },
+        {
+          "group": "io.micronaut.pulsar",
+          "module": "micronaut-pulsar",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "io.micronaut.pulsar",
+          "module": "micronaut-pulsar-multitenant",
+          "version": {
+            "requires": "2.6.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-pulsar-bom-2.6.0.toml",
+          "url": "micronaut-pulsar-bom-2.6.0.toml",
+          "size": 679,
+          "sha512": "ab4335ce8321592ee5bc2e87a464bea063551659aa5c5c15d203bd83569c4b2c70effcdde9a7dbbd9100603c40e6b54a13cb1438e87d6edb70b5afccaaeff5f8",
+          "sha256": "afce95c9114ce05de51f155596ee5508c382427b2ad16bf848dfd95acecd4fd4",
+          "sha1": "d32e835aa6fde3d648eb596ee3b4385dbd9dfaac",
+          "md5": "76d31e1c056fd78455fba2f3301b4223"
+        }
+      ]
+    }
+  ]
+}

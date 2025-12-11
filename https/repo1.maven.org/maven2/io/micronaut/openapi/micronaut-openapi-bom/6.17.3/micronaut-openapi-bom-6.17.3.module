@@ -1,0 +1,264 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.openapi",
+    "module": "micronaut-openapi-bom",
+    "version": "6.17.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.atteo",
+          "module": "evo-inflector",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-html2md-converter",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "com.github.chhorz",
+          "module": "javadoc-parser",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.21.1"
+          }
+        },
+        {
+          "group": "org.parboiled",
+          "module": "parboiled-java",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.pegdown",
+          "module": "pegdown",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-core",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-adoc",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-annotations",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-common",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-generator",
+          "version": {
+            "requires": "6.17.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.atteo",
+          "module": "evo-inflector",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "org.freemarker",
+          "module": "freemarker",
+          "version": {
+            "requires": "2.3.34"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-html2md-converter",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "com.github.chhorz",
+          "module": "javadoc-parser",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.21.1"
+          }
+        },
+        {
+          "group": "org.parboiled",
+          "module": "parboiled-java",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.pegdown",
+          "module": "pegdown",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-core",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models",
+          "version": {
+            "requires": "2.2.34"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-adoc",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-annotations",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-common",
+          "version": {
+            "requires": "6.17.3"
+          }
+        },
+        {
+          "group": "io.micronaut.openapi",
+          "module": "micronaut-openapi-generator",
+          "version": {
+            "requires": "6.17.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-openapi-bom-6.17.3.toml",
+          "url": "micronaut-openapi-bom-6.17.3.toml",
+          "size": 2082,
+          "sha512": "e9e2f7d00b53d92f11c3bb3eea620ae5886b8a1524c88adae77b7e3a7e43f8d14fd1c03ee77f4e317aeab5115547db81bbecbb254edfbddf0ce7cf4e349ccf91",
+          "sha256": "9ae1a5aecb0e3a4d6c467642ea16a0123b18b2157d150ab59aade082b8917f93",
+          "sha1": "7d6653e6c3588f5c438f17d0079a253f5bb1d6c0",
+          "md5": "9528569a089fb739c76d8f9542576802"
+        }
+      ]
+    }
+  ]
+}

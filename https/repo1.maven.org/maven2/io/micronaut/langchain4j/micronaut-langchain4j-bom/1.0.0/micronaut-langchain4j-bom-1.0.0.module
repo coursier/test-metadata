@@ -1,0 +1,362 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.langchain4j",
+    "module": "micronaut-langchain4j-bom",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-anthropic",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-azure",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-bedrock",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-googleai-gemini",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-hugging-face",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-mistralai",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-ollama",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-ollama-testresource",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-openai",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-processor",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-qdrant-testresource",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-elasticsearch",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-mongodb",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-neo4j",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-opensearch",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-oracle",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-pgvector",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-qdrant",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-redis",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-vertexai",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-vertexai-gemini",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-anthropic",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-azure",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-bedrock",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-googleai-gemini",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-hugging-face",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-mistralai",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-ollama",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-ollama-testresource",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-openai",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-processor",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-qdrant-testresource",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-elasticsearch",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-mongodb",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-neo4j",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-opensearch",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-oracle",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-pgvector",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-qdrant",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-store-redis",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-vertexai",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.langchain4j",
+          "module": "micronaut-langchain4j-vertexai-gemini",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-langchain4j-bom-1.0.0.toml",
+          "url": "micronaut-langchain4j-bom-1.0.0.toml",
+          "size": 3903,
+          "sha512": "08e9658e499866fb432ba8aa619748950b1dc2e9b55e88a928e2417d9656a8fee57f150dc39ddee1c2e03166c61380bee7fcc4c0be9631068c313de33f27f69d",
+          "sha256": "31f6390a178cdbeb333cec1d781e356b80d69b1de6b0e69e54a6c35c804a4010",
+          "sha1": "2c72418f350e729cff97b3fd76f4f663b1c6573a",
+          "md5": "f5649871ca17dc73ed8d0e5817aa055c"
+        }
+      ]
+    }
+  ]
+}

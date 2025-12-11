@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.validation",
+    "module": "micronaut-validation-bom",
+    "version": "4.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.validation",
+          "module": "micronaut-validation",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.validation",
+          "module": "micronaut-validation-processor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "io.micronaut.validation",
+          "module": "micronaut-validation",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.validation",
+          "module": "micronaut-validation-processor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-validation-bom-4.10.0.toml",
+          "url": "micronaut-validation-bom-4.10.0.toml",
+          "size": 720,
+          "sha512": "ebc4e63f7ee69487599519828355f46bd0acc40bce1449f56a80b4d8000699fb0607c05d838ce74d92fd64591e12d34cc15546cc530dc3708c8510dd0df00fe3",
+          "sha256": "356017c00d9650012e205c95adeb33aab440c6f2a8e7c421986590aa10ec1e51",
+          "sha1": "31c83a8180981eaef83a283b4d4e82853b87117b",
+          "md5": "f82161fe750ad6a3e58aec165c5f5c2d"
+        }
+      ]
+    }
+  ]
+}

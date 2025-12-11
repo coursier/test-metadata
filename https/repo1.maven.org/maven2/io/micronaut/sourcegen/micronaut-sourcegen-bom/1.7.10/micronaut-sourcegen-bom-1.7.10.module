@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.sourcegen",
+    "module": "micronaut-sourcegen-bom",
+    "version": "1.7.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-javapoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-annotations",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bytecode-writer",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator-bytecode",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator-java",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator-kotlin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-model",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup",
+          "module": "kotlinpoet-javapoet",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-annotations",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-bytecode-writer",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator-bytecode",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator-java",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-generator-kotlin",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "io.micronaut.sourcegen",
+          "module": "micronaut-sourcegen-model",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-sourcegen-bom-1.7.10.toml",
+          "url": "micronaut-sourcegen-bom-1.7.10.toml",
+          "size": 1828,
+          "sha512": "ce54e557f0f90de39f3a22d73a8ad00c55081327f2cba18174ae3ea0d21e89ad40c0a4e4928355d70cd359c8a1d146cc976b0264cd7fe2d47641ef61b8e5754e",
+          "sha256": "5a792d59db21df9edcc2a2ed9022f8db3997f8adb9991f1c0be1b2654493da9e",
+          "sha1": "128bca0d9c52310e60065119e791400639c42196",
+          "md5": "8cf06e9804b95c583ef88698fb6f06d6"
+        }
+      ]
+    }
+  ]
+}

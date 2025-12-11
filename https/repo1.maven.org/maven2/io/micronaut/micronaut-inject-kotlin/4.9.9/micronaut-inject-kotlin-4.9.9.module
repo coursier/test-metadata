@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut",
+    "module": "micronaut-inject-kotlin",
+    "version": "4.9.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-processor",
+          "version": {
+            "requires": "4.9.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-inject-kotlin-4.9.9.jar",
+          "url": "micronaut-inject-kotlin-4.9.9.jar",
+          "size": 372943,
+          "sha512": "0f4587938e0c06361059a8005633084cd1a7ec3d994d9ab2922a9aca4a98f26db0c4c2e031db905e168b4114226bf2bec8ac5a8af499cd43f41822907c2d6449",
+          "sha256": "640cacbba565c1a631a95f8af6534e4ae26c7624a9561f291b7f995d7236f311",
+          "sha1": "2a6c0ca6aa1d61e693f486431a6642628d0353bd",
+          "md5": "f089d05974de895cf6f4836c5c928ff7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.8"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.9.25-1.0.20"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-core-processor",
+          "version": {
+            "requires": "4.9.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "micronaut-inject-kotlin-4.9.9.jar",
+          "url": "micronaut-inject-kotlin-4.9.9.jar",
+          "size": 372943,
+          "sha512": "0f4587938e0c06361059a8005633084cd1a7ec3d994d9ab2922a9aca4a98f26db0c4c2e031db905e168b4114226bf2bec8ac5a8af499cd43f41822907c2d6449",
+          "sha256": "640cacbba565c1a631a95f8af6534e4ae26c7624a9561f291b7f995d7236f311",
+          "sha1": "2a6c0ca6aa1d61e693f486431a6642628d0353bd",
+          "md5": "f089d05974de895cf6f4836c5c928ff7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-inject-kotlin-4.9.9-sources.jar",
+          "url": "micronaut-inject-kotlin-4.9.9-sources.jar",
+          "size": 65071,
+          "sha512": "d4f6f514a16ad699f664da06bb576a9ce07797454171720b71bd42e8cd4bd859fdccc40867fcc52c3b7f883a08b7f133cde56d0105716272441250ce97956c72",
+          "sha256": "3c5658540ae5a1c22aa1c7eab653aaf710c115b874d2859fb94738e699a42e25",
+          "sha1": "e6a73718605876c3581b07efaa8c7b34aa4e911c",
+          "md5": "c1bafd288e6e783cf506bd46dea548cf"
+        },
+        {
+          "name": "micronaut-inject-kotlin-4.9.9-sources.jar",
+          "url": "micronaut-inject-kotlin-4.9.9-sources.jar",
+          "size": 65071,
+          "sha512": "d4f6f514a16ad699f664da06bb576a9ce07797454171720b71bd42e8cd4bd859fdccc40867fcc52c3b7f883a08b7f133cde56d0105716272441250ce97956c72",
+          "sha256": "3c5658540ae5a1c22aa1c7eab653aaf710c115b874d2859fb94738e699a42e25",
+          "sha1": "e6a73718605876c3581b07efaa8c7b34aa4e911c",
+          "md5": "c1bafd288e6e783cf506bd46dea548cf"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "micronaut-inject-kotlin-4.9.9-javadoc.jar",
+          "url": "micronaut-inject-kotlin-4.9.9-javadoc.jar",
+          "size": 349,
+          "sha512": "fce9db592ee8d51789ecac60b56b63d0b8d4e5d05217519c3a25dec3cfc2707f66d6634dad96ef9e2e3043b4f8242c7da3ec88fd7cf99ad987ca92e339e60bc9",
+          "sha256": "464284130c43e028e0a690d72b503d790715d6e5ffc75b6f16458acd69aaf0ee",
+          "sha1": "1d16d586364444e5d97fdcfd482ff36c41c7e5f9",
+          "md5": "f74ef86feb78e323ce9b9e769b2f0908"
+        }
+      ]
+    }
+  ]
+}

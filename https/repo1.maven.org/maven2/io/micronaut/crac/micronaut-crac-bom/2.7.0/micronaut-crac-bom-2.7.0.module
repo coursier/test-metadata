@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.crac",
+    "module": "micronaut-crac-bom",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.crac",
+          "module": "crac",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.crac",
+          "module": "micronaut-crac",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.crac",
+          "module": "crac",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "io.micronaut.crac",
+          "module": "micronaut-crac",
+          "version": {
+            "requires": "2.7.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-crac-bom-2.7.0.toml",
+          "url": "micronaut-crac-bom-2.7.0.toml",
+          "size": 470,
+          "sha512": "7a2787677ba80fc4ff4fb79299593939774066793dc3b85c792622fa4d262660ea4223d2a67300b5a051348ff2cea61f6d6eaff81a0795e8cdd1a7217c116fe9",
+          "sha256": "0057f50c6f33ab4195483db6c8e9a2ccbf47dad08e38a366d93fb4da33e32570",
+          "sha1": "8fa686ead4518a87ec213bff3e34712cb4cff23c",
+          "md5": "0704ed5f8ebc41194bab17de52916d7f"
+        }
+      ]
+    }
+  ]
+}

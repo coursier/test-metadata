@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.rxjava3",
+    "module": "micronaut-rxjava3-bom",
+    "version": "3.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.1.10"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3-http-client",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.1.10"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "io.micronaut.rxjava3",
+          "module": "micronaut-rxjava3-http-client",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-rxjava3-bom-3.8.0.toml",
+          "url": "micronaut-rxjava3-bom-3.8.0.toml",
+          "size": 662,
+          "sha512": "7c0578948d1acf8aa32b9f039bdbda2246359ae023e3ff1bf2e2caec460ccb4b3d6e7bd214c1ffe2a1bb98ae0e93cfcc8bcefd6d836819ebcb6a591d1cf0ea60",
+          "sha256": "2d40ba670d8691ae1a315aa7074e9037fbaf63e40c63c833846eb20ae5dd0273",
+          "sha1": "5f7dac6ea0444f98280237351835e34177639653",
+          "md5": "179c6540e23d3fb78a59298842e7b46b"
+        }
+      ]
+    }
+  ]
+}

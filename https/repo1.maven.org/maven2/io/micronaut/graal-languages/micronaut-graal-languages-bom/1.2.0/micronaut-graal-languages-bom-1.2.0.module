@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.graal-languages",
+    "module": "micronaut-graal-languages-bom",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.graalvm.python",
+          "module": "python",
+          "version": {
+            "requires": "24.2.1"
+          }
+        },
+        {
+          "group": "org.graalvm.python",
+          "module": "python-embedding",
+          "version": {
+            "requires": "24.2.1"
+          }
+        },
+        {
+          "group": "io.micronaut.graal-languages",
+          "module": "micronaut-graalpy",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.graalvm.python",
+          "module": "python",
+          "version": {
+            "requires": "24.2.1"
+          }
+        },
+        {
+          "group": "org.graalvm.python",
+          "module": "python-embedding",
+          "version": {
+            "requires": "24.2.1"
+          }
+        },
+        {
+          "group": "io.micronaut.graal-languages",
+          "module": "micronaut-graalpy",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-graal-languages-bom-1.2.0.toml",
+          "url": "micronaut-graal-languages-bom-1.2.0.toml",
+          "size": 735,
+          "sha512": "46e1c9597bb46df4e6a14dcb195316c5cb5e660df1be71f60b2512e6676243065aa790786632c8ea5f137ec180131015fb94c1a82215f5f5f5eced4c359d7941",
+          "sha256": "bce2b0b3d08e47b54bcdb65020aefe12be44bcd4339b0823616bccc9d6f0a98e",
+          "sha1": "ffb23b65f4690a437fe83157bb6dc725d018aea6",
+          "md5": "8f686a66ad53e2f66b9674df8166c27f"
+        }
+      ]
+    }
+  ]
+}

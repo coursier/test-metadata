@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.eclipsestore",
+    "module": "micronaut-eclipsestore-bom",
+    "version": "1.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-aws-dynamodb",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-aws-s3",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-azure-storage",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "cache",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-sql",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "storage-embedded-configuration",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "storage-restservice",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-annotations",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-cache",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-rest",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-aws-dynamodb",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-aws-s3",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-azure-storage",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "cache",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "afs-sql",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "storage-embedded-configuration",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.eclipse.store",
+          "module": "storage-restservice",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-annotations",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-cache",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "io.micronaut.eclipsestore",
+          "module": "micronaut-eclipsestore-rest",
+          "version": {
+            "requires": "1.10.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "micronaut-eclipsestore-bom-1.10.0.toml",
+          "url": "micronaut-eclipsestore-bom-1.10.0.toml",
+          "size": 1750,
+          "sha512": "f74f268ac020989ca4e17aa36cdf1e1348f9aaf09ff92ba533d92a14436add694eb43bc7922f6e15c6f1e110db80824ebb93cc8d2de2394834573072883194d2",
+          "sha256": "30c0b4b8bb25578f650f1b562ed6b82db1e817b705f6aaf61d972a1a13064ead",
+          "sha1": "4897ee9b948f6d3848a6ad1d3fe28af214f58054",
+          "md5": "d3d5a28e17eaf757687375e3e4f4ff41"
+        }
+      ]
+    }
+  ]
+}
