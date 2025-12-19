@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.airbnb.android",
+    "module": "lottie-compose",
+    "version": "6.6.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-compose-6.6.6.aar",
+          "url": "lottie-compose-6.6.6.aar",
+          "size": 133544,
+          "sha512": "761b33520935d229b60f7918d2d243dba8ea75cb656539c9be6b71e88bb4b302772ac8bbf67bbd44cc1b7a108ce3824ca27e1d72959912fefaa14360a2a56e5d",
+          "sha256": "20b45a86c587044277d7d0d2b72f87e1bcecfc42355d402a4988786305465d76",
+          "sha1": "7643f1a084d1802269ca5804f0b3a3de2fd67e77",
+          "md5": "ea31a1a64d88472eff03a68bb4d5a27e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.02.01",
+            "rejects": [
+              "_"
+            ]
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.foundation",
+          "module": "foundation"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "6.6.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-compose-6.6.6.aar",
+          "url": "lottie-compose-6.6.6.aar",
+          "size": 133544,
+          "sha512": "761b33520935d229b60f7918d2d243dba8ea75cb656539c9be6b71e88bb4b302772ac8bbf67bbd44cc1b7a108ce3824ca27e1d72959912fefaa14360a2a56e5d",
+          "sha256": "20b45a86c587044277d7d0d2b72f87e1bcecfc42355d402a4988786305465d76",
+          "sha1": "7643f1a084d1802269ca5804f0b3a3de2fd67e77",
+          "md5": "ea31a1a64d88472eff03a68bb4d5a27e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lottie-compose-6.6.6-sources.jar",
+          "url": "lottie-compose-6.6.6-sources.jar",
+          "size": 23780,
+          "sha512": "ebb53447c2c35e50300ee91bd00c0acae96c8842a946a510a3e8bfd3715f70d676acedf932ab9dc2123ebae9839b56fa3b3955e83844042464a5ac7377cc5bb7",
+          "sha256": "256ce85eabb6eca2a84a029d6751bb3363386d84dd111b533ee6711e4af5cf1e",
+          "sha1": "eb9c96a4e474d1edf8174058cd327b6267bec17e",
+          "md5": "55236499abb05a1f14f7f9cc05a09b64"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lottie-compose-6.6.6-javadoc.jar",
+          "url": "lottie-compose-6.6.6-javadoc.jar",
+          "size": 371851,
+          "sha512": "75d5046bd54271adb0427d68be40efe180318812fb3388f495294af450c1e8917c82785a391e931bf6acfb12aa5a8ddff8ee07a94aa64cf65d8a4123e4f8591a",
+          "sha256": "2a0782a03db23e592ee5a3b661c4e021f7a84ce6480cce95ed45707ae3777df8",
+          "sha1": "2a4502b1b305869ae0dc6859c37343565718dc0a",
+          "md5": "fe30637b2f94f29aaffc1ab5607169bb"
+        }
+      ]
+    }
+  ]
+}

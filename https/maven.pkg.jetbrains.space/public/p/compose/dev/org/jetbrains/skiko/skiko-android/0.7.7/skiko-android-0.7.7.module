@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../skiko/0.7.7/skiko-0.7.7.module",
+    "group": "org.jetbrains.skiko",
+    "module": "skiko",
+    "version": "0.7.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "ui": "android"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "skiko-android-0.7.7.jar",
+          "url": "skiko-android-0.7.7.jar",
+          "size": 919509,
+          "sha512": "83c6d45c0f4470a33af7367faf4f23607995ca9411fda3ff408b7a6a07a072d219152c575c01b5fdd5f0ac4bdb6f0858075e5845e1a2b63837ba4c48ab679d04",
+          "sha256": "7d1f9a7a3bb790dec82c6dd15b5a154456f9730ee07d0c88510e353aea045343",
+          "sha1": "3c738c31e30bd3932e18c7cf4302740645e71ac6",
+          "md5": "7200def125c6b2753f9e6d8de18038a7"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm",
+        "ui": "android"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "skiko-android-0.7.7.jar",
+          "url": "skiko-android-0.7.7.jar",
+          "size": 919509,
+          "sha512": "83c6d45c0f4470a33af7367faf4f23607995ca9411fda3ff408b7a6a07a072d219152c575c01b5fdd5f0ac4bdb6f0858075e5845e1a2b63837ba4c48ab679d04",
+          "sha256": "7d1f9a7a3bb790dec82c6dd15b5a154456f9730ee07d0c88510e353aea045343",
+          "sha1": "3c738c31e30bd3932e18c7cf4302740645e71ac6",
+          "md5": "7200def125c6b2753f9e6d8de18038a7"
+        }
+      ]
+    }
+  ]
+}

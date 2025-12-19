@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.airbnb.android",
+    "module": "lottie",
+    "version": "6.6.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1",
+            "rejects": [
+              "_"
+            ]
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-6.6.6.aar",
+          "url": "lottie-6.6.6.aar",
+          "size": 426905,
+          "sha512": "9579f1a478ce115075581c9f166ffcfce38d52c02693cd7126f69756fc06b442af20a019ea89050728a661b7a9280e2661b8d66c7202118388b08ad7acb55149",
+          "sha256": "e1a4f3c20875473b96aa74a18112327f8ed08b2c0d2421b1785063cb9fcc7cbf",
+          "sha1": "a15fd17a22a11eca18f9c123c7ecb9401f7ccc64",
+          "md5": "1df4c48954f53e19083c5e2a72ceda8f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "1.17.6",
+            "rejects": [
+              "_"
+            ]
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1",
+            "rejects": [
+              "_"
+            ]
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lottie-6.6.6.aar",
+          "url": "lottie-6.6.6.aar",
+          "size": 426905,
+          "sha512": "9579f1a478ce115075581c9f166ffcfce38d52c02693cd7126f69756fc06b442af20a019ea89050728a661b7a9280e2661b8d66c7202118388b08ad7acb55149",
+          "sha256": "e1a4f3c20875473b96aa74a18112327f8ed08b2c0d2421b1785063cb9fcc7cbf",
+          "sha1": "a15fd17a22a11eca18f9c123c7ecb9401f7ccc64",
+          "md5": "1df4c48954f53e19083c5e2a72ceda8f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lottie-6.6.6-sources.jar",
+          "url": "lottie-6.6.6-sources.jar",
+          "size": 267272,
+          "sha512": "c867c8531c5178f0a6bf69a66096ffa6a4a016303d92fe66a26718cea8907dda7ef371a528d76d0e07f0689dcf141f8b31aa8ebe8d4e0d984646bc3fd2022713",
+          "sha256": "bc728cf92042069c299443ea1e06bfbc3c66d3b809e987be8346564cdf1cc036",
+          "sha1": "dc0cf52f19968e7bcc31dc516a77b24c648230cc",
+          "md5": "e0e18d98e9aae7313d294af7bf494dc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lottie-6.6.6-javadoc.jar",
+          "url": "lottie-6.6.6-javadoc.jar",
+          "size": 1063768,
+          "sha512": "5a39c01c1c160654cc4907f89a8216a7386d203633e0e4abfdccdfda0c81f284af6636af0aeecb2506db81876ad503170ff577378034c93076340e22ab436ac2",
+          "sha256": "108e0cfade38f27152ac7d893c1513cfd88b340ecffd0264b1850c62dca04fec",
+          "sha1": "20dc638fd2efc1775ab0cb950e6f49bce0517524",
+          "md5": "5a213983b03c1c5750d6be186511f1d5"
+        }
+      ]
+    }
+  ]
+}
